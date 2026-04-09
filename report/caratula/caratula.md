@@ -32,7 +32,12 @@
 |---------|------------|----------------------------|------------------------------------------------------------| 
 | 1.1     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion de la organizacion **LocalFood-Aplicacion-Movil** |
 | 1.2     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del repositorio **final-report**                  |
-| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **caratula**                           |
+| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-1**                          |
+| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-2**                          |
+| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-3**                          |
+| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-4**                          |
+| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-5**                          |
+| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-6**                          |
 
 # Project Report Collaboration Insights
 
