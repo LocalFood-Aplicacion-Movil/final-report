@@ -254,6 +254,14 @@ En esta sección vamos a detallar las tareas que realizan los diferentes segment
 
 #### 2.3.3. User Journey Mapping
 
+**USER PERSONA: Maria Tasayco**
+![Comensales journey map 2.png](../../assets/chapter-2/Comensales%20journey%20map%202.png)
+El viaje de María, una estudiante universitaria que suele salir a comer con sus amigos, comienza con la necesidad de encontrar un lugar cercano para todos sin perder tiempo; al usar la app siente curiosidad y cierta duda sobre si funcionará, pero al ver rutas claras y opciones confiables experimenta entusiasmo y alivio al coordinar fácilmente con su grupo; al elegir compara precios, distancias y reseñas, lo que le da seguridad y confianza, y finalmente, tras disfrutar la comida y terminar satisfecha, siente tranquilidad y disposición a volver a usar la app en futuras salidas, reforzada por la posibilidad de dejar reseñas y recibir recomendaciones personalizadas.
+
+**USER PERSONA: Luis Luzquiños**
+![Dueño de Local journey map.png](../../assets/chapter-2/Due%C3%B1o%20de%20Local%20journey%20map.png)
+El viaje de Luis, un emprendedor de 30 años dueño de un puesto de comida, inicia con cierto escepticismo sobre si una app realmente puede atraerle más clientes, pero al registrarse y ver lo sencillo que es mostrar su local comienza a sentir confianza; al usar la plataforma para subir fotos, precios y horarios experimenta entusiasmo al notar que más grupos llegan gracias a que su negocio aparece como punto cercano en las rutas compartidas, lo que refuerza su motivación para mantenerse activo; al recibir reseñas positivas y datos sobre el flujo de clientes, Luis gana seguridad y satisfacción, y finalmente, al ver que su negocio crece con apoyo de la app, siente tranquilidad y disposición a seguir utilizándola como una herramienta clave para impulsar su emprendimiento.
+
 #### 2.3.4. Empathy Mapping
 
 #### 2.3.5. Ubiquitous Language
