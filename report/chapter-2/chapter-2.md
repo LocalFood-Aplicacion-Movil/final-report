@@ -56,7 +56,7 @@
 
 ### 2.4.2. Impact Mapping
 
-![mapping](/report/chapter-2/assets/Impact%20map.png)
+![Impact map.png](../../assets/chapter-2/Impact%20map.png)
 
 ### 2.4.3. Product Backlog
 
