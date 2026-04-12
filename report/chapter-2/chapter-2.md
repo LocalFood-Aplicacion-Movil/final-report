@@ -35,6 +35,18 @@ Este análisis resulta fundamental para comprender el mercado, las necesidades d
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+Estas son las principales estrategias que aplicará LocalFood para diferenciarse de sus competidores:
+
+- Ofrecer recomendaciones personalizadas de restaurantes en el punto medio según las preferencias de comida de los usuarios (ej. pizza, sushi, vegetariano).
+
+- Implementar campañas de marketing enfocadas en la experiencia social: compartir momentos con amigos, parejas o grupos en lugares justos y accesibles para todos.
+
+- Incorporar reseñas verificadas y mapas interactivos que permitan a los usuarios explorar el lugar antes de reunirse.
+
+- Establecer alianzas con restaurantes y gerentes locales, ofreciendo promociones exclusivas para los grupos que lleguen a través de la app.
+
+De esta manera, LocalFood se diferenciará al crear una experiencia más social, gastronómica y colaborativa que otras apps del rubro, generando valor tanto para los usuarios como para los restaurantes.
+
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
