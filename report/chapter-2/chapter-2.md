@@ -101,6 +101,85 @@ Hola, gracias por participar en esta entrevista. Antes de empezar, me gustaría 
 
 #### 2.2.2. Registro de entrevistas
 
+#### Segmento 1:Comensales
+
+## Entrevista N°1:
+- Nombre: Andrea Roncal Vargas
+- Sexo: femenino
+- Edad:25
+- tiempo de duracion: 6:54
+- Ubicación: Lima, Independencia
+
+#### Entrevista:
+
+![entevista_1.png](../../assets/chapter-2/entevista_1.png)
+
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5
+
+**Resumen**
+
+Andre Roncal es ingeniera en Gestión Empresarial y actualmente trabaja en una consultoría enfocada en distritos privados. Ella comenta que ha tenido complicaciones para coordinar agendas con amigos y familiares, especialmente al momento de organizar salidas a restaurantes.
+Considera importante que el lugar elegido esté cerca y que los precios sean accesibles. Además, destaca que suele asistir a restaurantes para cenar y conversar, valorando la importancia de los canales de comunicación para gestionar estas reuniones. En ese sentido, WhatsApp es su herramienta principal.
+También resalta que la incorporación de filtros en aplicaciones de búsqueda de restaurantes facilita la selección de opciones adecuadas. Para Andre, esto representa una mejora significativa, ya que desea aumentar la frecuencia de sus reuniones, y considera que el uso de aplicaciones es la mejor forma de lograrlo.
+
+## Entrevista N°2:
+- Nombre: Piero Vargas Licetti y Cotrina Chipana Ñuñes
+- Sexo: Masculino y Femenino
+- Edad: 30 y 27
+- tiempo de duracion: 7:00
+- Ubicación: Lima, San Borja
+
+#### Entrevista:
+
+![entevista_2.png](../../assets/chapter-2/entevista_2.png)
+
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk
+
+**Resumen:**
+
+Piero Varas y Cotrina Chipana trabajan juntos en el área de ingeniería industrial con enfoque en arquitectura. Ambos enfrentan dificultades para concretar reuniones con sus amigos, principalmente porque viven lejos de ellos, lo que convierte la coordinación en una verdadera odisea.
+El tiempo también representa un factor decisivo para la pareja al momento de planear encuentros en restaurantes. Como dato adicional, Piero comenta que la ubicación del local puede ser un problema: lo que para algunos resulta cercano, para él puede estar lejos, y viceversa.
+Cotrina valora positivamente las cualidades que pueden facilitar la organización de salidas grupales con sus amigas. Ambos coinciden en que contar con filtros para seleccionar restaurantes sería muy beneficioso, ya que permitiría elegir lugares adecuados según sus necesidades.
+En cuanto a herramientas de comunicación, Piero utiliza WhatsApp para coordinar con su grupo de amigos, mientras que Cotrina también lo emplea, además de TikTok, donde encuentra opciones de restaurantes que guarda como referencia para futuras reuniones.
+Respecto a sus preferencias personales, ambos priorizan la rapidez en el servicio y un ambiente agradable.
+
+## Entrevista N°3:
+- Nombre: Anthony Yovera
+- Sexo: Masculino
+- Edad: 23 años
+- tiempo de duracion: 3:17
+- Ubicación: Lima, San Martin de Porres
+
+#### Entrevista:
+
+![imagen de video.png](../../assets/chapter-2/imagen%20de%20video.png)
+
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM
+
+**Resumen:**
+
+El entrevistado es un estudiante que reside en el distrito de San Martín de Porres. Menciona que sus principales dificultades para organizar una reunión son la distancia del punto de encuentro y las cancelaciones de último momento. Generalmente busca un lugar céntrico para todos, aunque ha cancelado planes con frecuencia debido a la dificultad de llegar al lugar acordado. No obstante, le resulta atractivo contar con una aplicación que le muestre múltiples opciones de puntos de encuentro.
+
+
+#### Segmento 2:Dueños de locales
+
+## Entrevista N°4:
+- Nombre: Enrique Suarez Castillo
+- Sexo: Masculino
+- Edad: 26 años
+- tiempo de duracion: 6:13
+- Ubicación: Lima, Jesus Maria
+
+#### Entrevista:
+
+![imagen3.png](../../assets/chapter-2/imagen3.png)
+
+link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&
+
+**Resumen:**
+
+El entrevistado es dueño de una sanguchería y actualmente vive en el distrito de Jesús María. Indicó que suelen recibir más grupos de estudiantes durante la semana y, los fines de semana, más grupos familiares. Asimismo, mencionó que su principal dificultad es la baja visibilidad y la fuerte competencia en la zona. Usa WhatsApp para promocionar su negocio, pero desearía contar con una aplicación que le ayude a aumentar su visibilidad y ventas frente a la competencia. Le resultaría atractiva una aplicación con un precio accesible, pero que ofrezca funciones que brinden estadísticas para gestionar a su personal y promociones.
+
 #### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
