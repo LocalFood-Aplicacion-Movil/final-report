@@ -224,6 +224,34 @@ Los User personas se realizaron en base a las distintas personas que entrevistam
 
 #### 2.3.2. User Task Matrix
 
+En esta sección vamos a detallar las tareas que realizan los diferentes segmentos de usuarios representados por los User Personas de nuestra aplicación LocalFood.
+
+**Comensal: María Tasayco**
+
+| Actividades | Comensales | Frecuencia | Importancia |
+|---------------------------------------------|-------------|----------------|-------------|
+| Crear o unirse a un grupo de amigos | ✓ | Frecuentemente | Alta |
+| Seleccionar tipo de comida deseada (ej. hamburguesa, pizza) | ✓ | Frecuentemente | Alta |
+| Compartir ubicación con el grupo | ✓ | Frecuentemente | Alta |
+| Ver la sugerencia de local más cercano para todos | ✓ | Frecuentemente | Alta |
+| Filtrar opciones por precio, reseñas o promociones | ✓ | Ocasionalmente | Media |
+| Guardar locales favoritos para futuras salidas | ✓ | Ocasionalmente | Media |
+| Calificar y dejar reseña del local visitado | ✓ | Ocasionalmente | Media |
+| Invitar a nuevos usuarios al grupo (enlace/invitación) | ✓ | Ocasionalmente | Baja |
+
+**Dueño de local: Luis Luzquiños**
+
+| Actividades | Dueños de locales | Frecuencia | Importancia |
+|-----------------------------------------------|------------------|----------------|-------------|
+| Registrar su local en la aplicación | ✓ | Una sola vez / Inicialmente | Alta |
+| Agregar ubicación exacta del local en el mapa | ✓ | Una sola vez / Inicialmente | Alta |
+| Describir el menú y categorías de comida (ej. hamburguesas, pizzas) | ✓ | Ocasionalmente | Alta |
+| Actualizar precios, promociones y disponibilidad | ✓ | Frecuentemente | Alta |
+| Ver estadísticas de visitas y recomendaciones del local | ✓ | Ocasionalmente | Media |
+| Responder a reseñas o comentarios de clientes | ✓ | Ocasionalmente | Media |
+| Destacar/promocionar el local en búsquedas (plan premium) | ✓ | Ocasionalmente | Media |
+| Editar información general del local (horarios, contacto) | ✓ | Ocasionalmente | Alta |
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
