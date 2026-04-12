@@ -1,29 +1,26 @@
-# Capítulo IV: Solution Software Design
+# Capítulo IV: Product Implementation & Validation
 
-## 4.1. Strategic-Level Domain-Driven Design
+## 4. Product Implementation & Validation
 
-### 4.1.1. EventStorming
-#### 4.1.1.1. Candidate Context Discovery
-#### 4.1.1.2. Domain Message Flows Modeling
-#### 4.1.1.3. Bounded Context Canvases
+### 4.1. Software Configuration Management
+#### 4.1.1. Software Development Environment Configuration
+#### 4.1.2. Source Code Management
+#### 4.1.3. Source Code Style Guide & Conventions
+#### 4.1.4. Software Deployment Configuration
 
-### 4.1.2. Context Mapping
+### 4.2. Landing Page & Mobile Application Implementation
 
-### 4.1.3. Software Architecture
-#### 4.1.3.1. Software Architecture Context Level Diagrams
-#### 4.1.3.2. Software Architecture Container Level Diagrams
-#### 4.1.3.3. Software Architecture Deployment Diagrams
+#### 4.2.1. Sprint n
+##### 4.2.1.1. Sprint Planning n
+##### 4.2.1.2. Sprint Backlog n
+##### 4.2.1.3. Development Evidence for Sprint Review
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+##### 4.2.1.5. Execution Evidence for Sprint Review
+##### 4.2.1.6. Services Documentation Evidence for Sprint Review
+##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+##### 4.2.1.8. Team Collaboration Insights during Sprint
 
-## 4.2. Tactical-Level Domain-Driven Design
-
-### 4.2.X. Bounded Context: <Bounded Context Name>
-
-#### 4.2.X.1. Domain Layer
-#### 4.2.X.2. Interface Layer
-#### 4.2.X.3. Application Layer
-#### 4.2.X.4. Infrastructure Layer
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-##### 4.2.X.6.2. Bounded Context Database Design Diagram
+### 4.3. Validation Interviews
+#### 4.3.1. Diseño de Entrevistas
+#### 4.3.2. Registro de Entrevistas
+#### 4.3.3. Evaluaciones según heurísticas
