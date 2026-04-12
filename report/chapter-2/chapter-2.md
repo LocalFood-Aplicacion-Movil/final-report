@@ -264,6 +264,12 @@ El viaje de Luis, un emprendedor de 30 años dueño de un puesto de comida, inic
 
 #### 2.3.4. Empathy Mapping
 
+**USER PERSONA: Maria Tasayco**
+![Empathy map Comensales.png](../../assets/chapter-2/Empathy%20map%20Comensales.png)
+
+**USER PERSONA: Luis Luzquiños**
+![Empathy map Dueño de local.png](../../assets/chapter-2/Empathy%20map%20Due%C3%B1o%20de%20local.png)
+
 #### 2.3.5. Ubiquitous Language
 
 ## 2.4. Requirements specification
