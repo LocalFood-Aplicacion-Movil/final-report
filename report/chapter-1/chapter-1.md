@@ -21,7 +21,7 @@ Con nuestra aplicación LocalFood, utilizamos geolocalización inteligente para 
 | Anyelo Bill Alejos Jesus             | U20231D149 |             |      |
 | Pedro Andre Guía Carrasco            | U202212010 |             |      |
 | Gabriel Cristian Mamani Marca        | U202220659 |             |      |
-| Ivan Fernando Sanchez Guevara        | U202218181 |             |      |
+| Ivan Fernando Sanchez Guevara        | U202218181 |  Mi Nombre es Fernando Sanchez Guevara, tengo 21 años, actualmente estudiando la carrera de Ingeniería de Software. Me considero alguien disiplinado respecto con la puntualidad y desarrollar de la mejor manera las asignaciones de trabajo. Ademas, me preocupo por mi equipo, tratando de que no tengan ningun problema respecto al trabajo, y darles la mano para poder ayudar cuando lo necesiten. Por medio de mi compromiso, eh logrado realizar los proyectos en grupo de forma excelente y sin problemas en percanses           |   ![foto1](/assets/photos/mamon-Photoroom.png)   |
 | Anderson Ricardo Ventosilla Trujillo | U202319025 |             |      |
 
 ## 1.2. Solution Profile
