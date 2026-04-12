@@ -182,6 +182,35 @@ El entrevistado es dueño de una sanguchería y actualmente vive en el distrito 
 
 #### 2.2.3. Análisis de entrevistas
 
+**Segmento 1: Comensales**
+
+**Entrevista 1:**  
+Andrea Roncal Vargas
+
+**Análisis de la entrevista:**  
+Andrea expresa una problemática recurrente entre los comensales jóvenes con agendas ocupadas: la dificultad de coordinar salidas grupales debido al tiempo y la distancia. Su principal criterio para elegir un restaurante es la cercanía y accesibilidad económica, lo que refleja la necesidad de una herramienta que optimice la ubicación del punto de encuentro. Valora la eficiencia en la comunicación, usando principalmente WhatsApp para organizar reuniones, y reconoce que los filtros en aplicaciones de búsqueda son esenciales para ahorrar tiempo al seleccionar opciones. Su disposición a utilizar una aplicación que simplifique la coordinación indica una actitud abierta hacia soluciones tecnológicas que mejoren la frecuencia y calidad de sus interacciones sociales.
+
+**Entrevista 2:**  
+Piero Vargas Licetti y Cotrina Chipana Ñuñes
+
+**Análisis de la entrevista:**  
+Piero y Cotrina reflejan las dificultades logísticas comunes entre grupos que viven en distintos distritos: la distancia y la falta de consenso sobre el punto de encuentro. El tiempo y la ubicación se convierten en factores determinantes para concretar salidas.  
+Ambos consideran que los filtros de búsqueda por ubicación, tipo de restaurante o ambiente serían altamente útiles para reducir el esfuerzo de planificación. Además, su uso de WhatsApp y TikTok demuestra la importancia de integrar herramientas digitales populares en el proceso de decisión y coordinación. También valoran la rapidez en el servicio y la buena ambientación, lo que evidencia un interés no solo por la conveniencia geográfica, sino también por la experiencia del lugar. Su testimonio subraya la necesidad de una aplicación que centralice información, distancias y preferencias para facilitar la toma de decisiones grupales.
+
+**Entrevista 3:**  
+Anthony Yovera
+
+**Análisis de la entrevista:**  
+Anthony identifica los mismos retos logísticos que los otros entrevistados: la distancia y las cancelaciones como principales obstáculos para concretar reuniones. Prefiere puntos céntricos y equitativos para todos los asistentes, lo cual coincide directamente con el propósito de la aplicación propuesta. Su interés por una herramienta que muestre opciones de encuentro óptimas para todos los miembros del grupo refuerza la validación de la idea. La entrevista demuestra que existe una necesidad clara y latente de soluciones que optimicen la ubicación grupal y reduzcan el esfuerzo de organización manual.
+
+**Segmento 2: Dueños de locales**
+
+**Entrevista 4:**  
+Enrique Suárez Castillo
+
+**Análisis de la entrevista:**  
+Enrique, propietario de una sanguchería en Jesús María, describe un entorno competitivo donde la visibilidad del negocio es su principal desafío. A pesar de contar con una clientela variada grupos de estudiantes entre semana y familias los fines de semana, enfrenta dificultades para destacar frente a otros locales similares en la zona. Actualmente utiliza WhatsApp como canal de promoción, lo que evidencia un uso limitado de herramientas digitales y la ausencia de una plataforma más integral para gestionar la presencia de su negocio. Expresa interés en una aplicación accesible en costo, pero con funciones avanzadas como estadísticas de ventas, control del personal y promoción de ofertas. Su testimonio refleja una necesidad clara de soluciones tecnológicas que potencien la visibilidad y la gestión de su negocio, especialmente aquellas que le permitan conectarse con nuevos clientes y aprovechar los flujos de grupos que buscan lugares convenientes para reunirse.
+
 ### 2.3. Needfinding
 
 #### 2.3.1. User Persona
