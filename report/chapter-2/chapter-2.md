@@ -213,7 +213,14 @@ Enrique, propietario de una sanguchería en Jesús María, describe un entorno c
 
 ### 2.3. Needfinding
 
-#### 2.3.1. User Persona
+#### 2.3.1. User Personas
+
+Los User personas se realizaron en base a las distintas personas que entrevistamos según nuestros segmentos objetivos.
+
+**Comensal:**
+![Maria Alejandra Tasayco.png](../../assets/chapter-2/Maria%20Alejandra%20Tasayco.png)
+**Dueño de Local:**
+![Luis Fabricio Luzquiño Diaz.png](../../assets/chapter-2/Luis%20Fabricio%20Luzqui%C3%B1o%20Diaz.png)
 
 #### 2.3.2. User Task Matrix
 
