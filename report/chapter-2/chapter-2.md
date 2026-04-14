@@ -370,8 +370,25 @@ El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya q
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
+En esta sección se abordará el diseño estratégico basado en Domain-Driven Design (DDD). Se identificarán los bounded contexts y los requisitos funcionales de la aplicación móvil mediante la técnica de Event Storming. Asimismo, se definirá la arquitectura del software utilizando el modelo C4 a través de sus distintos niveles de diagramación.
+
 ### 2.5.1. EventStorming
+
+En este punto se detalla el proceso de Event Storming realizado en equipo. Esta técnica permite modelar el dominio del negocio de manera colaborativa. Asimismo, se identificarán los eventos, los actores involucrados, los commands y los aggregates del sistema.`
+
+Miro usado para el proceso de EventStorming: https://miro.com/welcomeonboard/U253aUF5UUZCejU4SHl3dk5XbHlzU1FBNUEwdHhXWUhyUGFoQmcyeFFtdjVWdEliUEtWSElJaWp0S3dZbnZVNGhMRGFMeCtRZDdmWHMvRW9nU1BMSEZXNGV2dFJSR29PelZMemViNW0zUzJNZWUvVjJLcnoxK2taV0FLbjJOVjVBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=732992048811
 #### 2.5.1.1. Candidate Context Discovery
+
+A continuacion se detallara cada paso ralizado en el event storming 
+
+##### Step 1: Collect Domain Events
+
+En esta primera etapa se realizó una lluvia de ideas con la participación de todo el equipo, con el objetivo de identificar los eventos de dominio que ocurrirán en la aplicación móvil. Este proceso permitió profundizar en los requisitos relacionados con el negocio y asegurar una mejor comprensión del sistema, con el fin de ofrecer una experiencia óptima al usuario.
+
+Para llevar a cabo la lluvia de ideas se utilizó la herramienta Miro. A continuación, se presenta la imagen que evidencia el desarrollo de este primer paso:
+
+![step1_EventStorming.jpeg](../../assets/chapter-2/step1_EventStorming.jpeg)
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 
