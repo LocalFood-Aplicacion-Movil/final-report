@@ -391,6 +391,7 @@ Para llevar a cabo la lluvia de ideas se utilizó la herramienta Miro. A continu
 
 
 ##### Step 2: Refine Domain Events
+
 ![step2Storming.jpeg](../../assets/chapter-2/step2Storming.jpeg)
 
 
