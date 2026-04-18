@@ -376,7 +376,7 @@ En esta sección se abordará el diseño estratégico basado en Domain-Driven De
 
 En este punto se detalla el proceso de Event Storming realizado en equipo. Esta técnica permite modelar el dominio del negocio de manera colaborativa. Asimismo, se identifican los eventos, los actores involucrados, los commands y los aggregates del sistema.
 
-Miro usado para el proceso de EventStorming: https://miro.com/welcomeonboard/U253aUF5UUZCejU4SHl3dk5XbHlzU1FBNUEwdHhXWUhyUGFoQmcyeFFtdjVWdEliUEtWSElJaWp0S3dZbnZVNGhMRGFMeCtRZDdmWHMvRW9nU1BMSEZXNGV2dFJSR29PelZMemViNW0zUzJNZWUvVjJLcnoxK2taV0FLbjJOVjVBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=732992048811
+Miro usado para el proceso de EventStorming: https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552
 #### 2.5.1.1. Candidate Context Discovery
 
 A continuación se detallara cada paso realizado en el event storming 
