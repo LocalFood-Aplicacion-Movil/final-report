@@ -391,6 +391,13 @@ Para llevar a cabo la lluvia de ideas se utilizó la herramienta Miro. A continu
 
 
 ##### Step 2: Refine Domain Events
+![step2Storming.jpeg](../../assets/chapter-2/step2Storming.jpeg)
+
+
+##### Step 3: Track causes
+
+
+##### Find  aggregates & re-sort them 
 
 
 #### 2.5.1.2. Domain Message Flows Modeling
