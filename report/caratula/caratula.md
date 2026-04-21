@@ -4,8 +4,7 @@
 
 ## Carrera: Ingeniería de Software
 ## Periodo: 202610
-## Codigo del curso: 1ASI0657
-### Nombre del curso: Aplicaciones para DIspositivos Móviles
+### Nombre del curso: Aplicaciones para DIspositivos Móviles (1ACC0238)
 ### NRC: 3687
 ### Nombre del profesor: David Gerardo Quevedo Velasco
 ## **Informe del AV1**
