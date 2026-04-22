@@ -773,3 +773,21 @@ Este diagrama muestra la estructura interna del dominio del bounded context IAM,
 Este diagrama representa el modelo de base de datos asociado al bounded context IAM, mostrando la estructura de almacenamiento de la entidad User y sus atributos principales.
 
 ![Database Diagram](/assets/chapter-2/IAM-BD-3.png)
+
+| Nombre      | Descripción |
+|-------------|-------------|
+| id          | Identificador único del usuario, clave primaria. |
+| username    | Nombre de usuario único utilizado para iniciar sesión. |
+| email       | Dirección de correo electrónico del usuario. |
+| password    | Contraseña del usuario almacenada de forma segura (encriptada). |
+
+2.6.x. Bounded Context: Groups
+2.6.x.1. Domain Layer 
+2.6.x.2. Interface Layer 
+2.6.x.3. Application Layer 
+2.6.x.4. Infrastructure Layer 
+2.6.x.5. Bounded Context Software Architecture Component Level Diagrams 
+2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+2.6.x.6.1. Bounded Context Domain Layer Class Diagrams 
+2.6.x.6.2. Bounded Context Database Design Diagram
+
