@@ -676,14 +676,38 @@ La capa de dominio contiene la lógica central del negocio, incluyendo entidades
 
 #### 2.6.1.2. Interface Layer
 
-La capa de interfaz permite la interacción con el sistema mediante APIs REST.
+La capa de interfaz permite la interacción del sistema con el exterior mediante APIs REST, recursos de transferencia de datos (DTOs) y ensambladores que transforman la información entre el dominio y la presentación.
 
-| Tipo       | Nombre | Descripción                     | Responsabilidad Principal              |
-|------------|--------|---------------------------------|----------------------------------------|
-| Controller | REST   | Controladores del sistema       | Exponer endpoints de autenticación     |
-| Component  | ACL    | Anti-Corruption Layer           | Adaptar datos entre contextos          |
+### Sub-capa: REST - Resources
+
+| Tipo     | Nombre                     | Descripción                                   | Responsabilidad Principal                          |
+|----------|---------------------------|-----------------------------------------------|--------------------------------------------------|
+| Resource | UserResource              | Representación de un usuario                  | Transferir datos del usuario hacia el cliente     |
+| Resource | SignInResource            | Datos de inicio de sesión                     | Capturar credenciales del usuario                 |
+| Resource | SignUpResource            | Datos de registro                             | Capturar información para crear un usuario        |
+| Resource | AuthenticatedUserResource | Usuario autenticado                           | Representar respuesta de autenticación            |
 
 ---
+
+### Sub-capa: REST - Transform (Assemblers)
+
+| Tipo      | Nombre                                      | Descripción                                  | Responsabilidad Principal                          |
+|-----------|---------------------------------------------|----------------------------------------------|--------------------------------------------------|
+| Assembler | UserResourceFromEntityAssembler             | Convierte entidad a recurso                  | Transformar datos del dominio a formato API       |
+| Assembler | SignInCommandFromResourceAssembler          | Convierte resource a command                 | Transformar datos de entrada a comando            |
+| Assembler | SignUpCommandFromResourceAssembler          | Convierte resource a command                 | Preparar datos para el dominio                    |
+| Assembler | AuthenticatedUserResourceFromEntityAssembler| Convierte entidad autenticada a recurso      | Generar respuesta de autenticación                |
+
+---
+
+### Sub-capa: ACL (Anti-Corruption Layer)
+
+| Tipo    | Nombre            | Descripción                                | Responsabilidad Principal                          |
+|---------|------------------|--------------------------------------------|--------------------------------------------------|
+| Service | IamContextFacade | Fachada del contexto IAM                   | Facilitar interacción con otros contextos         |
+
+---
+
 
 #### 2.6.1.3. Application Layer
 
