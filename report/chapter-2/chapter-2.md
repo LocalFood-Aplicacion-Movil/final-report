@@ -865,16 +865,66 @@ La capa de infraestructura del bounded context Groups implementa la persistencia
 ---
 
 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+Este diagrama representa la arquitectura interna del bounded context Groups, mostrando la separación en capas bajo los principios de Domain-Driven Design (DDD) y Clean Architecture.
+
+Este nivel corresponde al C4 Model Nivel 3 (Component Diagram).
+
+![Component Diagram](/assets/chapter-2/group-1.png)
 
 ---
 
 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
+2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
+
+Este diagrama representa las entidades del dominio del bounded context Groups y sus relaciones principales.
+
+![Domain Class Diagram](/assets/chapter-2/group-2.png)
+
 ---
 
-2.6.x.6.1. Bounded Context Domain Layer Class Diagrams 
+2.6.2.6.2. Bounded Context Database Design Diagram
+Este diagrama representa el modelo de base de datos del bounded context Groups, mostrando las tablas principales y sus relaciones.
+
+![Database Diagram](/assets/chapter-2/group-3.png)
+
+### Tabla: Groups
+
+| Campo | Descripción |
+|------|-------------|
+| id | Identificador único del grupo (clave primaria) |
+| name | Nombre del grupo |
 
 ---
 
-2.6.x.6.2. Bounded Context Database Design Diagram
+### Tabla: Colleagues
+
+| Campo | Descripción |
+|------|-------------|
+| id | Identificador único del colega (clave primaria) |
+| name | Nombre del miembro del grupo |
+| email | Correo electrónico del colega |
+| group_id | Identificador del grupo al que pertenece (clave foránea) |
+
+---
+
+### Tabla: Restaurants
+
+| Campo | Descripción |
+|------|-------------|
+| id | Identificador único del restaurante (clave primaria) |
+| name | Nombre del restaurante |
+| address | Dirección del restaurante |
+| group_id | Identificador del grupo asociado (clave foránea) |
+
+---
+
+### Tabla: Calculations
+
+| Campo | Descripción |
+|------|-------------|
+| id | Identificador único del cálculo (clave primaria) |
+| result | Resultado del cálculo realizado |
+| created_at | Fecha y hora del cálculo |
+| group_id | Identificador del grupo asociado (clave foránea) |
 
