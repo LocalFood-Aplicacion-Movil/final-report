@@ -318,28 +318,27 @@ El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya q
 
 ## 2.4. Requirements specification
 ### 2.4.1. User Stories
-| EPICA                   | ID EPICA |
-| ----------------------- | -------- |
-|  Configuraciones orientadas a personas: <br>  Como nuevo usuario, quiero que las característica importantes sea intuitivas relacionado respecto a amigos/contactos, para poder realizar seguimiento o no al respecto <br> |  EP01  |
-|  Registro y configuraciones internas: <br>  Como usuario de la plataforma, quiero que las herramientras de la plataforma sean moldeable respecto al calculo, para obtener un resultado independientemente del cambio de decisiones <br> |  EP02  |
-|  Personalización de preferencias de grupo: <br> Como usuario, quiero configurar mis preferencias de grupo  para que el cálculo se adapte a mis necesidades y las de mis amigos.  <br> |  EP03  |
-|  Flexibilidad en cálculos dinámicos: <br> Como usuario, quiero que el sistema permita recalcular automáticamente cuando cambien las condiciones del grupo, para mantener resultados actualizados. <br> |  EP04  |
-| Seguimiento y visualización de resultados: <br> Como usuario, quiero visualizar de manera clara los cálculos y resultados, para tomar decisiones rápidas junto con mi grupo. <br> |  EP04  |
+| Epic ID | Título                                    | Descripción                                                                                                                                                                             |
+|---------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP01    | Configuraciones orientadas a personas     | Como nuevo usuario, quiero que las característica importantes sea intuitivas relacionado respecto a amigos/contactos, para poder realizar seguimiento o no al respecto.                 |
+| EP02    | Registro y configuraciones internas       | Como usuario de la plataforma, quiero que las herramientras de la plataforma sean moldeable respecto al calculo, para obtener un resultado independientemente del cambio de decisiones. |
+| EP03    | Personalización de preferencias de grupo  | Como usuario, quiero configurar mis preferencias de grupo  para que el cálculo se adapte a mis necesidades y las de mis amigos.                                                         |
+| EP04    | Flexibilidad en cálculos dinámicos        | Como usuario, quiero que el sistema permita recalcular automáticamente cuando cambien las condiciones del grupo, para mantener resultados actualizados.                                 |
+| EP05    | Seguimiento y visualización de resultados | Como usuario, quiero visualizar de manera clara los cálculos y resultados, para tomar decisiones rápidas junto con mi grupo.                                                            |
 
-
-|Story ID|       User        |       Priority      |    Epic    |
-|--------|-------------------|---------------------|------------|
-|  US01  |  carlos juanito   |          2          |    EP01    |
-|  Title |         Ver notificaciones de rutas y encuentros               |
+|Story ID| User                                     |       Priority      |    Epic    |
+|--------|------------------------------------------|---------------------|------------|
+|  US01  | Carlos Juanito                           |          2          |    EP01    |
+|  Title | Ver notificaciones de rutas y encuentros |
 |                            Description                          |
 | Como usuario, quiero ser notificado cuando un amigo me incluya en un cálculo de ruta para ir a comer, para confirmar mi asistencia y punto de partida. |
 |                      Acceptance Criteria                        |
 | Escenario 1: Recibir invitación al cálculo <br> Dado que un contacto inicia un cálculo de ruta grupal, cuando me añade a la lista, entonces recibo una alerta con el restaurante tentativo y el tiempo estimado de viaje. <br> Escenario 2: Notificación de punto óptimo encontrado <br> Dado que todos los miembros han confirmado su punto de partida, cuando el algoritmo finaliza, entonces recibo una notificación indicando cuál es el restaurante más céntrico para todos. |
 
-|Story ID|       User        |       Priority      |    Epic    |
-|--------|-------------------|---------------------|------------|
-|  US02  |  maria perez      |          5          |    EP02    |
-|  Title |         Cambiar de restaurante durante el trayecto             |
+|Story ID| User                                       |       Priority      |    Epic    |
+|--------|--------------------------------------------|---------------------|------------|
+|  US02  | Maria Perez                                |          5          |    EP02    |
+|  Title | Cambiar de restaurante durante el trayecto |
 |                            Description                          |
 | Como usuario, quiero poder solicitar un cambio de restaurante cuando la ruta ya está calculada, para adaptarnos si el local original está lleno o cerrado. |
 |                      Acceptance Criteria                        |
