@@ -326,23 +326,232 @@ El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya q
 |  Flexibilidad en cálculos dinámicos: <br> Como usuario, quiero que el sistema permita recalcular automáticamente cuando cambien las condiciones del grupo, para mantener resultados actualizados. <br> |  EP04  |
 | Seguimiento y visualización de resultados: <br> Como usuario, quiero visualizar de manera clara los cálculos y resultados, para tomar decisiones rápidas junto con mi grupo. <br> |  EP04  |
 
-| Epic/ Story ID | Titulo | Description | Criterios de Aceptacion | Relacion con (Epic ID) |
-|----------------|--------|-------------|-------------------------|---------------------|
-| US01 | Ver notificaciones de amigos/contactos | Como nuevo usuario, quiero estar informado de las solicitudes de amistad como calculos que realizen mi lista de contactos para estar informado de actividades que puedan incluirme |Escenario 1: Visualizar Calculos hechos que me incluya <br> Dado que estoy en cualquier parte de la pagina, cuando veo las notificaciones, entonces puedo ver el usuario de la persona respecto a calculos o me envie solicitud de amistad. | EP01 |
-| US02 | Cambiar de restaurante durante el calculo | Como usuario, quiero cambiar de resturante durante el calculo para poder adecuar el destinos a cambios de planes |Escenario 1: Realizar el cambio en cualquier momento antes de calcular: <br> Dado que soy un usuario que coordina con si grupo cuando veo que deciden cambiar de restaurante luego de haber coordinado uno, cuando acceda a Restaurante o Calculo, entonces se cambia el restaurante para el calculo. <br> Escenario 2: Realizar el cambio luego de hacer unos calculos: <br> Dado que soy un usuario que ya empezo a calcular con un restaurante para mi grupo, cuando cambiamos de opinion, entonces puedo presionar el boton de cambiar restaurante en cambio y sin forma de nuevo el grupo. | EP02 |
-| US03 | Ignorar los cálculos de otra gente | Como usuario, quiero poder ignorar o rechazar los calculos, para no afectar el calculo de mis amigos como no tener muchas notificaciones |Escenario 1: Rechazar calculo que incluyan a cierto usuario: <br> Dado que soy un usuario que recibe notificaciones de calculos que me incluyan cuando acceda a la pagina con la notificacion, entonces presiono en el boton de denegar para que no me aparezca dicho calculo. <br>  | EP01 |
-| US04 | Implementar amigos a un lista ya creada | Como usuario, quiero poder implementar mas amigos en una lista ya creada, para no tener que volverla a crear |Escenario 1: Un compañero nuevo se une a la reunion: <br> apartado de calculo con la lista ya creada, entonces presiono la opcion de incluir miembro a la lista ya creada y empiezo el calculo. <br>  | EP02 |
-| US05 | Tener una opción de filtros | Como nuevo usuario, quiero tener una opcion de filtros respecto a restaurante de calidad para que el calculo sea conforma a todo o solo los mejores |Escenario 1: Buscar restaurante de calidad: <br> Dado que quiero comer con mis amigos en lugares bien valorados, cuando busco un restaurante en la apliacion y selecciono uno, entonces puedo presionar la opción de solo los mejor valorados de 5 estrellas para el calculo. <br>  | EP02 |
-| US06 | Agregar amigos rápidamente | Como nuevo usuario, quiero poder agregar a mis lista a personas mas fácilmente para no demorarme o confundirme en el buscador |Escenario 1: Buscar restaurante de calidad: <br> Dado que quiero agregar a un nuevo amigo a la aplicaciones de forma rapida, cuando entre al aplicacion y entre a contacto, entonces presionare el boton de nuevo contacto y subire su codigo QR para agregarlo. <br>  | EP01 |
-| US07 | Definir distancia máxima de búsqueda | Como usuario, quiero establecer una distancia máxima en kilómetros para que el sistema solo recomiende restaurantes dentro de ese rango                   | Escenario 1: Configurar distancia máxima <br> Dado que estoy configurando mis preferencias, cuando establezco una distancia máxima en kilómetros, entonces el sistema solo recomendará restaurantes dentro de ese rango. | EP03  |
-| US08 | Seleccionar tipo de comida preferida | Como usuario, quiero elegir un tipo de comida (ejemplo: italiana, peruana, vegetariana) para que el cálculo priorice restaurantes de ese tipo              | Escenario 1: Configurar tipo de comida <br> Dado que estoy en la sección de configuraciones, cuando elijo un tipo de comida, entonces el cálculo prioriza restaurantes de ese tipo.                          | EP03  |
-| US09 | Guardar configuraciones de grupo     | Como usuario, quiero guardar mis preferencias de grupo para que se apliquen automáticamente en futuros cálculos                                           | Escenario 1: Aplicar configuraciones guardadas <br> Dado que ya configuré mis preferencias, cuando inicio un nuevo cálculo con mis amigos, entonces el sistema aplica automáticamente esas configuraciones. | EP03  |
-| US10 | Recalcular al añadir un nuevo amigo  | Como usuario, quiero que el sistema recalculé automáticamente cuando un nuevo amigo se una al grupo                                                       | Escenario 1: Añadir nuevo amigo <br> Dado que estoy realizando un cálculo con mi grupo, cuando un nuevo amigo se une, entonces el sistema recalcula automáticamente la ubicación óptima del restaurante.    | EP04  |
-| US11 | Recalcular al eliminar un amigo      | Como usuario, quiero que el sistema ajuste el cálculo cuando un amigo salga del grupo                                                                     | Escenario 1: Eliminar amigo del cálculo <br> Dado que estoy en medio de un cálculo, cuando un amigo decide salir del grupo, entonces el sistema ajusta el cálculo y muestra nuevas recomendaciones.          | EP04  |
-| US12 | Ajustar cálculo por cambios de transporte | Como usuario, quiero que el sistema considere cambios en el medio de transporte de mis amigos para recalcular tiempos de llegada                        | Escenario 1: Cambiar medio de transporte <br> Dado que algunos amigos cambian su medio de transporte, cuando actualizan su configuración, entonces el sistema recalcula considerando el nuevo tiempo de llegada. | EP04  |
-| US13 | Ver mapa con ubicaciones de amigos   | Como usuario, quiero visualizar un mapa con la ubicación de mis amigos y el restaurante sugerido                                                           | Escenario 1: Visualizar mapa <br> Dado que estoy en la pantalla de resultados, cuando se muestra el mapa, entonces puedo ver la ubicación de cada amigo y el restaurante sugerido en relación a ellos.       | EP05  |
-| US14 | Comparar restaurantes sugeridos      | Como usuario, quiero comparar las opciones de restaurantes sugeridos en base a distancia, tipo de comida y tiempo estimado                                | Escenario 1: Comparar opciones <br> Dado que el sistema me da varias opciones, cuando accedo a la lista de restaurantes, entonces puedo comparar distancia, tipo de comida y tiempo estimado de llegada.     | EP05  |
-| US15 | Recibir resumen del cálculo          | Como usuario, quiero recibir un resumen del cálculo con el restaurante elegido, distancia promedio y tiempo estimado                                      | Escenario 1: Ver resumen del cálculo <br> Dado que el cálculo ya terminó, cuando veo el resumen, entonces puedo leer un informe con el restaurante elegido, la distancia promedio y el tiempo estimado.      | EP05  |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US01  |  carlos juanito   |          2          |    EP01    |
+|  Title |         Ver notificaciones de rutas y encuentros               |
+|                            Description                          |
+| Como usuario, quiero ser notificado cuando un amigo me incluya en un cálculo de ruta para ir a comer, para confirmar mi asistencia y punto de partida. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Recibir invitación al cálculo <br> Dado que un contacto inicia un cálculo de ruta grupal, cuando me añade a la lista, entonces recibo una alerta con el restaurante tentativo y el tiempo estimado de viaje. <br> Escenario 2: Notificación de punto óptimo encontrado <br> Dado que todos los miembros han confirmado su punto de partida, cuando el algoritmo finaliza, entonces recibo una notificación indicando cuál es el restaurante más céntrico para todos. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US02  |  maria perez      |          5          |    EP02    |
+|  Title |         Cambiar de restaurante durante el trayecto             |
+|                            Description                          |
+| Como usuario, quiero poder solicitar un cambio de restaurante cuando la ruta ya está calculada, para adaptarnos si el local original está lleno o cerrado. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Cambiar antes de iniciar el viaje <br> Dado que el grupo aún no empieza a moverse, cuando el líder selecciona "Buscar alternativa cercana", entonces el algoritmo sugiere otro local en el mismo radio óptimo. <br> Escenario 2: Cambiar en pleno trayecto <br> Dado que algunos ya están en camino, cuando se cambia el restaurante, entonces el sistema recalcula la ruta en vivo desde las posiciones actuales de cada miembro. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US03  |  luis fernando    |          3          |    EP01    |
+|  Title |         Declinar invitaciones al cálculo grupal                |
+|                            Description                          |
+| Como usuario, quiero poder rechazar rápidamente una invitación a comer, para que el algoritmo no distorsione el punto de encuentro considerándome en la ruta. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Rechazar cálculo inicial <br> Dado que recibo una invitación a un cálculo grupal, cuando presiono "No asistiré", entonces soy removido de la ecuación y el sistema ajusta el centroide para el resto. <br> Escenario 2: Baja de último minuto <br> Dado que ya había aceptado pero surge un imprevisto, cuando me retiro de la sala de cálculo activo, entonces se notifica al grupo y se ajustan los tiempos de llegada de los demás. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US04  |  ana gomez        |          3          |    EP02    |
+|  Title |         Cargar grupos de comensales frecuentes                 |
+|                            Description                          |
+| Como usuario, quiero poder seleccionar listas de amigos pre-guardadas, para iniciar el cálculo de la ruta gastronómica sin agregar los puntos de partida uno por uno. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Seleccionar grupo guardado <br> Dado que quiero salir con mis colegas del trabajo, cuando elijo el grupo "Oficina", entonces el sistema carga automáticamente a los 5 miembros y sus puntos de partida habituales. <br> Escenario 2: Añadir un extra al grupo guardado <br> Dado que seleccioné un grupo predefinido, cuando decido invitar a alguien más, entonces puedo añadir su punto de partida a la ecuación sin alterar la lista guardada original. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US05  |  sofia ramirez    |          2          |    EP02    |
+|  Title |         Filtrar resultados del punto medio por calificación    |
+|                            Description                          |
+| Como usuario, quiero que los restaurantes sugeridos en el punto de encuentro óptimo pasen por un filtro de calidad (estrellas), para asegurar una buena comida. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Aplicar filtro de 4+ estrellas <br> Dado que el algoritmo encontró la zona media para todos, cuando aplico el filtro de "Mejor valorados", entonces solo me muestra opciones en ese radio con 4 o más estrellas. <br> Escenario 2: Ampliar radio si no hay restaurantes de calidad <br> Dado que la zona céntrica exacta no tiene buenos locales, cuando el filtro está activo, entonces el sistema expande ligeramente el radio de búsqueda hasta encontrar un local que cumpla la calificación. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US06  |  diego salazar    |          5          |    EP01    |
+|  Title |         Añadir amigos al cálculo mediante enlace rápido        |
+|                            Description                          |
+| Como organizador, quiero generar un enlace de la sesión de cálculo, para que cualquier amigo pueda entrar, compartir su ubicación y ser sumado a la ruta. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Unirse vía enlace <br> Dado que el organizador me envía un link por WhatsApp, cuando lo abro, entonces mi ubicación actual se añade automáticamente al mapa de la reunión. <br> Escenario 2: Límite de la sesión de cálculo <br> Dado que la sesión ya cerró su cálculo final, cuando alguien intenta entrar con el enlace, entonces recibe un mensaje indicando que la ruta ya está fijada y solo muestra el destino. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US07  |  camila rojas     |          3          |    EP03    |
+|  Title |         Definir tolerancia de desplazamiento máximo            |
+|                            Description                          |
+| Como usuario, quiero establecer cuánto estoy dispuesto a viajar (ej. max 15 km), para que el algoritmo busque el restaurante respetando el límite de todos. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Respetar límite individual <br> Dado que en mi perfil configuré un límite de 10 km, cuando me incluyen en un grupo, entonces el algoritmo pondera el punto de encuentro para que mi ruta no exceda esa distancia. <br> Escenario 2: Alerta de lejanía insalvable <br> Dado que un amigo vive demasiado lejos del resto, cuando no hay ningún punto matemático que respete los límites de todos, entonces el sistema advierte qué usuario tendrá que viajar más de su límite configurado. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US08  |  pedro castro     |          5          |    EP03    |
+|  Title |         Consensuar tipo de comida en el grupo                  |
+|                            Description                          |
+| Como usuario, quiero que el sistema cruce las preferencias gastronómicas de todos los asistentes, para sugerir restaurantes en el punto medio que agraden a la mayoría. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Coincidencia perfecta de antojos <br> Dado que 3 de 4 miembros seleccionaron "Pizzería", cuando el sistema busca en el centroide, entonces filtra y sugiere exclusivamente pizzerías. <br> Escenario 2: Falta de consenso <br> Dado que cada miembro eligió una comida distinta, cuando se realiza el cálculo, entonces el sistema sugiere zonas de "Food Courts" (patios de comida) o restaurantes de menú internacional amplio. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US09  |  lucia vargas     |          3          |    EP03    |
+|  Title |         Priorizar zonas seguras en el cálculo                  |
+|                            Description                          |
+| Como usuario, quiero poder activar una preferencia de "Zonas seguras/iluminadas", para que el algoritmo evite sugerir restaurantes en el punto medio si la zona es peligrosa. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Evitar zona roja <br> Dado que el punto matemáticamente más céntrico cae en un área de alta incidencia delictiva, cuando la opción está activa, entonces el sistema descarta esa zona y busca el siguiente punto óptimo más seguro. <br> Escenario 2: Priorizar centros comerciales <br> Dado que es de noche y la preferencia está activa, cuando calcula el punto de encuentro, entonces prioriza locales ubicados dentro de centros comerciales o avenidas principales. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US10  |  javier morales   |          8          |    EP04    |
+|  Title |         Recalcular el centroide al añadir un comensal          |
+|                            Description                          |
+| Como usuario, quiero que la ubicación óptima del restaurante cambie dinámicamente si alguien nuevo se suma a la ecuación de la ruta. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Ajuste del punto de encuentro <br> Dado que ya teníamos un restaurante sugerido al norte, cuando se añade un amigo que viene del sur, entonces el sistema recalcula y mueve el punto de encuentro sugerido más hacia el centro. <br> Escenario 2: Mantener opciones si el cambio es mínimo <br> Dado que el nuevo integrante vive muy cerca de otro ya existente, cuando se suma al cálculo, entonces el sistema mantiene el restaurante actual porque la alteración del centroide es insignificante. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US11  |  andrea navarro   |          8          |    EP04    |
+|  Title |         Recalcular ruta por abandono del grupo                 |
+|                            Description                          |
+| Como usuario, quiero que el algoritmo optimice nuevamente el trayecto si el amigo que "jalaba" el punto de encuentro hacia su zona decide no ir. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Corrección de ruta <br> Dado que el restaurante se eligió lejos por un miembro específico, cuando este cancela su asistencia, entonces el sistema alerta al resto y sugiere un lugar mucho más cercano para los que quedan. <br> Escenario 2: Confirmación manual de recálculo <br> Dado que la cancelación ocurre cuando algunos ya están listos, cuando el sistema detecta el abandono, entonces pregunta al organizador: "¿Mantener destino actual o recalcular punto medio?". |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US12  |  martin suarez    |          8          |    EP04    |
+|  Title |         Ponderar tiempos según el medio de transporte          |
+|                            Description                          |
+| Como usuario, quiero especificar si voy en auto, transporte público o a pie, para que el algoritmo mida la distancia en "tiempo de llegada" y no solo en kilómetros. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Equidad de tiempo, no de distancia <br> Dado que un amigo va a pie y yo en auto, cuando el sistema calcula el punto medio, entonces sitúa el restaurante mucho más cerca del amigo a pie para que ambos tardemos 15 minutos en llegar. <br> Escenario 2: Cambio de transporte repentino <br> Dado que mi auto no enciende y marco que iré en autobús, cuando actualizo mi transporte, entonces el sistema me advierte que mi tiempo de llegada aumentará y avisa a los demás. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US13  |  paula blanco     |          5          |    EP05    |
+|  Title |         Visualizar mapa isócrono y rutas vivas                 |
+|                            Description                          |
+| Como usuario, quiero ver un mapa que muestre el restaurante céntrico y las líneas de ruta de cada integrante, para entender visualmente por qué se eligió ese lugar. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Ver equidad gráfica <br> Dado que el sistema lanza el resultado, cuando veo el mapa, entonces observo líneas trazadas desde cada amigo hasta el restaurante con el tiempo estimado (ETA) encima de cada línea. <br> Escenario 2: Avance en tiempo real <br> Dado que todos confirmaron salida, cuando miro el mapa activo, entonces veo los íconos de mis amigos moviéndose por sus respectivas rutas hacia el punto de encuentro. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US14  |  carlos ortiz     |          3          |    EP05    |
+|  Title |         Comparar restaurantes del punto de encuentro           |
+|                            Description                          |
+| Como usuario, quiero ver una lista de las 3 mejores opciones en la zona óptima calculada, para decidir priorizando distancia, precio o calificación. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Vista de tarjetas comparativas <br> Dado que el cálculo arrojó el punto central, cuando deslizo hacia arriba, entonces veo 3 tarjetas de restaurantes indicando: "Más justo en tiempo", "Mejor valorado" y "Más económico". <br> Escenario 2: Ver desvíos de tiempo <br> Dado que selecciono una de las alternativas, cuando la toco, entonces el sistema me indica: "Si eligen este, Juan tardará 5 mins más que el resto". |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US15  |  diana rios       |          2          |    EP05    |
+|  Title |         Resumen de equidad del viaje                           |
+|                            Description                          |
+| Como usuario, quiero un resumen que me demuestre que el restaurante elegido fue justo para todos, viendo el promedio de tiempo invertido por el grupo. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Reporte de tiempos <br> Dado que se fijó el destino, cuando reviso los detalles, entonces leo un resumen que dice: "Restaurante X elegido. Tiempo promedio del grupo: 22 mins. Mayor trayecto: Ana (25 mins). Menor trayecto: Carlos (19 mins)". <br> Escenario 2: Botón de navegación directa <br> Dado que estoy en el resumen del cálculo, cuando presiono "Iniciar ruta", entonces la app abre automáticamente Google Maps o Waze con las coordenadas del restaurante. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US16  |  roberto diaz     |          8          |    EP01    |
+|  Title |         Configurar viaje compartido (Carpooling)               |
+|                            Description                          |
+| Como usuario, quiero indicar que pasaré a recoger a otro miembro del grupo, para que el algoritmo nos considere como un solo vehículo en la ruta hacia el restaurante. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Unir puntos de partida <br> Dado que ofrezco llevar a Luis, cuando lo vinculo a mi auto en la app, entonces el sistema fusiona nuestros puntos, calculando el tiempo desde mi casa, pasando por la suya, hasta el restaurante. <br> Escenario 2: Desvincular carpool <br> Dado que finalmente no podré recogerlo, cuando rompo el vínculo en la app, entonces el sistema vuelve a calcular nuestros tiempos de llegada por separado. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US17  |  laura mendoza    |          5          |    EP01    |
+|  Title |         Sincronizar hora objetivo de llegada                   |
+|                            Description                          |
+| Como usuario, quiero proponer una hora exacta en la que todos debemos estar en el restaurante, para que la app le diga a cada uno a qué hora exacta debe salir. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Establecer alarma de salida <br> Dado que acordamos reunirnos a las 8:00 PM, cuando el sistema establece el restaurante y mi ruta dura 30 mins, entonces me agenda una alarma automática para salir a las 7:30 PM. <br> Escenario 2: Imposibilidad de llegada <br> Dado que la reunión es en 15 minutos, cuando un amigo entra al cálculo y su ruta dura 40 minutos, entonces el sistema le notifica inmediatamente que llegará tarde y sugiere notificar al grupo. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US18  |  hugo fernandez   |          5          |    EP02    |
+|  Title |         Excluir vías de peaje en el cálculo de la ruta óptima  |
+|                            Description                          |
+| Como usuario, quiero que el centroide evite ubicarse en zonas que nos obliguen a la mayoría a pagar peajes costosos para llegar al restaurante. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Configurar "Evitar peajes" global <br> Dado que el grupo quiere ahorrar, cuando el organizador marca "Evitar peajes", entonces el algoritmo traza las isócronas usando solo vías libres, lo que podría mover el punto de encuentro. <br> Escenario 2: Tolerancia individual de peaje <br> Dado que yo sí estoy dispuesto a pagar peaje para llegar más rápido pero los demás no, cuando configuro mi ruta, entonces solo mi ETA se reduce mientras el restaurante sigue en una zona sin peajes para el resto. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US19  |  valeria cruz     |          8          |    EP02    |
+|  Title |         Penalizar trayectos a pie si hay mal clima             |
+|                            Description                          |
+| Como usuario, quiero que si está lloviendo, el algoritmo descarte restaurantes que obliguen a los usuarios de transporte público a caminar tramos largos. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Ajuste por lluvia detectada <br> Dado que el clima actual marca lluvia fuerte, cuando el algoritmo busca locales en el centroide, entonces filtra y excluye opciones que estén a más de 2 minutos caminando de una estación de autobús o metro. <br> Escenario 2: Cambiar a modo "Buen Clima" <br> Dado que es una tarde soleada, cuando el clima es favorable, entonces la herramienta permite ampliar el radio de caminata sugerido desde las estaciones hacia el restaurante. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US20  |  esteban ruiz     |          8          |    EP03    |
+|  Title |         Cruzar presupuesto y equidad de distancia              |
+|                            Description                          |
+| Como usuario, quiero que el punto óptimo respete el presupuesto grupal, de modo que no nos envíe a un local carísimo solo porque está matemáticamente en el centro. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Descartar centroide costoso <br> Dado que el punto medio exacto es una zona financiera muy cara y nuestro límite es bajo, cuando calcula la zona, entonces desplaza el punto de encuentro hacia el barrio aledaño más económico, aunque alguien deba viajar 5 minutos más. <br> Escenario 2: Alerta de incompatibilidad <br> Dado que establecimos un presupuesto muy estricto pero todos vivimos en zonas alejadas, cuando el algoritmo intenta cruzar datos, entonces indica que no hay locales en el centro que cumplan el precio. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US21  |  silvia rojas     |          5          |    EP03    |
+|  Title |         Restricciones alimentarias en la zona de intersección  |
+|                            Description                          |
+| Como usuario, quiero que el local elegido en el cruce de nuestras rutas ofrezca menú compatible con alergias o dietas del grupo (ej. vegano). |
+|                      Acceptance Criteria                        |
+| Escenario 1: Aplicar filtro estricto <br> Dado que un usuario marcó alergia a los mariscos, cuando se escanean los restaurantes del punto de encuentro, entonces el sistema elimina todas las cevicherías de las opciones viables. <br> Escenario 2: Prioridad a menús variados <br> Dado que las dietas del grupo son conflictivas (un vegano y un amante de la carne), cuando se eligen opciones en la zona óptima, entonces el sistema destaca locales etiquetados como "Menú universal" o "Opciones múltiples". |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US22  |  felipe lopez     |          3          |    EP04    |
+|  Title |         Actualizar punto de inicio dinámico                    |
+|                            Description                          |
+| Como usuario, quiero poder mover mi pin de inicio manualmente si sé que al momento de la reunión no saldré de mi ubicación actual, sino de otro lado. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Colocar pin futuro <br> Dado que ahora estoy en casa pero más tarde estaré en el gimnasio, cuando me uno al cálculo de la cena, entonces arrastro mi pin al gimnasio para que el algoritmo me calcule desde ahí. <br> Escenario 2: Revertir a GPS <br> Dado que cancelé mi ida al gimnasio, cuando entro a la sesión activa, entonces pulso el botón "Usar mi ubicación actual" y el sistema re-procesa el restaurante para el grupo. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US23  |  natalia iglesias |          8          |    EP04    |
+|  Title |         Ajuste automático del centroide por tráfico pesado     |
+|                            Description                          |
+| Como usuario, quiero que el sistema analice el tráfico en tiempo real de cada ruta y mueva el restaurante hacia el usuario que esté atrapado en un embotellamiento. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Compensación de embotellamiento <br> Dado que la ruta de Carlos tiene tráfico severo, cuando el sistema intenta igualar tiempos, entonces desplaza el restaurante más cerca de Carlos, obligando a los que tienen vía libre a recorrer más kilómetros para llegar al mismo tiempo. <br> Escenario 2: Alerta de retraso inevitable <br> Dado que el embotellamiento es masivo y no hay forma matemática de compensarlo, cuando la app lo detecta, entonces notifica al grupo que el punto se mantiene pero Carlos llegará con retraso de 20 mins. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US24  |  gabriel reyes    |          5          |    EP05    |
+|  Title |         Votar por las alternativas en la zona de encuentro     |
+|                            Description                          |
+| Como usuario, quiero que si hay varios restaurantes buenos en el punto medio perfecto, el sistema nos permita lanzar una votación rápida para elegir uno. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Votación de 3 opciones céntricas <br> Dado que el algoritmo arroja 3 locales a la misma distancia de todos, cuando el administrador inicia la encuesta, entonces todos los miembros pueden emitir un voto en un plazo de 5 minutos. <br> Escenario 2: Elección automática por empate <br> Dado que dos locales quedan empatados en votos, cuando se acaba el tiempo, entonces el sistema elige automáticamente el que tenga un precio promedio más bajo o mejor calificación. |
+
+|Story ID|       User        |       Priority      |    Epic    |
+|--------|-------------------|---------------------|------------|
+|  US25  |  carmen soto      |          3          |    EP05    |
+|  Title |         Historial de rutas justas exitosas                     |
+|                            Description                          |
+| Como usuario, quiero ver el historial de lugares a los que fuimos con cierto grupo, para poder repetir el cálculo rápidamente si salimos desde los mismos lugares. |
+|                      Acceptance Criteria                        |
+| Escenario 1: Repetir fórmula de éxito <br> Dado que el mes pasado logramos una reunión perfecta, cuando voy al historial grupal y presiono "Repetir Plan", entonces la app re-verifica el tráfico y nos dirige al mismo lugar sin calcular de cero. <br> Escenario 2: Alternar opciones de un historial <br> Dado que vamos a salir del mismo punto pero no queremos comer lo mismo, cuando presiono "Mismos puntos, diferente comida", entonces el algoritmo mantiene el centroide anterior pero busca restaurantes de otra categoría. |
+
 
 ### 2.4.2. Impact Mapping
 
