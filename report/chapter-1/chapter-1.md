@@ -22,7 +22,7 @@ Con nuestra aplicación LocalFood, utilizamos geolocalización inteligente para 
 | Pedro Andre Guía Carrasco            | U202212010 |             |      |
 | Gabriel Cristian Mamani Marca        | U202220659 |             |      |
 | Ivan Fernando Sanchez Guevara        | U202218181 |  Mi Nombre es Fernando Sanchez Guevara, tengo 21 años, actualmente estudiando la carrera de Ingeniería de Software. Me considero alguien disiplinado respecto con la puntualidad y desarrollar de la mejor manera las asignaciones de trabajo. Ademas, me preocupo por mi equipo, tratando de que no tengan ningun problema respecto al trabajo, y darles la mano para poder ayudar cuando lo necesiten. Por medio de mi compromiso, eh logrado realizar los proyectos en grupo de forma excelente y sin problemas en percanses           |   ![foto1](/assets/photos/mamon-Photoroom.png)   |
-| Anderson Ricardo Ventosilla Trujillo | U202319025 |             |      |
+| Anderson Ricardo Ventosilla Trujillo | U202319025 | Soy una persona responsable, con conocimientos en tecnologías tanto de frontend como backend, lo que me permite participar activamente en el desarrollo de soluciones completas. Durante el curso, busco aplicar buenas prácticas de programación, mejorar mis habilidades técnicas y contribuir de manera constante al avance del proyecto. Además, tengo disposición para trabajar en equipo, asumir retos y cumplir con los objetivos establecidos dentro de los plazos definidos.       |  ![fotoAnderson](/assets/photos/Anderson-foto.JPEG)    |
 
 ## 1.2. Solution Profile
 
