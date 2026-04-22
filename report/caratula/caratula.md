@@ -16,7 +16,7 @@
 | **Código** | **Apellidos y Nombres**               |
 | :--------: | :------------------------------------ |
 | U202220659 | Mamani Marca, Gabriel Cristian        |
-| U202220659 | Anyelo Bill Alejos Jesus       |
+| U20231d149 | Anyelo Bill Alejos Jesus       |
 | U202220659 | Ivan Fernando Sanchez guevara     |
 | U202220659 | Pedro Andre Guia Carrasco    |
 | U202220659 | Anderson Ricardo Ventosilla Trujillo    |
