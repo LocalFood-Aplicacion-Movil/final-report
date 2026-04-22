@@ -752,7 +752,24 @@ La capa de infraestructura contiene las implementaciones técnicas necesarias pa
 | Middleware  | Pipeline | Middleware de la aplicación  | Manejo de solicitudes HTTP         |
 
 ---
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la descomposición interna del bounded context IAM (Identity and Access Management), el cual forma parte del sistema backend de LocalFood. Este contexto se encarga de la gestión de identidad, autenticación y autorización de usuarios dentro del sistema.
+
+La arquitectura está basada en principios de Domain-Driven Design (DDD) y Clean Architecture, organizando el sistema en capas bien definidas: Interface Layer, Application Layer, Domain Layer e Infrastructure Layer.
+
+Este diagrama corresponde al Nivel 3 del modelo C4 (Component Diagram), donde se detalla la interacción entre los principales componentes internos del bounded context IAM, tales como servicios de comandos y consultas, repositorios, recursos REST y servicios de infraestructura como JWT y hashing.
+
+![Component Diagram](/assets/chapter-2/IAM-BD.png‎)
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama muestra la estructura interna del dominio del bounded context IAM, incluyendo la entidad principal User, los comandos, consultas y el repositorio asociado. Representa la lógica del negocio bajo el enfoque de Domain-Driven Design.
+
+![Domain Class Diagram](/assets/chapter-2/IAM-BD-2.png)
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+Este diagrama representa el modelo de base de datos asociado al bounded context IAM, mostrando la estructura de almacenamiento de la entidad User y sus atributos principales.
+
+![Database Diagram](/assets/chapter-2/IAM-BD-3.png)
