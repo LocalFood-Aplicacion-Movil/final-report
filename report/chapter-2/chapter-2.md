@@ -711,19 +711,32 @@ La capa de interfaz permite la interacción del sistema con el exterior mediante
 
 #### 2.6.1.3. Application Layer
 
-La capa de aplicación coordina los casos de uso del sistema, implementando los servicios definidos en el dominio.
+La capa de aplicación es responsable de coordinar los casos de uso del sistema, actuando como intermediaria entre la capa de interfaz y la capa de dominio. No contiene lógica de negocio compleja, sino que orquesta la ejecución de comandos y consultas.
 
-| Tipo    | Nombre              | Descripción                          | Responsabilidad Principal                  |
-|---------|--------------------|--------------------------------------|--------------------------------------------|
-| Service | UserCommandService | Implementación de comandos           | Ejecutar lógica de registro y autenticación |
-| Service | UserQueryService   | Implementación de consultas          | Obtener información del dominio            |
+---
 
-### Servicios auxiliares
+### Sub-capa: Command Services
 
-| Tipo      | Nombre           | Descripción                      | Responsabilidad Principal            |
-|-----------|-----------------|----------------------------------|--------------------------------------|
-| Interface | IHashingService | Servicio de encriptación         | Manejo seguro de contraseñas         |
-| Interface | ITokenService   | Servicio de tokens               | Generación de JWT para autenticación |
+| Tipo    | Nombre              | Descripción                         | Responsabilidad Principal                          |
+|---------|--------------------|-------------------------------------|--------------------------------------------------|
+| Service | UserCommandService | Servicio de comandos de usuario     | Ejecutar operaciones de creación y autenticación de usuarios |
+
+---
+
+### Sub-capa: Query Services
+
+| Tipo    | Nombre            | Descripción                        | Responsabilidad Principal                          |
+|---------|------------------|------------------------------------|--------------------------------------------------|
+| Service | UserQueryService | Servicio de consultas de usuario   | Obtener información de usuarios desde el dominio |
+
+---
+
+### Sub-capa: Outbound Services
+
+| Tipo      | Nombre           | Descripción                          | Responsabilidad Principal                          |
+|-----------|-----------------|--------------------------------------|--------------------------------------------------|
+| Interface | IHashingService | Servicio de hashing                  | Encriptación de contraseñas para seguridad        |
+| Interface | ITokenService   | Servicio de tokens                   | Generación y validación de JWT para autenticación |
 
 ---
 
