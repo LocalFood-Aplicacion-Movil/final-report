@@ -587,7 +587,7 @@ En este punto se detalla el proceso de Event Storming realizado en equipo. Esta 
 Miro usado para el proceso de EventStorming: https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552
 #### 2.5.1.1. Candidate Context Discovery
 
-A continuación se detallara cada paso realizado en el event storming 
+A continuación se detallara cada paso realizado en el event storming
 
 ##### Step 1: Collect Domain Events
 
@@ -600,7 +600,40 @@ Para llevar a cabo la lluvia de ideas se utilizó la herramienta Miro. A continu
 
 ##### Step 2: Refine Domain Events
 
+En esta etapa se revisaron los eventos de dominio identificados previamente para mejorar su claridad y consistencia. Se validó el significado de cada evento, se corrigió su redacción y se organizó su orden temporal para reflejar correctamente el flujo del sistema. Además, se unificaron términos similares y se diferenciaron aquellos que representaban conceptos distintos. Este proceso permitió obtener un conjunto de eventos más claros y alineados con el dominio del problema.
+
+A continuación, se presenta la imagen correspondiente:
+
 ![step2Storming.jpeg](../../assets/chapter-2/step2Storming.jpeg)
+
+
+##### Step 3: Track causes
+En esta etapa se identificaron las causas que originan cada evento de dominio. Se consideraron acciones del usuario (comandos), interacciones con sistemas externos, eventos relacionados al tiempo y reacciones automáticas del sistema. Este proceso permitió entender mejor el flujo del sistema y cómo se relacionan los eventos entre sí, logrando una visión más completa del dominio.
+
+A continuación, se presentan las imágenes correspondientes:
+
+![eventstormingStep3_1.jpeg](../../assets/eventstormingStep3_1.jpeg)
+![eventstormingStep3_2.jpeg](../../assets/eventstormingStep3_2.jpeg)
+![eventstormingStep3_3.jpeg](../../assets/eventstormingStep3_3.jpeg)
+![eventstormingStep3_4.jpeg](../../assets/eventstormingStep3_4.jpeg)
+![eventstormingStep3_5.jpeg](../../assets/eventstormingStep3_5.jpeg)
+![eventstormingStep3_6.jpeg](../../assets/eventstormingStep3_6.jpeg)
+
+
+##### Step 4 - Find aggregates & re-sort them
+
+En esta etapa se reorganizaron los elementos identificados previamente, agrupándolos alrededor de los agregados definidos dentro del sistema. Esto permitió visualizar de manera más clara las relaciones entre comandos, eventos, políticas y modelos de lectura. Asimismo, se identificó cómo los comandos impactan en los agregados y sistemas externos, cómo se generan nuevos eventos y cómo estos desencadenan políticas dentro del sistema. Este proceso ayudó a consolidar el modelo del dominio y a comprender mejor el comportamiento general de la aplicación.
+
+A continuación, se presentan las evidencias correspondientes:
+
+![stormintstep4_1.jpeg](../../assets/chapter-2/stormintstep4_1.jpeg)
+![stormintstep4_2.jpeg](../../assets/chapter-2/stormintstep4_2.jpeg)
+![stormintstep4_4.jpeg](../../assets/chapter-2/stormintstep4_4.jpeg)
+![stormintstep4_3.jpeg](../../assets/chapter-2/stormintstep4_3.jpeg)
+![stormintstep4_5.jpeg](../../assets/chapter-2/stormintstep4_5.jpeg)
+![stormintstep4_6.jpeg](../../assets/chapter-2/stormintstep4_6.jpeg)
+![stormintstep4_7.jpeg](../../assets/chapter-2/stormintstep4_7.jpeg)
+![step4_todo.jpeg](../../assets/chapter-2/step4_todo.jpeg)
 
 
 ##### Step 3: Track causes
