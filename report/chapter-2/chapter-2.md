@@ -621,9 +621,61 @@ Para llevar a cabo la lluvia de ideas se utilizó la herramienta Miro. A continu
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
+El sistema backend implementa principios de Domain-Driven Design (DDD) a nivel táctico, organizando la lógica del negocio en capas bien definidas y separando responsabilidades mediante el uso de comandos, consultas, servicios y repositorios. Esto permite una mejor mantenibilidad, escalabilidad y claridad en la estructura del sistema.
 
-### 2.6.x. Bounded Context: <Bounded Context Name>
+### 2.6.x. Bounded Context: IAM
+El Bounded Context IAM se encarga de la gestión de identidad y acceso de los usuarios dentro del sistema. Este contexto incluye funcionalidades como el registro de usuarios, autenticación, generación de tokens y consultas de información de usuarios.
+
+---
+
 #### 2.6.x.1. Domain Layer
+
+La capa de dominio contiene la lógica central del negocio, incluyendo entidades, comandos, consultas, repositorios y contratos de servicios.
+
+### Sub-capa: Aggregates
+
+| Tipo      | Nombre | Descripción                   | Responsabilidad Principal                  | Relación con otros elementos |
+|-----------|--------|-------------------------------|--------------------------------------------|------------------------------|
+| Aggregate | User   | Entidad principal del sistema | Representar al usuario dentro del sistema  | Usa Commands y Queries       |
+
+---
+
+### Sub-capa: Commands
+
+| Tipo    | Nombre         | Descripción              | Responsabilidad Principal                          | Relación con otros elementos |
+|---------|---------------|--------------------------|--------------------------------------------------|------------------------------|
+| Command | SignUpCommand | Registro de usuario      | Encapsular datos necesarios para el registro     | Usado en UserCommandService  |
+| Command | SignInCommand | Inicio de sesión         | Encapsular credenciales del usuario              | Usado en autenticación       |
+
+---
+### Sub-capa: Queries
+
+| Tipo  | Nombre                  | Descripción                        | Responsabilidad Principal              | Relación con otros elementos |
+|-------|------------------------|------------------------------------|----------------------------------------|------------------------------|
+| Query | GetAllUsersQuery       | Obtener todos los usuarios         | Representar solicitud de listado       | Usado en QueryService        |
+| Query | GetUserByIdQuery       | Obtener usuario por ID             | Buscar usuario específico              | Usa IUserRepository          |
+| Query | GetUserByUsernameQuery | Obtener usuario por username       | Buscar usuario por nombre              | Usado en QueryService        |
+
+---
+
+### Sub-capa: Repositories
+
+| Tipo      | Nombre           | Descripción                         | Responsabilidad Principal              | Relación con otros elementos |
+|-----------|-----------------|-------------------------------------|----------------------------------------|------------------------------|
+| Interface | IUserRepository | Repositorio de usuarios             | Definir operaciones de persistencia    | Implementado en Infrastructure |
+
+---
+
+### Sub-capa: Services
+
+| Tipo      | Nombre               | Descripción                     | Responsabilidad Principal                  | Relación con otros elementos |
+|-----------|---------------------|---------------------------------|--------------------------------------------|------------------------------|
+| Interface | IUserCommandService | Servicio de comandos de usuario | Definir operaciones de registro y login    | Implementado en Application  |
+| Interface | IUserQueryService   | Servicio de consultas           | Definir operaciones de lectura             | Usa repositorios             |
+
+---
+
+
 #### 2.6.x.2. Interface Layer
 #### 2.6.x.3. Application Layer
 #### 2.6.x.4. Infrastructure Layer
