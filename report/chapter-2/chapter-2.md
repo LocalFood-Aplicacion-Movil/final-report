@@ -622,12 +622,12 @@ Para llevar a cabo la lluvia de ideas se utilizó la herramienta Miro. A continu
 ## 2.6. Tactical-Level Domain-Driven Design
 El sistema backend implementa principios de Domain-Driven Design (DDD) a nivel táctico, organizando la lógica del negocio en capas bien definidas y separando responsabilidades mediante el uso de comandos, consultas, servicios y repositorios. Esto permite una mejor mantenibilidad, escalabilidad y claridad en la estructura del sistema.
 
-### 2.6.x. Bounded Context: IAM
+### 2.6.1. Bounded Context: IAM
 El Bounded Context IAM se encarga de la gestión de identidad y acceso de los usuarios dentro del sistema. Este contexto incluye funcionalidades como el registro de usuarios, autenticación, generación de tokens y consultas de información de usuarios.
 
 ---
 
-#### 2.6.x.1. Domain Layer
+#### 2.6.1.1. Domain Layer
 
 La capa de dominio contiene la lógica central del negocio, incluyendo entidades, comandos, consultas, repositorios y contratos de servicios.
 
@@ -674,10 +674,47 @@ La capa de dominio contiene la lógica central del negocio, incluyendo entidades
 
 ---
 
+#### 2.6.1.2. Interface Layer
 
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
+La capa de interfaz permite la interacción con el sistema mediante APIs REST.
+
+| Tipo       | Nombre | Descripción                     | Responsabilidad Principal              |
+|------------|--------|---------------------------------|----------------------------------------|
+| Controller | REST   | Controladores del sistema       | Exponer endpoints de autenticación     |
+| Component  | ACL    | Anti-Corruption Layer           | Adaptar datos entre contextos          |
+
+---
+
+#### 2.6.1.3. Application Layer
+
+La capa de aplicación coordina los casos de uso del sistema, implementando los servicios definidos en el dominio.
+
+| Tipo    | Nombre              | Descripción                          | Responsabilidad Principal                  |
+|---------|--------------------|--------------------------------------|--------------------------------------------|
+| Service | UserCommandService | Implementación de comandos           | Ejecutar lógica de registro y autenticación |
+| Service | UserQueryService   | Implementación de consultas          | Obtener información del dominio            |
+
+### Servicios auxiliares
+
+| Tipo      | Nombre           | Descripción                      | Responsabilidad Principal            |
+|-----------|-----------------|----------------------------------|--------------------------------------|
+| Interface | IHashingService | Servicio de encriptación         | Manejo seguro de contraseñas         |
+| Interface | ITokenService   | Servicio de tokens               | Generación de JWT para autenticación |
+
+---
+
+#### 2.6.1.4. Infrastructure Layer
+
+La capa de infraestructura contiene las implementaciones técnicas necesarias para el funcionamiento del sistema.
+
+| Tipo        | Nombre   | Descripción                  | Responsabilidad Principal          |
+|-------------|----------|------------------------------|------------------------------------|
+| Persistence | EFC      | Entity Framework Core        | Acceso y manejo de base de datos   |
+| Security    | BCrypt   | Servicio de hashing          | Encriptación de contraseñas        |
+| Security    | JWT      | Tokens de autenticación      | Generación de tokens               |
+| Middleware  | Pipeline | Middleware de la aplicación  | Manejo de solicitudes HTTP         |
+
+---
 #### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
 #### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
