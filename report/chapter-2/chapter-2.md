@@ -921,6 +921,35 @@ Este diagrama representa el modelo de base de datos del bounded context Groups, 
 
 ![Database Diagram](/assets/chapter-2/group-3.png)
 
+### 2.6.1. Bounded Context: Restaurants
+El Bounded Context Restaurants es responsable de la gestión integral de los establecimientos dentro del ecosistema de LocalFood. Sus funciones principales abarcan desde el registro de locales por parte de los dueños, la validación de información (ubicación y horarios), hasta la actualización de disponibilidad en tiempo real y la gestión de promociones con vigencia temporal. Este contexto garantiza que solo los restaurantes verificados sean visibles en los resultados de búsqueda para los grupos de usuarios.
+
+---
+
+#### 2.6.1.1. Domain Layer
+
+La capa de dominio contiene la lógica central del negocio y las reglas de validación para los establecimientos.
+
+### Sub-capa: Aggregates
+
+| Tipo      | Nombre | Descripción                   | Responsabilidad Principal                  | Relación con otros elementos |
+|-----------|--------|-------------------------------|--------------------------------------------|------------------------------|
+| Aggregate | restaurant  | Entidad raíz del establecimiento | Gestionar el ciclo de vida del local y su estado de verificación  | Relacionado con Promotions y Address       |
+| Aggregate | promotion  | Entidad de beneficios temporales | Representar ofertas con fechas de validez obligatorias  | Pertenece a un Restaurant       |
+
+---
+
+### Sub-capa: Value Objects
+
+| Tipo    | Nombre         | Descripción              | Responsabilidad                    |
+|---------|---------------|--------------------------|--------------------------------------------------|
+| Value Object | RestaurantAddress | Ubicación geográfica      | Almacenar calle, ciudad y coordenadas validadas    |
+| Value Object | WorkSchedule | Horario de atención         | Validar que el restaurante provea rangos horarios válidos              |
+
+---
+
+### Sub-capa: Queries
+
 ### Tabla: Groups
 
 | Campo | Descripción |
