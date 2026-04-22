@@ -782,16 +782,26 @@ Este diagrama representa el modelo de base de datos asociado al bounded context 
 | password    | Contraseña del usuario almacenada de forma segura (encriptada). |
 
 2.6.2. Bounded Context: Groups
+
 El bounded context Groups es responsable de gestionar la lógica relacionada con la formación de grupos de usuarios, la administración de colegas, restaurantes asociados y cálculos de distancia dentro del sistema LocalFood.
 Este contexto permite la interacción colaborativa entre usuarios, facilitando la organización de grupos y la toma de decisiones basadas en ubicaciones y restaurantes.
 La arquitectura sigue los principios de Domain-Driven Design (DDD) y Clean Architecture, separando responsabilidades en Domain Layer, Application Layer, Interface Layer e Infrastructure Layer.
 
+---
+
 2.6.2.1. Domain Layer 
 La capa de dominio contiene las entidades principales del contexto Groups, junto con sus repositorios y servicios de dominio.
 
-Usuario dentro del grupo | Representar miembros del grupo |
-| Aggregate | Restaurant | Restaurante asociado a grupos | Gestionar información de restaurantes |
-| Aggregate | Calculation | Cálculos realizados en el sistema | Procesar resultados de distancia o análisis |
+---
+
+### 🔹 Aggregates
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal |
+|------|--------|-------------|---------------------------|
+| Aggregate | Group | Representa un grupo de usuarios dentro del sistema | Gestionar la creación y administración de grupos |
+| Aggregate | Colleague | Representa un miembro dentro de un grupo | Gestionar la información de los participantes del grupo |
+| Aggregate | Restaurant | Representa un restaurante asociado al sistema | Gestionar la información y relación con grupos |
+| Aggregate | Calculation | Representa los cálculos realizados en el sistema | Procesar y almacenar resultados de cálculos de distancia o análisis |
 
 ---
 
