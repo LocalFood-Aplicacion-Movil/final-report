@@ -760,7 +760,7 @@ La arquitectura está basada en principios de Domain-Driven Design (DDD) y Clean
 
 Este diagrama corresponde al Nivel 3 del modelo C4 (Component Diagram), donde se detalla la interacción entre los principales componentes internos del bounded context IAM, tales como servicios de comandos y consultas, repositorios, recursos REST y servicios de infraestructura como JWT y hashing.
 
-![IAM-BD.png](../../assets/chapter-2/IAM-BD.png)
+![IAM-BD.png](/assets/chapter-2/IAM-BD.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
