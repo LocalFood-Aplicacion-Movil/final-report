@@ -612,12 +612,12 @@ En esta etapa se identificaron las causas que originan cada evento de dominio. S
 
 A continuación, se presentan las imágenes correspondientes:
 
-![eventstormingStep3_1.jpeg](../../assets/eventstormingStep3_1.jpeg)
-![eventstormingStep3_2.jpeg](../../assets/eventstormingStep3_2.jpeg)
-![eventstormingStep3_3.jpeg](../../assets/eventstormingStep3_3.jpeg)
-![eventstormingStep3_4.jpeg](../../assets/eventstormingStep3_4.jpeg)
-![eventstormingStep3_5.jpeg](../../assets/eventstormingStep3_5.jpeg)
-![eventstormingStep3_6.jpeg](../../assets/eventstormingStep3_6.jpeg)
+![eventstormingStep3_1.jpeg](../../assets/chapter-2/eventstormingStep3_1.jpeg)
+![eventstormingStep3_2.jpeg](../../assets/chapter-2/eventstormingStep3_2.jpeg)
+![eventstormingStep3_3.jpeg](../../assets/chapter-2/eventstormingStep3_3.jpeg)
+![eventstormingStep3_4.jpeg](../../assets/chapter-2/eventstormingStep3_4.jpeg)
+![eventstormingStep3_5.jpeg](../../assets/chapter-2/eventstormingStep3_5.jpeg)
+![eventstormingStep3_6.jpeg](../../assets/chapter-2/eventstormingStep3_6.jpeg)
 
 
 ##### Step 4 - Find aggregates & re-sort them
