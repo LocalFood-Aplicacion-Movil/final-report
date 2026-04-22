@@ -781,13 +781,90 @@ Este diagrama representa el modelo de base de datos asociado al bounded context 
 | email       | Dirección de correo electrónico del usuario. |
 | password    | Contraseña del usuario almacenada de forma segura (encriptada). |
 
-2.6.x. Bounded Context: Groups
-2.6.x.1. Domain Layer 
-2.6.x.2. Interface Layer 
-2.6.x.3. Application Layer 
-2.6.x.4. Infrastructure Layer 
-2.6.x.5. Bounded Context Software Architecture Component Level Diagrams 
-2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+2.6.2. Bounded Context: Groups
+El bounded context Groups es responsable de gestionar la lógica relacionada con la formación de grupos de usuarios, la administración de colegas, restaurantes asociados y cálculos de distancia dentro del sistema LocalFood.
+Este contexto permite la interacción colaborativa entre usuarios, facilitando la organización de grupos y la toma de decisiones basadas en ubicaciones y restaurantes.
+La arquitectura sigue los principios de Domain-Driven Design (DDD) y Clean Architecture, separando responsabilidades en Domain Layer, Application Layer, Interface Layer e Infrastructure Layer.
+
+2.6.2.1. Domain Layer 
+La capa de dominio contiene las entidades principales del contexto Groups, junto con sus repositorios y servicios de dominio.
+
+Usuario dentro del grupo | Representar miembros del grupo |
+| Aggregate | Restaurant | Restaurante asociado a grupos | Gestionar información de restaurantes |
+| Aggregate | Calculation | Cálculos realizados en el sistema | Procesar resultados de distancia o análisis |
+
+---
+
+### 🔹 Value Objects
+
+| Tipo | Nombre | Descripción | Responsabilidad |
+|------|--------|-------------|-----------------|
+| ValueObject | Address | Dirección del restaurante | Representar ubicación geográfica |
+
+---
+
+### 🔹 Repositories
+
+| Tipo | Nombre | Descripción | Responsabilidad |
+|------|--------|-------------|-----------------|
+| Interface | IGroupRepository | Repositorio de grupos | Persistencia de grupos |
+| Interface | IColleagueRepository | Repositorio de colegas | Persistencia de miembros |
+| Interface | IRestaurantRepository | Repositorio de restaurantes | Persistencia de restaurantes |
+| Interface | ICalculationRepository | Repositorio de cálculos | Persistencia de resultados |
+
+---
+
+### 🔹 Services
+
+| Tipo | Nombre | Descripción | Responsabilidad |
+|------|--------|-------------|-----------------|
+| Interface | IDistanceCalculationService | Servicio de cálculo de distancia | Calcular distancias entre ubicaciones |
+
+---
+
+2.6.2.2. Interface Layer 
+La capa de interfaz del bounded context Groups expone la funcionalidad del sistema mediante controladores REST, permitiendo la comunicación entre los clientes externos y la lógica del dominio.
+
+Esta capa actúa como punto de entrada al sistema, gestionando las solicitudes HTTP y delegando las operaciones a la capa de aplicación y dominio.
+
+### 🔹 Controllers (REST)
+
+| Controller | Descripción |
+|------------|-------------|
+| GroupsController | Controlador encargado de gestionar las operaciones relacionadas con los grupos de usuarios |
+| ColleaguesController | Controlador encargado de gestionar los miembros (colleagues) dentro de los grupos |
+| RestaurantsController | Controlador encargado de gestionar los restaurantes asociados a los grupos |
+| CalculationsController | Controlador encargado de gestionar los cálculos realizados dentro del sistema |
+
+---
+
+2.6.2.3. Application Layer 
+
+---
+
+2.6.2.4. Infrastructure Layer 
+La capa de infraestructura del bounded context Groups implementa la persistencia de datos utilizando Entity Framework Core (EFC). Esta capa es responsable de conectar el dominio con la base de datos, proporcionando implementaciones concretas de los repositorios definidos en la capa de dominio.
+
+| Implementación | Descripción |
+|----------------|-------------|
+| CalculationRepository | Implementación del repositorio encargado de la persistencia de cálculos realizados en el sistema |
+| ColleagueRepository | Implementación del repositorio encargado de la persistencia de los miembros de un grupo |
+| GroupRepository | Implementación del repositorio encargado de la persistencia de los grupos de usuarios |
+| RestaurantRepository | Implementación del repositorio encargado de la persistencia de los restaurantes asociados al sistema |
+
+---
+
+2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+
+---
+
+2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+---
+
 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams 
+
+---
+
 2.6.x.6.2. Bounded Context Database Design Diagram
 
