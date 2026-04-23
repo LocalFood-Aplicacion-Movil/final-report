@@ -636,13 +636,19 @@ A continuación, se presentan las evidencias correspondientes:
 ![step4_todo.jpeg](../../assets/chapter-2/step4_todo.jpeg)
 
 
-##### Step 3: Track causes
 
 
-##### Find  aggregates & re-sort them 
 
 
 #### 2.5.1.2. Domain Message Flows Modeling
+En los siguientes gráficos se ilustra el proceso utilizado para analizar la colaboración entre los distintos bounded contexts, con el objetivo de comprender cómo interactúan para dar solución a los diversos escenarios que pueden surgir en el negocio.
+
+![dmessage6.jpeg](../../assets/chapter-2/dmessage6.jpeg)
+![dmessage2.jpeg](../../assets/chapter-2/dmessage2.jpeg)
+![dmessage1.jpeg](../../assets/chapter-2/dmessage1.jpeg)
+![dmessage4.jpeg](../../assets/chapter-2/dmessage4.jpeg)
+![dmessage5.jpeg](../../assets/chapter-2/dmessage5.jpeg)
+![dmessage3.jpeg](../../assets/chapter-2/dmessage3.jpeg)
 #### 2.5.1.3. Bounded Context Canvases
 
 ### 2.5.2. Context Mapping
