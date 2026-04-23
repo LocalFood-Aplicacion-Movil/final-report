@@ -830,13 +830,9 @@ La capa de infraestructura contiene las implementaciones técnicas necesarias pa
 ---
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama representa la descomposición interna del bounded context IAM (Identity and Access Management), el cual forma parte del sistema backend de LocalFood. Este contexto se encarga de la gestión de identidad, autenticación y autorización de usuarios dentro del sistema.
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Iam", mostrando los componentes que lo conformarn.
 
-La arquitectura está basada en principios de Domain-Driven Design (DDD) y Clean Architecture, organizando el sistema en capas bien definidas: Interface Layer, Application Layer, Domain Layer e Infrastructure Layer.
-
-Este diagrama corresponde al Nivel 3 del modelo C4 (Component Diagram), donde se detalla la interacción entre los principales componentes internos del bounded context IAM, tales como servicios de comandos y consultas, repositorios, recursos REST y servicios de infraestructura como JWT y hashing.
-
-![IAM-BD.png](/assets/chapter-2/IAM-BD.png)
+![structurizr-102786-Component-001.png](../../assets/chapter-2/structurizr-102786-Component-001.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -941,11 +937,9 @@ La capa de infraestructura del bounded context Groups implementa la persistencia
 ---
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
-Este diagrama representa la arquitectura interna del bounded context Groups, mostrando la separación en capas bajo los principios de Domain-Driven Design (DDD) y Clean Architecture.
+Este diagrama representa la arquitectura interna del bounded context Groups, mostrando la separación en capas bajo los principios de Domain-Driven Design (DDD).
 
-Este nivel corresponde al C4 Model Nivel 3 (Component Diagram).
-
-![Component Diagram](/assets/chapter-2/group-1.png)
+![structurizr-102786-Component-002.png](../../assets/chapter-2/structurizr-102786-Component-002.png)
 
 ---
 
@@ -1032,6 +1026,16 @@ La capa de dominio contiene la lógica central del negocio y las reglas de valid
 | result | Resultado del cálculo realizado |
 | created_at | Fecha y hora del cálculo |
 | group_id | Identificador del grupo asociado (clave foránea) |
+
+---
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Restaurants", mostrando los componentes que lo conformarn.
+
+![structurizr-102786-Component-006.png](../../assets/chapter-2/structurizr-102786-Component-006.png)
+
+---
 
 ### 2.6.4. Bounded Context: Feedback
 El Bounded Context Feedback se encarga de la gestión de opiniones, calificaciones y comentarios realizados por los usuarios sobre restaurantes o reservas.
@@ -1146,6 +1150,12 @@ El Bounded Context Feedback se encarga de la gestión de opiniones, calificacion
 
 ---
 
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Feedback", mostrando los componentes que lo conformarn.
+
+![structurizr-102786-Component-007.png](../../assets/chapter-2/structurizr-102786-Component-007.png)
+
 ### 2.6.5. Bounded Context: Location
 Gestiona información geográfica de restaurantes y usuarios.
 
@@ -1239,6 +1249,14 @@ Gestiona información geográfica de restaurantes y usuarios.
 |-------------|--------|
 | Persistence | EFC    |
 | External API| Maps API |
+
+---
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Location", mostrando los componentes que lo conformarn.
+
+![structurizr-102786-Component-003.png](../../assets/chapter-2/structurizr-102786-Component-003.png)
 
 ---
 
@@ -1338,6 +1356,14 @@ Gestiona reservas realizadas por usuarios.
 
 ---
 
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Reservation", mostrando los componentes que lo conformarn.
+
+![structurizr-102786-Component-005.png](../../assets/chapter-2/structurizr-102786-Component-005.png)
+
+---
+
 ### 2.6.7. Bounded Context: Discovery
 Permite explorar restaurantes y recomendaciones.
 
@@ -1428,3 +1454,13 @@ Permite explorar restaurantes y recomendaciones.
 |-------------|-----------------------|
 | Persistence | EFC                   |
 | External API| Recommendation Engine |
+
+---
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Discovery", mostrando los componentes que lo conformarn.
+
+![structurizr-102786-Component-004.png](../../assets/chapter-2/structurizr-102786-Component-004.png)
+
+---
