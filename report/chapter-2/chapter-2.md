@@ -682,6 +682,19 @@ Aquí se presenta el diagrama de contenedores, detallando los componentes princi
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
+El diagrama de despliegue muestra cómo el sistema LocalFood opera en producción. Los usuarios acceden mediante una aplicación web (SPA en Angular) desde el navegador y una aplicación móvil en Kotlin (Android), las cuales consumen la API Backend a través de servicios REST.
+El backend, desarrollado en Spring Boot, se encuentra desplegado en Azure y organiza sus módulos mediante bounded contexts. Este se conecta a una base de datos MySQL para la persistencia de la información.
+Además, la aplicación se integra con servicios externos mediante HTTPS/JSON, como APIs de mapas y rutas para calcular distancias y tráfico, y servicios de catálogo de lugares para obtener información como horarios y valoraciones.
+
+*Componentes del diagrama de despliegue:*
+
+* Cliente Web: Aplicación SPA desarrollada en Angular que se ejecuta en el navegador
+* Aplicación Móvil: App nativa en Kotlin para dispositivos Android
+* Servidor de Aplicaciones: API Backend en Spring Boot desplegado en infraestructura cloud
+* Base de Datos: MySQL para almacenamiento persistente
+* Sistemas Externos: Integración con APIs de mapas/rutas y catálogos de lugares
+* Protocolos: Comunicación mediante REST API usando HTTPS/JSON
+![deployment.png](../../assets/chapter-2/deployment.png)
 ## 2.6. Tactical-Level Domain-Driven Design
 El sistema backend implementa principios de Domain-Driven Design (DDD) a nivel táctico, organizando la lógica del negocio en capas bien definidas y separando responsabilidades mediante el uso de comandos, consultas, servicios y repositorios. Esto permite una mejor mantenibilidad, escalabilidad y claridad en la estructura del sistema.
 
