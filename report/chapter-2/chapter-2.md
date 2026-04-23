@@ -657,11 +657,29 @@ En los siguientes gráficos se ilustra el proceso utilizado para analizar la col
 ![bcanvas6.jpeg](../../assets/chapter-2/bcanvas6.jpeg)
 ![bcanvas5.jpeg](../../assets/chapter-2/bcanvas5.jpeg)
 ![bcanvas7.jpeg](../../assets/chapter-2/bcanvas7.jpeg)
+
 ### 2.5.2. Context Mapping
 
+El Context Mapping define cómo los distintos bounded contexts del sistema se relacionan e interactúan entre sí, estableciendo límites claros y tipos de integración. Permite identificar dependencias (como entre Discovery, Reservation y Restaurants) y el uso de servicios compartidos (como IAM o Location), ayudando a reducir el acoplamiento y asegurar una comunicación coherente dentro de la arquitectura del sistema.
+
+![context-mapping.png](../../assets/chapter-2/context-mapping.png)
+
 ### 2.5.3. Software Architecture
+
+Esta sección describe la arquitectura del sistema utilizando el modelo C4, alineado con Domain-Driven Design. Se incluyen los niveles de contexto, contenedores y despliegue para mostrar cómo se estructura y ejecuta la solución.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+Este apartado muestra el diagrama de contexto, donde se representa cómo el sistema interactúa con los actores y sistemas externos. Define los límites del sistema y su relación con el entorno.
+
+![contexto.png](../../assets/chapter-2/contexto.png)
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+Aquí se presenta el diagrama de contenedores, detallando los componentes principales del sistema, su organización interna y cómo colaboran para cumplir los objetivos funcionales.
+
+![contenedores.png](../../assets/chapter-2/contenedores.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
@@ -826,7 +844,7 @@ Este diagrama representa el modelo de base de datos asociado al bounded context 
 | email       | Dirección de correo electrónico del usuario. |
 | password    | Contraseña del usuario almacenada de forma segura (encriptada). |
 
-2.6.2. Bounded Context: Groups
+### 2.6.2. Bounded Context: Groups
 
 El bounded context Groups es responsable de gestionar la lógica relacionada con la formación de grupos de usuarios, la administración de colegas, restaurantes asociados y cálculos de distancia dentro del sistema LocalFood.
 Este contexto permite la interacción colaborativa entre usuarios, facilitando la organización de grupos y la toma de decisiones basadas en ubicaciones y restaurantes.
@@ -834,7 +852,7 @@ La arquitectura sigue los principios de Domain-Driven Design (DDD) y Clean Archi
 
 ---
 
-2.6.2.1. Domain Layer 
+#### 2.6.2.1. Domain Layer 
 La capa de dominio contiene las entidades principales del contexto Groups, junto con sus repositorios y servicios de dominio.
 
 ---
@@ -877,7 +895,7 @@ La capa de dominio contiene las entidades principales del contexto Groups, junto
 
 ---
 
-2.6.2.2. Interface Layer 
+#### 2.6.2.2. Interface Layer 
 La capa de interfaz del bounded context Groups expone la funcionalidad del sistema mediante controladores REST, permitiendo la comunicación entre los clientes externos y la lógica del dominio.
 
 Esta capa actúa como punto de entrada al sistema, gestionando las solicitudes HTTP y delegando las operaciones a la capa de aplicación y dominio.
@@ -893,11 +911,11 @@ Esta capa actúa como punto de entrada al sistema, gestionando las solicitudes H
 
 ---
 
-2.6.2.3. Application Layer 
+#### 2.6.2.3. Application Layer 
 
 ---
 
-2.6.2.4. Infrastructure Layer 
+#### 2.6.2.4. Infrastructure Layer 
 La capa de infraestructura del bounded context Groups implementa la persistencia de datos utilizando Entity Framework Core (EFC). Esta capa es responsable de conectar el dominio con la base de datos, proporcionando implementaciones concretas de los repositorios definidos en la capa de dominio.
 
 | Implementación | Descripción |
@@ -909,7 +927,7 @@ La capa de infraestructura del bounded context Groups implementa la persistencia
 
 ---
 
-2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
 Este diagrama representa la arquitectura interna del bounded context Groups, mostrando la separación en capas bajo los principios de Domain-Driven Design (DDD) y Clean Architecture.
 
 Este nivel corresponde al C4 Model Nivel 3 (Component Diagram).
@@ -918,9 +936,9 @@ Este nivel corresponde al C4 Model Nivel 3 (Component Diagram).
 
 ---
 
-2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
-2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
 
 Este diagrama representa las entidades del dominio del bounded context Groups y sus relaciones principales.
 
@@ -928,7 +946,7 @@ Este diagrama representa las entidades del dominio del bounded context Groups y 
 
 ---
 
-2.6.2.6.2. Bounded Context Database Design Diagram
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
 Este diagrama representa el modelo de base de datos del bounded context Groups, mostrando las tablas principales y sus relaciones.
 
 ![Database Diagram](/assets/chapter-2/group-3.png)
