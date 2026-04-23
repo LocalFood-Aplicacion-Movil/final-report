@@ -650,7 +650,13 @@ En los siguientes gráficos se ilustra el proceso utilizado para analizar la col
 ![dmessage5.jpeg](../../assets/chapter-2/dmessage5.jpeg)
 ![dmessage3.jpeg](../../assets/chapter-2/dmessage3.jpeg)
 #### 2.5.1.3. Bounded Context Canvases
-
+![bcanvas1.jpeg](../../assets/chapter-2/bcanvas1.jpeg)
+![bcanvas2.jpeg](../../assets/chapter-2/bcanvas2.jpeg)
+![bcanvas3.jpeg](../../assets/chapter-2/bcanvas3.jpeg)
+![bcanvas4.jpeg](../../assets/chapter-2/bcanvas4.jpeg)
+![bcanvas6.jpeg](../../assets/chapter-2/bcanvas6.jpeg)
+![bcanvas5.jpeg](../../assets/chapter-2/bcanvas5.jpeg)
+![bcanvas7.jpeg](../../assets/chapter-2/bcanvas7.jpeg)
 ### 2.5.2. Context Mapping
 
 ### 2.5.3. Software Architecture
