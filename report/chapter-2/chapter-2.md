@@ -964,7 +964,7 @@ Este diagrama representa el modelo de base de datos del bounded context Groups, 
 
 ![Database Diagram](/assets/chapter-2/group-3.png)
 
-### 2.6.1. Bounded Context: Restaurants
+### 2.6.3. Bounded Context: Restaurants
 El Bounded Context Restaurants es responsable de la gestión integral de los establecimientos dentro del ecosistema de LocalFood. Sus funciones principales abarcan desde el registro de locales por parte de los dueños, la validación de información (ubicación y horarios), hasta la actualización de disponibilidad en tiempo real y la gestión de promociones con vigencia temporal. Este contexto garantiza que solo los restaurantes verificados sean visibles en los resultados de búsqueda para los grupos de usuarios.
 
 ---
@@ -1033,3 +1033,398 @@ La capa de dominio contiene la lógica central del negocio y las reglas de valid
 | created_at | Fecha y hora del cálculo |
 | group_id | Identificador del grupo asociado (clave foránea) |
 
+### 2.6.4. Bounded Context: Feedback
+El Bounded Context Feedback se encarga de la gestión de opiniones, calificaciones y comentarios realizados por los usuarios sobre restaurantes o reservas.
+
+---
+
+#### 2.6.4.1. Domain Layer
+
+### Sub-capa: Aggregates
+
+| Tipo      | Nombre   | Descripción                          | Responsabilidad Principal                         | Relación con otros elementos |
+|-----------|----------|--------------------------------------|---------------------------------------------------|------------------------------|
+| Aggregate | Feedback | Opinión de un usuario                | Representar comentarios y calificaciones          | Usa Commands y Queries       |
+
+---
+
+### Sub-capa: Commands
+
+| Tipo    | Nombre                 | Descripción                     | Responsabilidad Principal                      | Relación con otros elementos |
+|---------|------------------------|---------------------------------|----------------------------------------------|------------------------------|
+| Command | CreateFeedbackCommand | Crear feedback                  | Encapsular datos de comentario y rating      | Usado en FeedbackCommandService |
+| Command | UpdateFeedbackCommand | Actualizar feedback             | Modificar contenido del feedback             | Usado en servicio de dominio |
+
+---
+
+### Sub-capa: Queries
+
+| Tipo  | Nombre                      | Descripción                         | Responsabilidad Principal              | Relación con otros elementos |
+|-------|-----------------------------|-------------------------------------|----------------------------------------|------------------------------|
+| Query | GetFeedbackByIdQuery        | Obtener feedback por ID             | Buscar feedback específico             | Usa repositorio              |
+| Query | GetFeedbackByRestaurantQuery| Feedback por restaurante            | Listar opiniones asociadas             | Usado en QueryService        |
+
+---
+
+### Sub-capa: Repositories
+
+| Tipo      | Nombre               | Descripción                     | Responsabilidad Principal          | Relación con otros elementos |
+|-----------|---------------------|---------------------------------|------------------------------------|------------------------------|
+| Interface | IFeedbackRepository | Repositorio de feedback         | Persistencia de opiniones          | Implementado en Infrastructure |
+
+---
+
+### Sub-capa: Services
+
+| Tipo      | Nombre                   | Descripción                  | Responsabilidad Principal              | Relación con otros elementos |
+|-----------|-------------------------|------------------------------|----------------------------------------|------------------------------|
+| Interface | IFeedbackCommandService | Servicio de comandos         | Crear y actualizar feedback            | Implementado en Application  |
+| Interface | IFeedbackQueryService   | Servicio de consultas        | Obtener opiniones                      | Usa repositorios             |
+
+---
+
+#### 2.6.4.2. Interface Layer
+
+### Sub-capa: REST - Resources
+
+| Tipo     | Nombre                  | Descripción                        | Responsabilidad Principal              |
+|----------|------------------------|------------------------------------|----------------------------------------|
+| Resource | FeedbackResource       | Representación del feedback        | Transferir datos al cliente            |
+| Resource | CreateFeedbackResource | Datos para crear feedback          | Capturar datos del usuario             |
+
+---
+
+### Sub-capa: REST - Transform (Assemblers)
+
+| Tipo      | Nombre                                       | Descripción                    | Responsabilidad Principal          |
+|-----------|----------------------------------------------|--------------------------------|------------------------------------|
+| Assembler | FeedbackResourceFromEntityAssembler          | Entidad → Resource             | Convertir dominio a API             |
+| Assembler | CreateFeedbackCommandFromResourceAssembler   | Resource → Command             | Preparar datos de entrada           |
+
+---
+
+### Sub-capa: ACL
+
+| Tipo    | Nombre                | Descripción                          | Responsabilidad Principal          |
+|---------|----------------------|--------------------------------------|------------------------------------|
+| Service | FeedbackContextFacade| Fachada del contexto Feedback        | Integración con otros contextos     |
+
+---
+
+#### 2.6.4.3. Application Layer
+
+### Sub-capa: Command Services
+
+| Tipo    | Nombre                 | Descripción              | Responsabilidad Principal          |
+|---------|------------------------|--------------------------|------------------------------------|
+| Service | FeedbackCommandService | Manejo de comandos       | Crear y actualizar feedback        |
+
+---
+
+### Sub-capa: Query Services
+
+| Tipo    | Nombre               | Descripción              | Responsabilidad Principal          |
+|---------|----------------------|--------------------------|------------------------------------|
+| Service | FeedbackQueryService | Manejo de consultas      | Obtener feedback                   |
+
+---
+
+### Sub-capa: Outbound Services
+
+| Tipo      | Nombre               | Descripción              | Responsabilidad Principal          |
+|-----------|---------------------|--------------------------|------------------------------------|
+| Interface | INotificationService| Notificaciones           | Avisar sobre nuevo feedback        |
+
+---
+
+#### 2.6.4.4. Infrastructure Layer
+
+| Tipo        | Nombre   | Descripción                  | Responsabilidad Principal          |
+|-------------|----------|------------------------------|------------------------------------|
+| Persistence | EFC      | Entity Framework Core        | Acceso a base de datos             |
+| Messaging   | Email    | Servicio de notificación     | Envío de alertas                   |
+
+---
+
+### 2.6.5. Bounded Context: Location
+Gestiona información geográfica de restaurantes y usuarios.
+
+---
+
+#### 2.6.5.1. Domain Layer
+
+### Sub-capa: Aggregates
+
+| Tipo      | Nombre   | Descripción             | Responsabilidad Principal              | Relación |
+|-----------|----------|--------------------------|----------------------------------------|----------|
+| Aggregate | Location | Ubicación geográfica     | Representar coordenadas y direcciones  | Commands |
+
+---
+
+### Sub-capa: Commands
+
+| Tipo    | Nombre                  | Descripción         | Responsabilidad |
+|---------|-------------------------|---------------------|-----------------|
+| Command | CreateLocationCommand   | Crear ubicación     | Registrar coordenadas |
+| Command | UpdateLocationCommand   | Actualizar ubicación| Modificar datos |
+
+---
+
+### Sub-capa: Queries
+
+| Tipo  | Nombre                   | Descripción         | Responsabilidad |
+|-------|--------------------------|---------------------|-----------------|
+| Query | GetLocationByIdQuery     | Buscar ubicación    | Obtener datos   |
+| Query | GetNearbyLocationsQuery  | Ubicaciones cercanas| Filtrar por distancia |
+
+---
+
+### Sub-capa: Repositories
+
+| Tipo      | Nombre              | Descripción |
+|-----------|--------------------|-------------|
+| Interface | ILocationRepository| Persistencia|
+
+---
+
+### Sub-capa: Services
+
+| Tipo      | Nombre                  | Descripción |
+|-----------|------------------------|-------------|
+| Interface | ILocationCommandService| Comandos    |
+| Interface | ILocationQueryService  | Consultas   |
+
+---
+
+#### 2.6.5.2. Interface Layer
+
+### REST - Resources
+
+| Tipo     | Nombre                   | Descripción |
+|----------|--------------------------|-------------|
+| Resource | LocationResource         | Datos geográficos |
+| Resource | CreateLocationResource   | Input |
+
+---
+
+### Assemblers
+
+| Tipo      | Nombre                                      |
+|-----------|---------------------------------------------|
+| Assembler | LocationResourceFromEntityAssembler         |
+| Assembler | CreateLocationCommandFromResourceAssembler  |
+
+---
+
+### ACL
+
+| Tipo    | Nombre                |
+|---------|----------------------|
+| Service | LocationContextFacade|
+
+---
+
+#### 2.6.5.3. Application Layer
+
+| Tipo    | Nombre                   | Responsabilidad |
+|---------|--------------------------|-----------------|
+| Service | LocationCommandService   | Ejecutar comandos |
+| Service | LocationQueryService     | Ejecutar consultas |
+
+---
+
+#### 2.6.5.4. Infrastructure Layer
+
+| Tipo        | Nombre |
+|-------------|--------|
+| Persistence | EFC    |
+| External API| Maps API |
+
+---
+
+### 2.6.6. Bounded Context: Reservation
+Gestiona reservas realizadas por usuarios.
+
+---
+
+#### 2.6.6.1. Domain Layer
+
+### Sub-capa: Aggregates
+
+| Tipo      | Nombre       | Descripción |
+|-----------|--------------|-------------|
+| Aggregate | Reservation  | Reserva     |
+
+---
+
+### Sub-capa: Commands
+
+| Tipo    | Nombre                     |
+|---------|----------------------------|
+| Command | CreateReservationCommand   |
+| Command | CancelReservationCommand   |
+
+---
+
+### Sub-capa: Queries
+
+| Tipo  | Nombre                      |
+|-------|-----------------------------|
+| Query | GetReservationByIdQuery     |
+| Query | GetUserReservationsQuery    |
+
+---
+
+### Sub-capa: Repositories
+
+| Tipo      | Nombre                   |
+|-----------|-------------------------|
+| Interface | IReservationRepository  |
+
+---
+
+### Sub-capa: Services
+
+| Tipo      | Nombre                       |
+|-----------|-----------------------------|
+| Interface | IReservationCommandService  |
+| Interface | IReservationQueryService    |
+
+---
+
+#### 2.6.6.2. Interface Layer
+
+### Sub-capa: REST - Resources
+
+| Tipo     | Nombre                    |
+|----------|---------------------------|
+| Resource | ReservationResource       |
+| Resource | CreateReservationResource |
+
+---
+
+### Sub-capa: REST - Transform (Assemblers)
+
+| Tipo      | Nombre                                      |
+|-----------|---------------------------------------------|
+| Assembler | ReservationResourceFromEntityAssembler      |
+| Assembler | CreateReservationCommandFromResourceAssembler |
+
+---
+
+### Sub-capa: ACL
+
+| Tipo    | Nombre                   |
+|---------|--------------------------|
+| Service | ReservationContextFacade |
+
+---
+
+#### 2.6.6.3. Application Layer
+
+| Tipo    | Nombre                    |
+|---------|---------------------------|
+| Service | ReservationCommandService |
+| Service | ReservationQueryService   |
+
+---
+
+#### 2.6.6.4. Infrastructure Layer
+
+| Tipo        | Nombre |
+|-------------|--------|
+| Persistence | EFC    |
+| Messaging   | Queue  |
+
+---
+
+### 2.6.7. Bounded Context: Discovery
+Permite explorar restaurantes y recomendaciones.
+
+---
+
+## 2.6.7.1. Domain Layer
+
+### Sub-capa: Aggregates
+
+| Tipo      | Nombre      |
+|-----------|-------------|
+| Aggregate | Discovery   |
+
+---
+
+### Sub-capa: Commands
+
+| Tipo    | Nombre                    |
+|---------|---------------------------|
+| Command | SearchRestaurantsCommand  |
+
+---
+
+### Sub-capa: Queries
+
+| Tipo  | Nombre                          |
+|-------|---------------------------------|
+| Query | GetRecommendedRestaurantsQuery  |
+| Query | SearchRestaurantsQuery          |
+
+---
+
+### Sub-capa: Repositories
+
+| Tipo      | Nombre                  |
+|-----------|------------------------|
+| Interface | IDiscoveryRepository   |
+
+---
+
+### Sub-capa: Services
+
+| Tipo      | Nombre                      |
+|-----------|----------------------------|
+| Interface | IDiscoveryQueryService     |
+
+---
+
+#### 2.6.7.2. Interface Layer
+
+### Sub-capa: REST - Resources
+
+| Tipo     | Nombre              |
+|----------|---------------------|
+| Resource | RestaurantResource  |
+| Resource | SearchResource      |
+
+---
+
+### Sub-capa: REST - Transform (Assemblers)
+
+| Tipo      | Nombre                                   |
+|-----------|------------------------------------------|
+| Assembler | RestaurantResourceFromEntityAssembler    |
+| Assembler | SearchCommandFromResourceAssembler       |
+
+---
+
+### Sub-capa: ACL
+
+| Tipo    | Nombre                 |
+|---------|-----------------------|
+| Service | DiscoveryContextFacade|
+
+---
+
+#### 2.6.7.3. Application Layer
+
+| Tipo    | Nombre                 |
+|---------|------------------------|
+| Service | DiscoveryQueryService  |
+
+---
+
+#### 2.6.7.4. Infrastructure Layer
+
+| Tipo        | Nombre                |
+|-------------|-----------------------|
+| Persistence | EFC                   |
+| External API| Recommendation Engine |
