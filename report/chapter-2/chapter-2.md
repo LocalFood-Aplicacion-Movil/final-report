@@ -650,6 +650,13 @@ En los siguientes gráficos se ilustra el proceso utilizado para analizar la col
 ![dmessage5.jpeg](../../assets/chapter-2/dmessage5.jpeg)
 ![dmessage3.jpeg](../../assets/chapter-2/dmessage3.jpeg)
 #### 2.5.1.3. Bounded Context Canvases
+
+El Bounded Context Canvas se utilizó para definir y delimitar los distintos contextos del sistema LocalFood, permitiendo identificar de manera clara las responsabilidades de cada módulo y su relación dentro de la solución. Esta herramienta facilitó la comprensión del dominio, alineando al equipo en torno a una estructura coherente basada en los diferentes bounded contexts identificados, como gestión de usuarios, grupos, restaurantes, reservas, ubicación y feedback.
+
+A través de este enfoque, fue posible describir aspectos clave de cada contexto, como su propósito, clasificación, lenguaje ubicuo, decisiones de negocio e interacciones con otros contextos y sistemas externos. Esto permitió diseñar una arquitectura modular, bien organizada y alineada con las necesidades del negocio.
+
+A continuación, se presentan los Bounded Context Canvases correspondientes a cada contexto identificado en la aplicación:
+
 ![bcanvas1.jpeg](../../assets/chapter-2/bcanvas1.jpeg)
 ![bcanvas2.jpeg](../../assets/chapter-2/bcanvas2.jpeg)
 ![bcanvas3.jpeg](../../assets/chapter-2/bcanvas3.jpeg)
@@ -839,8 +846,7 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama muestra la estructura interna del dominio del bounded context IAM, incluyendo la entidad principal User, los comandos, consultas y el repositorio asociado. Representa la lógica del negocio bajo el enfoque de Domain-Driven Design.
 
-![Domain Class Diagram](/assets/chapter-2/IAM-BD-2.png)
-
+![iam_class.jpeg](../../assets/chapter-2/iam_class.jpeg)
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 Este diagrama representa el modelo de base de datos asociado al bounded context IAM, mostrando la estructura de almacenamiento de la entidad User y sus atributos principales.
 
@@ -949,7 +955,7 @@ Este diagrama representa la arquitectura interna del bounded context Groups, mos
 
 Este diagrama representa las entidades del dominio del bounded context Groups y sus relaciones principales.
 
-![Domain Class Diagram](/assets/chapter-2/group-2.png)
+![group_clas.jpeg](../../assets/chapter-2/group_clas.jpeg)
 
 ---
 
