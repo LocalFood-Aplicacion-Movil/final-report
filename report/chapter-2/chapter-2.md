@@ -1044,16 +1044,17 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 ---
 #### 2.6.3.6.  Bounded Context Software Architecture Code Level Diagrams
 
-#### 2.6.3.6.1.  Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.1.  Bounded Context Software Domain Layer Class Diagrams
 
 A continuación se muestra el diagrama de clases para el modulo de Restaurants
 
 ![restaurant_class.jpeg](../../assets/chapter-2/restaurant_class.jpeg)
 
 
-#### 2.6.3.6.1.  Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.3.6.2.  Bounded Context Database Diagram
 Este diagrama representa el modelo de base de datos del bounded context Restaurants, mostrando las tablas principales y sus relaciones.
 
+![restaurants.png](../../assets/chapter-2/restaurants.png)
 
 ---
 
@@ -1178,10 +1179,15 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 Este diagrama representa las entidades del dominio del bounded context Feedback y sus relaciones principales.
 
 ![feedback_class.jpeg](../../assets/chapter-2/feedback_class.jpeg)
+
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
+
+![feedback.png](../../assets/chapter-2/feedback.png)
+
 ### 2.6.5. Bounded Context: Location
 Gestiona información geográfica de restaurantes y usuarios.
 
@@ -1278,19 +1284,23 @@ Gestiona información geográfica de restaurantes y usuarios.
 
 ---
 
-#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Location", mostrando los componentes que lo conformarn.
 
 ![structurizr-102786-Component-003.png](../../assets/chapter-2/structurizr-102786-Component-003.png)
 
 
-#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.4.6.1. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagram
 Este diagrama representa las entidades del dominio del bounded context Location y sus relaciones principales.
 
 ![location_class.jpeg](../../assets/chapter-2/location_class.jpeg)
 ---
+
+##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
+![location.png](../../assets/chapter-2/location.png)
 
 ### 2.6.6. Bounded Context: Reservation
 Gestiona reservas realizadas por usuarios.
@@ -1388,19 +1398,23 @@ Gestiona reservas realizadas por usuarios.
 
 ---
 
-#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
 
 A continuación se muestra el diagrama de componentes realizado para el Bounded Context "Reservation", mostrando los componentes que lo conformarn.
 
 ![structurizr-102786-Component-005.png](../../assets/chapter-2/structurizr-102786-Component-005.png)
 
 
-#### 2.6.4.5. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.4.5.1 Bounded Context Domain Layer Class Diagrams
+#### 2.6.6.5. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.6.5.1 Bounded Context Domain Layer Class Diagrams
 
 Este diagrama representa las entidades del dominio del bounded context Reservation y sus relaciones principales.
 
 ![reservation_class.jpeg](../../assets/chapter-2/reservation_class.jpeg)
+
+##### 2.6.6.5.2 Bounded Context Database Desing Diagram
+
+![reservation.png](../../assets/chapter-2/reservation.png)
 
 ---
 
