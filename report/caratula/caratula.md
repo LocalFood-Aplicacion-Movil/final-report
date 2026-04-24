@@ -58,8 +58,9 @@ A continuación, se muestra evidencia de los insights de colaboración del equip
 
 *AV1*:
 
-[caratula.md](caratula.md)
 ![git2.jpeg](../../assets/caratula/git2.jpeg)
+
+
 ![git1.jpeg](../../assets/caratula/git1.jpeg)
 
 # Contenido
@@ -180,7 +181,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio especifico                                                     | Acciones realizadas |
-|-------------------------------------------------------------------------|---------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.    |                     |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia   |                     |
+
+| Criterio especifico                                                   | Acciones realizadas |
+|----------------------------------------------------------------------|---------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **AV1**<br><br> **Gabriel Mamani Marca:** Durante las exposiciones, expliqué los conceptos de arquitectura y modelado de dominios ajustando mi lenguaje según el nivel técnico del público.<br><br> **Pedro André Guia Carrasco:** Al presentar el análisis de competidores y necesidades del usuario, utilicé ejemplos prácticos para que el equipo comprendiera mejor la información.<br><br> **Anyelo Bill Alejos Jesus:** Me enfoqué en exponer la estructura del Bounded Context y sus capas de forma ordenada para que las ideas técnicas fueran más claras.<br><br> **Anderson Ricardo Ventosilla Trujillo:** A través del uso de diagramas, comuniqué la organización de los componentes del sistema de manera más accesible.<br><br> **Ivan Fernando Sanchez Guevara:** En mi participación, expliqué los diagramas y resultados de entrevistas resaltando los puntos clave de forma directa. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | **AV1**<br><br> **Gabriel Mamani Marca:** En la redacción de las secciones de arquitectura y modelado, utilicé un lenguaje técnico claro y bien estructurado.<br><br> **Pedro André Guia Carrasco:** Al desarrollar contenidos de análisis y UX, cuidé que la redacción fuera precisa y fácil de entender.<br><br> **Anyelo Bill Alejos Jesus:** La documentación del Bounded Context y sus capas la realicé de forma organizada, pensando en distintos tipos de lectores.<br><br> **Anderson Ricardo Ventosilla Trujillo:** Me encargué de describir los diagramas de arquitectura de manera coherente para facilitar su interpretación.<br><br> **Ivan Fernando Sanchez Guevara:** En los apartados de entrevistas y segmentos objetivos, redacté la información buscando claridad y utilidad para el proyecto. |
