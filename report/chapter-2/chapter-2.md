@@ -1042,6 +1042,20 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 ![structurizr-102786-Component-006.png](../../assets/chapter-2/structurizr-102786-Component-006.png)
 
 ---
+#### 2.6.3.6.  Bounded Context Software Architecture Code Level Diagrams
+
+#### 2.6.3.6.1.  Bounded Context Software Architecture Code Level Diagrams
+
+A continuación se muestra el diagrama de clases para el modulo de Restaurants
+
+![restaurant_class.jpeg](../../assets/chapter-2/restaurant_class.jpeg)
+
+
+#### 2.6.3.6.1.  Bounded Context Software Architecture Code Level Diagrams
+Este diagrama representa el modelo de base de datos del bounded context Restaurants, mostrando las tablas principales y sus relaciones.
+
+
+---
 
 ### 2.6.4. Bounded Context: Feedback
 El Bounded Context Feedback se encarga de la gestión de opiniones, calificaciones y comentarios realizados por los usuarios sobre restaurantes o reservas.
@@ -1162,6 +1176,12 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 
 ![structurizr-102786-Component-007.png](../../assets/chapter-2/structurizr-102786-Component-007.png)
 
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+Este diagrama representa las entidades del dominio del bounded context Feedback y sus relaciones principales.
+
+![feedback_class.jpeg](../../assets/chapter-2/feedback_class.jpeg)
 ### 2.6.5. Bounded Context: Location
 Gestiona información geográfica de restaurantes y usuarios.
 
