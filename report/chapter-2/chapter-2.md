@@ -1284,6 +1284,12 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 
 ![structurizr-102786-Component-003.png](../../assets/chapter-2/structurizr-102786-Component-003.png)
 
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.4.6.1. Bounded Context Software Architecture Code Level Diagrams
+Este diagrama representa las entidades del dominio del bounded context Location y sus relaciones principales.
+
+![location_class.jpeg](../../assets/chapter-2/location_class.jpeg)
 ---
 
 ### 2.6.6. Bounded Context: Reservation
@@ -1388,6 +1394,14 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 
 ![structurizr-102786-Component-005.png](../../assets/chapter-2/structurizr-102786-Component-005.png)
 
+
+#### 2.6.4.5. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.5.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama representa las entidades del dominio del bounded context Reservation y sus relaciones principales.
+
+![reservation_class.jpeg](../../assets/chapter-2/reservation_class.jpeg)
+
 ---
 
 ### 2.6.7. Bounded Context: Discovery
@@ -1489,4 +1503,11 @@ A continuación se muestra el diagrama de componentes realizado para el Bounded 
 
 ![structurizr-102786-Component-004.png](../../assets/chapter-2/structurizr-102786-Component-004.png)
 
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
+
+Este diagrama representa las entidades del dominio del bounded context Discovery y sus relaciones principales.
+
+![discovery_class.jpeg](../../assets/chapter-2/discovery_class.jpeg)
 ---
