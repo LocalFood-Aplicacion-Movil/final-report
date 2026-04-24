@@ -879,8 +879,6 @@ La capa de dominio contiene las entidades principales del contexto Groups, junto
 | Aggregate | Restaurant | Representa un restaurante asociado al sistema | Gestionar la información y relación con grupos |
 | Aggregate | Calculation | Representa los cálculos realizados en el sistema | Procesar y almacenar resultados de cálculos de distancia o análisis |
 
----
-
 ### 🔹 Value Objects
 
 | Tipo | Nombre | Descripción | Responsabilidad |
@@ -922,6 +920,35 @@ Esta capa actúa como punto de entrada al sistema, gestionando las solicitudes H
 ---
 
 #### 2.6.2.3. Application Layer 
+
+La capa de aplicación es responsable de coordinar los casos de uso relacionados con la gestión de grupos, actuando como intermediaria entre la capa de interfaz y la capa de dominio. No contiene lógica de negocio compleja, sino que orquesta la ejecución de comandos y consultas asociados a la creación, gestión y participación en grupos.
+
+---
+
+### Sub-capa: Command Services
+
+| Tipo    | Nombre                    | Descripción                          | Responsabilidad Principal                                      |
+|---------|--------------------------|--------------------------------------|----------------------------------------------------------------|
+| Service | GroupCommandService      | Servicio de comandos de grupos       | Ejecutar operaciones de creación, actualización y eliminación de grupos |
+| Service | MembershipCommandService | Servicio de membresía de grupos      | Gestionar la incorporación y salida de usuarios en grupos      |
+
+---
+
+### Sub-capa: Query Services
+
+| Tipo    | Nombre                     | Descripción                          | Responsabilidad Principal                                      |
+|---------|---------------------------|--------------------------------------|----------------------------------------------------------------|
+| Service | GroupQueryService         | Servicio de consultas de grupos      | Obtener información de grupos desde el dominio                 |
+| Service | MembershipQueryService    | Servicio de consultas de membresía   | Consultar los miembros de un grupo y los grupos de un usuario  |
+
+---
+
+### Sub-capa: Outbound Services
+
+| Tipo      | Nombre                   | Descripción                          | Responsabilidad Principal                                      |
+|-----------|-------------------------|--------------------------------------|----------------------------------------------------------------|
+| Interface | INotificationService    | Servicio de notificaciones           | Enviar notificaciones cuando un usuario se une o abandona un grupo |
+| Interface | IAuthorizationService   | Servicio de autorización             | Verificar permisos de usuarios dentro de los grupos            |
 
 ---
 
