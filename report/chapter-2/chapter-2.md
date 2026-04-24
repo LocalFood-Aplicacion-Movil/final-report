@@ -850,7 +850,7 @@ Este diagrama muestra la estructura interna del dominio del bounded context IAM,
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 Este diagrama representa el modelo de base de datos asociado al bounded context IAM, mostrando la estructura de almacenamiento de la entidad User y sus atributos principales.
 
-![Database Diagram](/assets/chapter-2/IAM-BD-3.png)
+![IAM-BD-3.jpg](../../assets/chapter-2/IAM-BD-3.jpg)
 
 | Nombre      | Descripción |
 |-------------|-------------|
@@ -869,8 +869,6 @@ La arquitectura sigue los principios de Domain-Driven Design (DDD) y Clean Archi
 
 #### 2.6.2.1. Domain Layer 
 La capa de dominio contiene las entidades principales del contexto Groups, junto con sus repositorios y servicios de dominio.
-
----
 
 ### 🔹 Aggregates
 
@@ -899,15 +897,12 @@ La capa de dominio contiene las entidades principales del contexto Groups, junto
 | Interface | IColleagueRepository | Repositorio de colegas | Persistencia de miembros |
 | Interface | IRestaurantRepository | Repositorio de restaurantes | Persistencia de restaurantes |
 | Interface | ICalculationRepository | Repositorio de cálculos | Persistencia de resultados |
-
 ---
-
 ### 🔹 Services
 
 | Tipo | Nombre | Descripción | Responsabilidad |
 |------|--------|-------------|-----------------|
 | Interface | IDistanceCalculationService | Servicio de cálculo de distancia | Calcular distancias entre ubicaciones |
-
 ---
 
 #### 2.6.2.2. Interface Layer 
@@ -962,7 +957,7 @@ Este diagrama representa las entidades del dominio del bounded context Groups y 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 Este diagrama representa el modelo de base de datos del bounded context Groups, mostrando las tablas principales y sus relaciones.
 
-![Database Diagram](/assets/chapter-2/group-3.png)
+![group-3.jpg](../../assets/chapter-2/group-3.jpg)
 
 ### 2.6.3. Bounded Context: Restaurants
 El Bounded Context Restaurants es responsable de la gestión integral de los establecimientos dentro del ecosistema de LocalFood. Sus funciones principales abarcan desde el registro de locales por parte de los dueños, la validación de información (ubicación y horarios), hasta la actualización de disponibilidad en tiempo real y la gestión de promociones con vigencia temporal. Este contexto garantiza que solo los restaurantes verificados sean visibles en los resultados de búsqueda para los grupos de usuarios.
