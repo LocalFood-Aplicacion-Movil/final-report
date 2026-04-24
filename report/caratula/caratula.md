@@ -16,7 +16,7 @@
 | **Código** | **Apellidos y Nombres**               |
 | :--------: | :------------------------------------ |
 | U202220659 | Mamani Marca, Gabriel Cristian        |
-| U20231d149 | Anyelo Bill Alejos Jesus       |
+| U202220659 | Anyelo Bill Alejos Jesus       |
 | U202220659 | Ivan Fernando Sanchez guevara     |
 | U202220659 | Pedro Andre Guia Carrasco    |
 | U202220659 | Anderson Ricardo Ventosilla Trujillo    |
@@ -27,24 +27,40 @@
 
 # Registro de versiones del informe
 
-| Versión | Fecha      | Autor                      | Descripción de modificación                                |
-|---------|------------|----------------------------|------------------------------------------------------------| 
-| 1.1     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion de la organizacion **LocalFood-Aplicacion-Movil** |
-| 1.2     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del repositorio **final-report**                  |
-| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-1**                          |
-| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-2**                          |
-| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-3**                          |
-| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-4**                          |
-| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-5**                          |
-| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André | Creacion del branch **chapter-6**                          |
+| Versión | Fecha      | Autor                                 | Descripción de modificación                                                                                                                                  |
+|---------|------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| 1.1     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion de la organizacion **LocalFood-Aplicacion-Movil**                                                                                                   |
+| 1.2     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del repositorio **final-report**                                                                                                                    |
+| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-1**                                                                                                                            |
+| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-2**                                                                                                                            |
+| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-3**                                                                                                                            |
+| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-4**                                                                                                                            |
+| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-5**                                                                                                                            |
+| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-6**                                                                                                                            
+| 1.9     | 20/04/2026 | Mamani Marca, Gabriel Cristian        | Elaboración de los puntos: Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Software Architecture Deployment Diagrams. |
+| 2.0     | 21/04/2026 | Guia Carrasco, Pedro André            | Elaboración de los puntos: Competidores, Needfinding, Solution Profile y Lean UX Problem Statements.                                                         |
+| 2.1     | 21/04/2026 | Alejos Jesus, Anyelo Bill             | Elaboración de los puntos: Bounded Context AlertStockManagement Context, incluyendo Domain Layer, Application Layer e Interface Layer.                       |
+| 2.2     | 21/04/2026 | Ventosilla Trujillo, Anderson Ricardo | Elaboración de los puntos: Bounded Context Software Architecture Component Level Diagrams y Bounded Context Software Architecture Code Level Diagrams        |
+| 2.3     | 22/04/2026 | Sanchez guevara, Ivan Fernando                     | Elaboración de los puntos: Bounded Context Software Architecture Code Level Diagrams, Bounded Context Software Architecture Component Level Diagrams, registro de entrevistas y segmentos objetivos.                                                                                                                                                             |
+
+
+
 
 # Project Report Collaboration Insights
 
 #### Repositorio del informe del proyecto
 El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
 
-- 🔗 Enlace de la organización: https://github.com/LocalFood-Aplicacion-Movil
-- 🔗 Enlace de repositorios: https://github.com/orgs/LocalFood-Aplicacion-Movil/repositories
+-  Enlace de la organización: https://github.com/LocalFood-Aplicacion-Movil
+-  Enlace de repositorios: https://github.com/orgs/LocalFood-Aplicacion-Movil/repositories
+
+A continuación, se muestra evidencia de los insights de colaboración del equipo durante la elaboración del informe:
+
+*AV1*:
+
+[caratula.md](caratula.md)
+![git2.jpeg](../../assets/caratula/git2.jpeg)
+![git1.jpeg](../../assets/caratula/git1.jpeg)
 
 # Contenido
 
@@ -81,10 +97,10 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
     - [2.3.3. User Journey Mapping]()
     - [2.3.4. Empathy Mapping]()
     - [2.3.5. Ubiquitous Language]()
-  - [2.4. Requirements Engineering]()
-  - [2.4.1. User Stories]()
-  - [2.4.2. Impact Mapping]()
-  - [2.4.3. Product Backlog]()
+    - [2.4. Requirements Engineering]()
+    - [2.4.1. User Stories]()
+    - [2.4.2. Impact Mapping]()
+    - [2.4.3. Product Backlog]()
 
 - [2.5. Strategic-Level Domain-Driven Design]()
     - [2.5.1. EventStorming]()
