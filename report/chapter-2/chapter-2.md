@@ -6,7 +6,7 @@
 
 A continuación, mostramos algunos de los principales competidores identificados para nuestro proyecto. En esta sección se ofrece una breve visión para conocer a nuestros competidores.
 
-# Panorama de análisis competitivo
+# Competitive analysis landscape
 
 **¿Por qué llevar a cabo este análisis?**
 
