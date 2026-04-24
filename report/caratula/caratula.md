@@ -7,7 +7,7 @@
 ### Nombre del curso: Aplicaciones para DIspositivos Móviles (1ACC0238)
 ### NRC: 3687
 ### Nombre del profesor: David Gerardo Quevedo Velasco
-## **Informe del AV1**
+## **Informe del Trabajo Final**
 ## Nombre del startup: Location
 ## Nombre del producto: LocalFood
 
