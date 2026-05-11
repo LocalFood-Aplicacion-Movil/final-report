@@ -108,11 +108,116 @@ En nuestro sistema visual, se distinguen:
 ---
 
 ### 3.1.2. Information Architecture
+
+En esta sección se detallan las decisiones y fundamentos que guían la organización del contenido en las experiencias web y móvil de **LocalFood**, incluyendo tanto la Landing Page como la Aplicación Web. Estas propuestas buscan asegurar que los usuarios se adapten fácilmente a la funcionalidad de la plataforma y encuentren lo que necesitan sin esfuerzo. Las decisiones abarcan los sistemas de organización, etiquetado, SEO, búsqueda y navegación.
+
+---
 #### 3.1.2.1. Organization Systems
+
+Para estructurar la arquitectura de información de **LocalFood**, se ha adoptado un sistema **jerárquico** en la Landing Page y en la Aplicación Web. Esto permite a los usuarios identificar rápidamente las secciones principales y acceder a las funcionalidades clave.
+
+### Landing Page
+
+La Landing Page de **LocalFood** incluye las siguientes secciones:
+
+- **Inicio (Home):** Presenta la propuesta de valor central de la aplicación, con un mensaje introductorio y botones de llamada a la acción (CTA) como *Iniciar Sesión* o *Registrarse*.
+- **Acerca de Nosotros:** Explica la misión, visión y valores de la startup, transmitiendo confianza y transparencia.
+- **Marcas Registradas:** Sección destinada a mostrar las alianzas o registros de propiedad intelectual vinculados a la aplicación.
+- **Países Hábiles:** Lista de los países en los que la plataforma puede operar o proyecta expandirse.
+- **Contáctanos:** Ofrece medios de comunicación, formulario de contacto y enlaces a redes sociales.
+
+### Aplicación Móvil
+
+La aplicación móvil está organizada en secciones diseñadas para guiar al usuario en la planificación de encuentros:
+
+- **Inicio:** Vista general de las opciones y accesos directos a las principales funciones.
+- **Colegas:** Permite agregar, buscar y gestionar la lista de amigos/compañeros de reunión. Incluye opciones de búsqueda por usuario, código único o QR.
+- **Restaurantes:** Muestra la lista de locales sugeridos como puntos de encuentro, organizados por cercanía y accesibilidad para todos los participantes.
+- **Calculadora:** Herramienta que utiliza geolocalización para determinar el punto medio óptimo para los usuarios, minimizando tiempos de traslado.
+
+Cada sección está claramente diferenciada y jerarquizada, con encabezados visibles y botones de acción estratégicamente ubicados.
+
+---
+
 #### 3.1.2.2. Labelling Systems
+
+El sistema de etiquetado en **LocalFood** está diseñado para ser **claro, inclusivo y coherente**.
+
+- **Etiquetas textuales:**
+  - *Inicio*, *Colegas*, *Restaurantes*, *Calculadora*, *Cerrar Sesión*.
+  - Frases simples y directas, evitando ambigüedad.
+
+- **Etiquetas icónicas:**
+  - Ícono de **lupa** para búsqueda.
+  - Ícono de **usuario** para la sección de colegas.
+  - Ícono de **mapa/ubicación** en la calculadora.
+  - Ícono de **QR** para compartir o agregar usuarios rápidamente.
+
+Este etiquetado facilita la comprensión inmediata de las funciones, incluso para usuarios primerizos.
+
+---
+
 #### 3.1.2.3. SEO Tags and Meta Tags
+
+Se definen etiquetas SEO y meta tags para optimizar la visibilidad de la Landing Page y garantizar su correcta indexación en motores de búsqueda.
+
+- **Title:**
+
+  ```html
+     <title>LocalFood - Encuentra tu punto medio en Lima</title>
+- **Description:**
+
+  ```html
+    <meta name="description" content="LocalFood es una aplicación que recomienda restaurantes y cafés equitativos para grupos de amigos y colegas en Lima, utilizando geolocalización inteligente."/>
+- **Keywords:**
+
+  ```html
+    <meta name="keywords" content="LocalFood, punto medio, app reuniones, restaurantes accesibles, Lima"/>
+- **Author:**
+
+  ```html
+  <meta name="author" content="© 2024 LocalFood. Todos los derechos reservados."/>
+- **Viewport:**
+
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
 #### 3.1.2.4. Searching Systems
+
+La aplicación ofrece distintos métodos de búsqueda para facilitar el acceso a la información:
+
+- **Búsqueda por nombre de usuario:**  
+  Permite encontrar y agregar colegas escribiendo directamente su nombre de usuario.
+
+- **Búsqueda por código único:**  
+  Opción para ingresar un código corto que identifica a cada usuario.
+
+- **Búsqueda por QR:**  
+  Escaneo de un código QR compartido para agregar colegas de forma rápida.
+
+- **Búsqueda de restaurantes:**  
+  Filtrado de locales por nombre, categoría o ubicación.
+---
+
 #### 3.1.2.5. Navigation Systems
+
+El sistema de navegación en **LocalFood** está diseñado para ser **intuitivo y consistente** en web y móvil:
+
+- **Menú superior (Landing Page – Desktop):**  
+  Incluye Inicio, Acerca de Nosotros, Marcas Registradas, Países Hábiles y Contacto.
+
+- **Menú lateral (Aplicación Web – Desktop):**  
+  Accesos directos a Inicio, Colegas, Restaurantes, Calculadora y Cerrar Sesión.
+
+- **Navegación inferior (Mobile):**  
+  Barra con íconos para Inicio, Colegas, Restaurantes y Perfil.
+
+- **CTA fijo:**  
+  Botón destacado *“Encuentra tu punto medio”* disponible en la sección de calculadora.
+
+- **Footer (Landing Page):**  
+  Enlaces a políticas de privacidad, términos de servicio y redes sociales.
+---
 
 ### 3.1.3. Landing Page UI Design
 #### 3.1.3.1. Landing Page Wireframe
