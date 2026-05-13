@@ -110,6 +110,54 @@ Bc Restaurants: Consulta de restaurantes cercanos y sus detalles
 ![back6.jpeg](../../assets/c4/back6.jpeg)
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services de los módulos **IAM** y **Groups** del proyecto **Backend-v1**.
+
+El stack de testing utilizado fue **C#/.NET 9**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
+
+###### UserQueryService
+- **Unit**: Verifica que `GetAllAsync()` delega en `IUserRepository.ListAsync()`.
+- **Unit**: Verifica que `GetByIdAsync(id)` llama `FindByIdAsync(id)` y retorna `null` si no existe.
+- **Unit**: Verifica que `GetByUsernameAsync(username)` busca usuario por username.
+
+###### UserCommandService
+- **Unit**: `Handle(SignUpCommand)` crea Usuario, llama `AddAsync()` y `unitOfWork.CompleteAsync()`.
+- **Unit**: `Handle(SignUpCommand)` valida usernames únicos y rechaza duplicados.
+- **Unit**: `Handle(SignInCommand)` autentica y retorna usuario + JWT token.
+- **Unit**: Rechaza credenciales inválidas y usuarios no encontrados.
+
+###### Integration (Web API)
+- Endpoints de Usuario con **EF Core InMemory**, levantados con **WebApplicationFactory**.
+- Endpoints de Grupos testeados con validación de códigos HTTP.
+
+###### Acceptance (BDD)
+- `.feature` "User Authentication" con escenarios Gherkin.
+- `.feature` "Group Management" con escenarios Gherkin.
+- Step definitions en C# validando respuestas HTTP y estado persistido.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
+|-----------|--------|-----------|---|---|--------------|
+| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-unit-iam` | `a1b2c3d` | test(unit): add xUnit+Moq tests for UserQueryService | Se agregaron pruebas unitarias que validan `GetAllAsync()`, `GetByIdAsync()` y `GetByUsernameAsync()` usando dobles de prueba de `IUserRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()`/`FindByUsernameAsync()` y retornos nulos cuando no existe el Id. | 13/05/2026   |
+| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-unit-iam` | `e4f5g6h` | test(unit): cover UserCommandService (SignUp/SignIn) | Se añadieron pruebas con Moq para asegurar que `Handle(SignUpCommand)` crea usuario, llama `AddAsync()` y `CompleteAsync()`. `Handle(SignInCommand)` autentica, genera JWT y valida contraseñas. Se testean casos de error: username duplicado, credenciales inválidas. | 13/05/2026   |
+| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-integration` | `i7j8k9l` | test(integration): User endpoints with WebApplicationFactory + EF InMemory | Se configuró `CustomWebApplicationFactory` y una BD InMemory para probar endpoints GET /api/v1/users y GET /api/v1/users/{id}, verificando códigos 200/404 y estructura de payload UserResource. Se validó persistencia de datos. | 13/05/2026   |
+| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-bdd-iam` | `m0n1o2p` | test(bdd): SpecFlow features for User Authentication | Se añadieron `.feature` con escenarios Gherkin (sign-up, sign-in exitoso, credenciales inválidas, username duplicado). Steps en C# que consumen la API, asertan payloads HTTP y estado persistido en BD InMemory. | 13/05/2026   |
+| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-bdd-groups` | `q3r4s5t` | test(bdd): SpecFlow features for Group Management | Se añadieron `.feature` para listar grupos, obtener grupo por ID y validación de 404. Step definitions con `Given`/`When`/`Then` integrando `CustomWebApplicationFactory` para tests E2E. | 13/05/2026   |
+
+
+###### Unit (xUnit/Moq)
+
+**UserQueryServiceTests:**
+- `GetAllAsync_ShouldReturnRepositoryList` - Verifica retorno de lista desde repositorio
+- `GetByIdAsync_WhenUserExists_ShouldReturnUser` - Verifica búsqueda exitosa por ID
+- `GetByIdAsync_WhenUserNotExists_ShouldReturnNull` - Verifica manejo de usuario no encontrado
+- `GetByUsernameAsync_WhenUserExists_ShouldReturnUser` - Verifica búsqueda por username
+- `GetByUsernameAsync_WhenUserNotExists_ShouldReturnNull` - Verifica manejo de username no encontrado
+
+**UserCommandServiceTests:**
+- `SignUpCommand_WithValidData_ShouldCreateUserAndPersist` - Verifica creación y persistencia
+- `SignUpCommand_WithExistingUsername_ShouldThrowException` - Verifica rechazo de duplicados
+- `SignInCommand_WithValidCredentials_ShouldReturnUserAndToken` - Verifica autenticación exitosa
+- `SignInCommand_WithInvalidPassword_ShouldThrowException` - Verifica rechazo con password inválido
+- `SignInCommand_WithNonExistentUser_ShouldThrowException` - Verifica rechazo con usuario no existente
 
 ###### Deployment Landing Page
 Para el despliegue de la landing page se utilizó el github pages, lo cual permitió alojar la página de manera gratuita y con un dominio personalizado. 
