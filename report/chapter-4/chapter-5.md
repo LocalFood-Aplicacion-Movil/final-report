@@ -19,9 +19,6 @@ En este punto se documenta el proceso realizado durante la primera fase del proy
 | Sum of Story Points             | 25 Story Points                                                                                                                                                                                                                                                                                                                                                             |
 
 ##### 4.2.1.2. Sprint Backlog 1
-
-##### 4.2.1.3. Development Evidence for Sprint Review
-
 En este primer sprint de desarrollo se trabajó en la versión definitiva del landing page, así como en la primera versión del backend y del frontend de la aplicación móvil. Todo ello se realizó siguiendo las historias de usuario previamente identificadas. A continuación, se presenta un cuadro con los commits realizados como evidencia.
 
 | Sprint # | Sprint n | **User Story** |                                                     | **Work-Item / Task** |                                             |                                                                                                                         |                        |                 |                                                    |
@@ -46,6 +43,16 @@ Para organizar las tareas en este Sprint 1, se utilizó la herramienta Trello. E
 
 ![trellos1.jpeg](../../assets/c4/trellos1.jpeg)
 Link del tablero trello: https://trello.com/invite/b/6a03e4afef689f0a5e60b71d/ATTIe24c60d9f2479da07cbbb2f17b42e9d584C47480/sprint-1-web
+
+##### 4.2.1.3. Development Evidence for Sprint Review
+
+En el primer Sprint se priorizó la implementación de los módulos principales del negocio en el backend. Asimismo, se desarrolló la landing page y la aplicación móvil.
+
+| Repository                                                                                                                           | Branch  | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------- | -------------- | ------------------- | ------------------- |
+| [https://github.com/LocalFood-Aplicacion-Movil/backend](https://github.com/LocalFood-Aplicacion-Movil/backend)                       | main    |           |                |                     |                     |
+| [https://github.com/LocalFood-Aplicacion-Movil/mobile-application](https://github.com/LocalFood-Aplicacion-Movil/mobile-application) | develop |           |                |                     |                     |
+| [https://github.com/LocalFood-Aplicacion-Movil/Landing-Page](https://github.com/LocalFood-Aplicacion-Movil/Landing-Page)             | main    |           |                |                     |                     |
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
