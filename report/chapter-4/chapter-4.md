@@ -335,9 +335,15 @@ Link de backend desplegado: https://backend-trnc.onrender.com/swagger/index.html
 
 Landing page
 
+![landing-page-collaboration.png](../../assets/chapter-4/landing-page-collaboration.png)
+
 Backend
 
+![backend-collaboration.png](../../assets/chapter-4/backend-collaboration.png)
+
 Mobile application
+
+![mobile-collaboration.png](../../assets/chapter-4/mobile-collaboration.png)
 
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas
