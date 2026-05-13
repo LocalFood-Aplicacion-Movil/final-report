@@ -85,8 +85,69 @@ A continuacion  se presentan evidencias de todo el desarrollo en este primer spr
 ![movil3.jpeg](../../assets/c4/movil3.jpeg)
 ![movil4.jpeg](../../assets/c4/movil4.jpeg)
 
+##### 4.2.1.6. Services Documentation Evidence for Sprint Review
+En este punto se documenta los bounded context desarrollados en el backend durante el primer sprint, los cuales se encuentran organizados en módulos de negocio. 
+
+Bc IAM: Registro de usuario y gestion de roles 
+
+![back2.jpeg](../../assets/c4/back2.jpeg)
+![back3.jpeg](../../assets/c4/back3.jpeg)
+
+Bc Calculations: Cálculo de punto medio, isócrono y sugerencias de restaurantes
+
+![back1.jpeg](../../assets/c4/back1.jpeg)
+
+Bc Colleagues: Gestión de grupos de comensales frecuentes
+
+![back5.jpeg](../../assets/c4/back5.jpeg)
+
+Bc Groups: Gestión de grupos entre usuarios 
+
+![back4.jpeg](../../assets/c4/back4.jpeg)
+
+Bc Restaurants: Consulta de restaurantes cercanos y sus detalles
+
+![back6.jpeg](../../assets/c4/back6.jpeg)
+
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+###### Deployment Landing Page
+Para el despliegue de la landing page se utilizó el github pages, lo cual permitió alojar la página de manera gratuita y con un dominio personalizado. 
+
+1. Seleccionamos la rama main y guardamos los cambios para que se despliegue automáticamente.
+
+![lan1.jpeg](../../assets/c4/lan1.jpeg)
+
+2. Entramos al inicio del repositorio y seleccionamos la opción Deployments para visualizar el link de la página.
+
+![lan2.jpeg](../../assets/c4/lan2.jpeg)
+
+3. Finalmente, se obtiene acceso a la landing page.
+
+![landing1.jpeg](../../assets/c4/landing1.jpeg)
+
+Link de la landing page desplegada: https://localfood-aplicacion-movil.github.io/Landing-Page/
+###### Deployment Backend
+
+Para el despliegue del backend se utilizó la plataforma Render, la cual permite alojar aplicaciones web de manera gratuita con ciertas limitaciones.
+
+1. Se crea un archivo dockerfile para configurar el entorno de ejecución del backend.
+![r1.jpeg](../../assets/c4/r1.jpeg)
+
+2. Se configura el servicio en Render, seleccionando la rama main y el tipo de servicio
+![r2.jpeg](../../assets/c4/r2.jpeg)
+
+3. Se despliega el servicio y se obtiene la URL para acceder a los endpoints del backend.
+![deploy.jpeg](../../assets/c4/deploy.jpeg)
+
+Link de backend desplegado: https://backend-trnc.onrender.com/swagger/index.html
+
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Landing page
+
+Backend 
+
+Mobile application
 
 
