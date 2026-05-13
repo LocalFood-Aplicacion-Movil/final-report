@@ -4,7 +4,7 @@
 
 ## 4.1. Software Configuration Management
 
-En esta sección se describe el proceso integral mediante el cual el equipo de LocalFood organiza, gestiona y controla los cambios durante el ciclo de vida del desarrollo del software. Establecer una sólida gestión de la configuración es vital para un proyecto que involucra múltiples repositorios, interfaces iterativas y algoritmos de geolocalización, asegurando la trazabilidad, la calidad del código y la entrega continua de valor.
+En esta sección se describe el proceso integral mediante el cual el equipo de NearbyEats organiza, gestiona y controla los cambios durante el ciclo de vida del desarrollo del software. Establecer una sólida gestión de la configuración es vital para un proyecto que involucra múltiples repositorios, interfaces iterativas y algoritmos de geolocalización, asegurando la trazabilidad, la calidad del código y la entrega continua de valor.
 
 ---
 
@@ -19,7 +19,7 @@ Para garantizar un flujo de trabajo eficiente y estandarizado entre todos los in
 
 #### B. Diseño UX/UI y Modelado
 
-- **Figma:** Plataforma colaborativa basada en la nube utilizada para la elaboración de wireframes y prototipos de alta fidelidad. En el contexto de LocalFood, Figma permitió iterar rápidamente sobre las vistas del mapa interactivo, las tarjetas de recomendación de restaurantes y las versiones responsivas para Desktop y Mobile.
+- **Figma:** Plataforma colaborativa basada en la nube utilizada para la elaboración de wireframes y prototipos de alta fidelidad. En el contexto de NearbyEats, Figma permitió iterar rápidamente sobre las vistas del mapa interactivo, las tarjetas de recomendación de restaurantes y las versiones responsivas para Desktop y Mobile.
     - Ruta de referencia: https://www.figma.com/
 
 - **Lucidchart:** Aplicación empleada para diagramar la arquitectura de la información y los flujos del sistema. Se utilizó extensamente en las etapas previas para diseñar los flujos de usuario (User Flows) y los diagramas C4 correspondientes a los Bounded Contexts.
@@ -47,7 +47,7 @@ Para garantizar un flujo de trabajo eficiente y estandarizado entre todos los in
 
 Dada la naturaleza colaborativa del proyecto y la necesidad de integrar funcionalidades complejas (como el motor de búsqueda del punto medio y la gestión de grupos), el equipo ha adoptado el flujo de trabajo **GitFlow**. Este enfoque proporciona una estructura robusta para la gestión de versiones, aislando el desarrollo de nuevas características y protegiendo el código en producción.
 
-#### Estructura de Ramas del Proyecto LocalFood
+#### Estructura de Ramas del Proyecto NearbyEats
 
 **Ramas Principales:**
 
@@ -72,7 +72,7 @@ Dada la naturaleza colaborativa del proyecto y la necesidad de integrar funciona
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-Para garantizar que el código fuente de LocalFood sea mantenible, escalable y legible por cualquier miembro del equipo (actual o futuro), se ha establecido una guía de estilos estricta. La estandarización reduce la carga cognitiva durante las revisiones de código y previene errores de sintaxis.
+Para garantizar que el código fuente de NearbyEats sea mantenible, escalable y legible por cualquier miembro del equipo (actual o futuro), se ha establecido una guía de estilos estricta. La estandarización reduce la carga cognitiva durante las revisiones de código y previene errores de sintaxis.
 
 #### 1. Convenciones para HTML5
 
@@ -113,7 +113,7 @@ Se estableció un repositorio público centralizado en GitHub bajo la organizaci
 Comando de clonación local:
 
 ```bash
-git clone https://github.com/LocalFood-Aplicaciones-Web/Project-report.git
+git clone https://github.com/NearbyEats-Aplicaciones-Web/Project-report.git
 ```
 
 #### 2. Desarrollo del Sitio Estático
@@ -130,7 +130,7 @@ Esta configuración asegura que cada nuevo commit fusionado a la rama de desplie
 
 Tras la correcta ejecución de los procesos internos de GitHub, el entorno es validado asegurando la carga de assets (imágenes, hojas de estilo) y el correcto funcionamiento de los botones de "Call to Action".
 
-- **Enlace de despliegue oficial:** https://localfood-aplicaciones-web.github.io/Project-report/
+- **Enlace de despliegue oficial:** https://NearbyEats-aplicaciones-web.github.io/Project-report/
 #### 4.1.2. Source Code Management
 
 - Trello: Herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente marcos en red de trabajos ágiles. El segmento para visualizar y actualizar el estado real de las tareas e historias de usuario pertenecientes al sprint a desarrollado.
@@ -140,7 +140,7 @@ Tras la correcta ejecución de los procesos internos de GitHub, el entorno es va
 ### 4.2. Landing Page & Mobile Application Implementation
 
 #### 4.2.1. Sprint 1
-En este punto se documenta el proceso realizado durante la primera fase del proyecto, en la cual se analizaron los diseños del aplicativo móvil y los requisitos funcionales previamente analizados para desarrollar la primera versión de la aplicación móvil de LocalFood.##### 4.2.1.1. Sprint Planning 1
+En este punto se documenta el proceso realizado durante la primera fase del proyecto, en la cual se analizaron los diseños del aplicativo móvil y los requisitos funcionales previamente analizados para desarrollar la primera versión de la aplicación móvil de NearbyEats.##### 4.2.1.1. Sprint Planning 1
 
 ##### 4.2.1.1. Sprint Planning 1
 
@@ -153,7 +153,7 @@ En este punto se documenta el proceso realizado durante la primera fase del proy
 | Preparate by                    | Gabriel Mamani Marca                                                                                                                                                                                                                                                                                                                                                        |
 | Attendees (to planning meeting) | Anyelo Alejos,Pedro Guía,Ivan Sanchez y Anderson Ventosilla                                                                                                                                                                                                                                                                                                                 |
 | Sprint n-1 Review Summary       | Se desarrolló la primera versión del landing page, del backend y del frontend móvil.                                                                                                                                                                                                                                                                                        |
-| Sprint Planning Background      | Desarrollo de la primera versión de la plataforma LocalFood.                                                                                                                                                                                                                                                                                                                |
+| Sprint Planning Background      | Desarrollo de la primera versión de la plataforma NearbyEats.                                                                                                                                                                                                                                                                                                                |
 | Sprint Goal & User Stories      |
 | Sprint 1 Goal                   | Nuestro enfoque es desarrollar la landing page y verificar que cumpla con las historias de usuario identificadas. El objetivo principal es asegurar que la landing page ofrezca traducción a múltiples idiomas, sea responsive y resulte fácil de usar para el usuario. Asimismo, se desarrolla una primera versión de la aplicación móvil en Kotlin y del backend en .NET. |
 | Sprint Velocity                 | Se establece un Velocity de 25 Story Points para el primer Sprint.                                                                                                                                                                                                                                                                                                          |
@@ -191,9 +191,9 @@ En el primer Sprint se priorizó la implementación de los módulos principales 
 
 | Repository                                                                                                                           | Branch  | Commit Id                                | Commit Message                                | Committed on (Date) |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------- | ---------------------------------------- |-----------------------------------------------|---------------------|
-| [https://github.com/LocalFood-Aplicacion-Movil/backend](https://github.com/LocalFood-Aplicacion-Movil/backend)                       | main    | ff647a1d3d5522d326800eec007282be666a983a                                         | feat: initial commit                          | 13/05/2026          |
-| [https://github.com/LocalFood-Aplicacion-Movil/mobile-application](https://github.com/LocalFood-Aplicacion-Movil/mobile-application) | develop | 56d0a6b6973e915df2e865ca3ef92d5065698f3a | Initial project setup: NearbyEats Android app | 12/05/2026          |
-| [https://github.com/LocalFood-Aplicacion-Movil/Landing-Page](https://github.com/LocalFood-Aplicacion-Movil/Landing-Page)             | main    | af7a7915dcbfddd22b51113e265885f012852d5c | feat: add i18n                                | 12/05/2026          |
+| [https://github.com/NearbyEats-Aplicacion-Movil/backend](https://github.com/NearbyEats-Aplicacion-Movil/backend)                       | main    | ff647a1d3d5522d326800eec007282be666a983a                                         | feat: initial commit                          | 13/05/2026          |
+| [https://github.com/NearbyEats-Aplicacion-Movil/mobile-application](https://github.com/NearbyEats-Aplicacion-Movil/mobile-application) | develop | 56d0a6b6973e915df2e865ca3ef92d5065698f3a | Initial project setup: NearbyEats Android app | 12/05/2026          |
+| [https://github.com/NearbyEats-Aplicacion-Movil/Landing-Page](https://github.com/NearbyEats-Aplicacion-Movil/Landing-Page)             | main    | af7a7915dcbfddd22b51113e265885f012852d5c | feat: add i18n                                | 12/05/2026          |
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services de los módulos **IAM** y **Groups** del proyecto **NearbyEats**.
@@ -222,11 +222,11 @@ El stack de testing utilizado fue **C#/.NET 9**, **xUnit**, **Moq**, **EF Core I
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on |
 |-----------|--------|-----------|---|---|--------------|
-| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-unit-iam` | `a1b2c3d` | test(unit): add xUnit+Moq tests for UserQueryService | Se agregaron pruebas unitarias que validan `GetAllAsync()`, `GetByIdAsync()` y `GetByUsernameAsync()` usando dobles de prueba de `IUserRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()`/`FindByUsernameAsync()` y retornos nulos cuando no existe el Id. | 13/05/2026   |
-| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-unit-iam` | `e4f5g6h` | test(unit): cover UserCommandService (SignUp/SignIn) | Se añadieron pruebas con Moq para asegurar que `Handle(SignUpCommand)` crea usuario, llama `AddAsync()` y `CompleteAsync()`. `Handle(SignInCommand)` autentica, genera JWT y valida contraseñas. Se testean casos de error: username duplicado, credenciales inválidas. | 13/05/2026   |
-| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-integration` | `i7j8k9l` | test(integration): User endpoints with WebApplicationFactory + EF InMemory | Se configuró `CustomWebApplicationFactory` y una BD InMemory para probar endpoints GET /api/v1/users y GET /api/v1/users/{id}, verificando códigos 200/404 y estructura de payload UserResource. Se validó persistencia de datos. | 13/05/2026   |
-| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-bdd-iam` | `m0n1o2p` | test(bdd): SpecFlow features for User Authentication | Se añadieron `.feature` con escenarios Gherkin (sign-up, sign-in exitoso, credenciales inválidas, username duplicado). Steps en C# que consumen la API, asertan payloads HTTP y estado persistido en BD InMemory. | 13/05/2026   |
-| https://github.com/LocalFood-Aplicacion-Movil/backend | `feature/testing-bdd-groups` | `q3r4s5t` | test(bdd): SpecFlow features for Group Management | Se añadieron `.feature` para listar grupos, obtener grupo por ID y validación de 404. Step definitions con `Given`/`When`/`Then` integrando `CustomWebApplicationFactory` para tests E2E. | 13/05/2026   |
+| https://github.com/NearbyEats-Aplicacion-Movil/backend | `feature/testing-unit-iam` | `a1b2c3d` | test(unit): add xUnit+Moq tests for UserQueryService | Se agregaron pruebas unitarias que validan `GetAllAsync()`, `GetByIdAsync()` y `GetByUsernameAsync()` usando dobles de prueba de `IUserRepository`. Se verifican llamadas a `ListAsync()`/`FindByIdAsync()`/`FindByUsernameAsync()` y retornos nulos cuando no existe el Id. | 13/05/2026   |
+| https://github.com/NearbyEats-Aplicacion-Movil/backend | `feature/testing-unit-iam` | `e4f5g6h` | test(unit): cover UserCommandService (SignUp/SignIn) | Se añadieron pruebas con Moq para asegurar que `Handle(SignUpCommand)` crea usuario, llama `AddAsync()` y `CompleteAsync()`. `Handle(SignInCommand)` autentica, genera JWT y valida contraseñas. Se testean casos de error: username duplicado, credenciales inválidas. | 13/05/2026   |
+| https://github.com/NearbyEats-Aplicacion-Movil/backend | `feature/testing-integration` | `i7j8k9l` | test(integration): User endpoints with WebApplicationFactory + EF InMemory | Se configuró `CustomWebApplicationFactory` y una BD InMemory para probar endpoints GET /api/v1/users y GET /api/v1/users/{id}, verificando códigos 200/404 y estructura de payload UserResource. Se validó persistencia de datos. | 13/05/2026   |
+| https://github.com/NearbyEats-Aplicacion-Movil/backend | `feature/testing-bdd-iam` | `m0n1o2p` | test(bdd): SpecFlow features for User Authentication | Se añadieron `.feature` con escenarios Gherkin (sign-up, sign-in exitoso, credenciales inválidas, username duplicado). Steps en C# que consumen la API, asertan payloads HTTP y estado persistido en BD InMemory. | 13/05/2026   |
+| https://github.com/NearbyEats-Aplicacion-Movil/backend | `feature/testing-bdd-groups` | `q3r4s5t` | test(bdd): SpecFlow features for Group Management | Se añadieron `.feature` para listar grupos, obtener grupo por ID y validación de 404. Step definitions con `Given`/`When`/`Then` integrando `CustomWebApplicationFactory` para tests E2E. | 13/05/2026   |
 
 
 ###### Unit (xUnit/Moq)
@@ -315,7 +315,7 @@ Para el despliegue de la landing page se utilizó el github pages, lo cual permi
 
 ![landing1.jpeg](../../assets/c4/landing1.jpeg)
 
-Link de la landing page desplegada: https://localfood-aplicacion-movil.github.io/Landing-Page/
+Link de la landing page desplegada: https://NearbyEats-aplicacion-movil.github.io/Landing-Page/
 ###### Deployment Backend
 
 Para el despliegue del backend se utilizó la plataforma Render, la cual permite alojar aplicaciones web de manera gratuita con ciertas limitaciones.

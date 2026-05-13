@@ -13,29 +13,29 @@ A continuación, mostramos algunos de los principales competidores identificados
 Este análisis resulta fundamental para comprender el mercado, las necesidades de los usuarios y la manera en que nuestro grupo puede brindar soluciones innovadoras y efectivas para diferenciarse de otras empresas y optimizar el producto.
 
 
-| Características              | LocalFoods                                                                                                                          | MeetWays                                                                 | Between.us                                                           |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Perfil - Overview**        | Aplicación que ayuda a parejas o grupos a encontrar el punto medio ideal para reunirse, con foco en restaurantes y comida.           | Herramienta web que encuentra un punto intermedio entre dos direcciones y sugiere lugares cercanos.             | App enfocada en parejas que buscan un punto de encuentro intermedio. |
-| **Ventaja competitiva**      | Pensada para grupos grandes, con recomendaciones personalizadas de restaurantes y filtros según tipo de comida (ej. pizza, sushi).   | Simple y directa, permite encontrar puntos medios de forma rápida.        | Muy sencilla y romántica, diseñada para uso en pareja.                |
-| **Mercado objetivo**         | Amigos, parejas o grupos que desean reunirse para comer en un lugar accesible para todos y dueños de restaurantes o gerentes que buscan atraer más clientes. | Personas que necesitan un punto intermedio rápido entre dos direcciones.  | Parejas que quieren compartir citas en un lugar a mitad de camino.   |
-| **Estrategias de marketing** | Campañas en redes sociales, colaboración con foodies e influencers gastronómicos, marketing de experiencias y SEO local.             | Presencia web básica, posicionamiento SEO para búsquedas de “meet halfway”.| Difusión en comunidades enfocadas en parejas y lifestyle romántico.  |
-| **Precios & Costos**         | Modelo freemium: uso gratuito básico con publicidad, opción premium para recomendaciones exclusivas y sin anuncios.                  | Gratuito, modelo sencillo sin planes destacados.                          | Gratuito, con funciones limitadas.                                   |
-| **Productos & Servicios**    | Recomendaciones de restaurantes en el punto medio, filtros por tipo de comida, reseñas integradas, mapas interactivos y chat seguro. | Búsqueda de puntos medios, direcciones y listado de lugares cercanos.     | Encuentro intermedio entre dos ubicaciones, opciones limitadas.      |
-| **Canales de distribución**  | App móvil (iOS y Android), plataforma web.                                                                                          | Principalmente web app.                                                   | App móvil (iOS y Android).                                           |
+| Características                | NearbyEats                                                                                                                                                   | MeetWays                                                                                            | Between.us                                                             |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| **Perfil - Overview**          | Aplicación que ayuda a parejas o grupos a encontrar el punto medio ideal para reunirse, con foco en restaurantes y comida.                                   | Herramienta web que encuentra un punto intermedio entre dos direcciones y sugiere lugares cercanos. | App enfocada en parejas que buscan un punto de encuentro intermedio.   |
+| **Ventaja competitiva**        | Pensada para grupos grandes, con recomendaciones personalizadas de restaurantes y filtros según tipo de comida (ej. pizza, sushi).                           | Simple y directa, permite encontrar puntos medios de forma rápida.                                  | Muy sencilla y romántica, diseñada para uso en pareja.                 |
+| **Mercado objetivo**           | Amigos, parejas o grupos que desean reunirse para comer en un lugar accesible para todos y dueños de restaurantes o gerentes que buscan atraer más clientes. | Personas que necesitan un punto intermedio rápido entre dos direcciones.                            | Parejas que quieren compartir citas en un lugar a mitad de camino.     |
+| **Estrategias de marketing**   | Campañas en redes sociales, colaboración con foodies e influencers gastronómicos, marketing de experiencias y SEO local.                                     | Presencia web básica, posicionamiento SEO para búsquedas de “meet halfway”.                         | Difusión en comunidades enfocadas en parejas y lifestyle romántico.    |
+| **Precios & Costos**           | Modelo freemium: uso gratuito básico con publicidad, opción premium para recomendaciones exclusivas y sin anuncios.                                          | Gratuito, modelo sencillo sin planes destacados.                                                    | Gratuito, con funciones limitadas.                                     |
+| **Productos & Servicios**      | Recomendaciones de restaurantes en el punto medio, filtros por tipo de comida, reseñas integradas, mapas interactivos y chat seguro.                         | Búsqueda de puntos medios, direcciones y listado de lugares cercanos.                               | Encuentro intermedio entre dos ubicaciones, opciones limitadas.        |
+| **Canales de distribución**    | App móvil (iOS y Android), plataforma web.                                                                                                                   | Principalmente web app.                                                                             | App móvil (iOS y Android).                                             |
 
 
 ## Análisis FODA
 
-| Elemento          | LocalFoods                                                                                                      | MeetWays                                                                       | Between.us                                                           |
-| ----------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| **Fortalezas**    | Enfoque en grupos y parejas; especializado en comida; recomendaciones personalizadas; beneficios para restaurantes y gerentes. | Herramienta rápida y sencilla para encontrar un punto intermedio.              | Aplicación clara y simple, orientada a parejas.                      |
-| **Oportunidades** | Alianzas con restaurantes locales; expansión a más ciudades; integrar IA para recomendaciones y experiencias sociales. | Expandirse a más ubicaciones y añadir filtros básicos de lugares.              | Ampliar funciones para grupos o añadir recomendaciones de restaurantes. |
-| **Debilidades**   | Requiere mayor adopción inicial; necesita generar confianza en la calidad de las recomendaciones; competencia de apps genéricas como Google Maps. | Limitado casi siempre a dos direcciones; sin integración de reseñas ni filtros avanzados. | Nicho muy reducido (solo parejas); poca versatilidad para otros usos. |
-| **Amenazas**      | Competidores más grandes que integren funciones similares (ej. Google Maps, Waze con restaurantes); baja fidelización si no ofrece valor diferencial. | Competidores que agreguen más funciones avanzadas; pérdida de usuarios frente a apps más completas. | Competidores sociales más completos que cubran citas y grupos.        |
+| Elemento            | NearbyEats                                                                                                                                            | MeetWays                                                                                            | Between.us                                                              |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Fortalezas**      | Enfoque en grupos y parejas; especializado en comida; recomendaciones personalizadas; beneficios para restaurantes y gerentes.                        | Herramienta rápida y sencilla para encontrar un punto intermedio.                                   | Aplicación clara y simple, orientada a parejas.                         |
+| **Oportunidades**   | Alianzas con restaurantes locales; expansión a más ciudades; integrar IA para recomendaciones y experiencias sociales.                                | Expandirse a más ubicaciones y añadir filtros básicos de lugares.                                   | Ampliar funciones para grupos o añadir recomendaciones de restaurantes. |
+| **Debilidades**     | Requiere mayor adopción inicial; necesita generar confianza en la calidad de las recomendaciones; competencia de apps genéricas como Google Maps.     | Limitado casi siempre a dos direcciones; sin integración de reseñas ni filtros avanzados.           | Nicho muy reducido (solo parejas); poca versatilidad para otros usos.   |
+| **Amenazas**        | Competidores más grandes que integren funciones similares (ej. Google Maps, Waze con restaurantes); baja fidelización si no ofrece valor diferencial. | Competidores que agreguen más funciones avanzadas; pérdida de usuarios frente a apps más completas. | Competidores sociales más completos que cubran citas y grupos.          |
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
-Estas son las principales estrategias que aplicará LocalFood para diferenciarse de sus competidores:
+Estas son las principales estrategias que aplicará NearbyEats para diferenciarse de sus competidores:
 
 - Ofrecer recomendaciones personalizadas de restaurantes en el punto medio según las preferencias de comida de los usuarios (ej. pizza, sushi, vegetariano).
 
@@ -45,7 +45,7 @@ Estas son las principales estrategias que aplicará LocalFood para diferenciarse
 
 - Establecer alianzas con restaurantes y gerentes locales, ofreciendo promociones exclusivas para los grupos que lleguen a través de la app.
 
-De esta manera, LocalFood se diferenciará al crear una experiencia más social, gastronómica y colaborativa que otras apps del rubro, generando valor tanto para los usuarios como para los restaurantes.
+De esta manera, NearbyEats se diferenciará al crear una experiencia más social, gastronómica y colaborativa que otras apps del rubro, generando valor tanto para los usuarios como para los restaurantes.
 
 ### 2.2. Entrevistas
 
@@ -89,7 +89,7 @@ Hola, gracias por participar en esta entrevista. Antes de empezar, me gustaría 
 
 5.¿Qué tan dispuesto estarías a probar una plataforma que te ayude a gestionar reservas y aumentar la visibilidad de tu local?
 
-6.¿Qué tipo de promociones o funciones (descuentos, publicidad destacada, control de capacidad) te motivarían a unirte a una aplicación como LocalFood?
+6.¿Qué tipo de promociones o funciones (descuentos, publicidad destacada, control de capacidad) te motivarían a unirte a una aplicación como NearbyEats?
 
 7.¿Te interesaría pagar por mayor visibilidad dentro de la aplicación para destacar tu local frente a la competencia?
 
@@ -224,7 +224,7 @@ Los User personas se realizaron en base a las distintas personas que entrevistam
 
 #### 2.3.2. User Task Matrix
 
-En esta sección vamos a detallar las tareas que realizan los diferentes segmentos de usuarios representados por los User Personas de nuestra aplicación LocalFood.
+En esta sección vamos a detallar las tareas que realizan los diferentes segmentos de usuarios representados por los User Personas de nuestra aplicación NearbyEats.
 
 **Comensal: María Tasayco**
 
@@ -274,7 +274,7 @@ El viaje de Luis, un emprendedor de 30 años dueño de un puesto de comida, inic
 
 El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya que nos permitirá establecer un lenguaje común y compartido entre todos los miembros del equipo.
 
-**Ubiquitous Language – LOCALFOOD**
+**Ubiquitous Language – NearbyEats**
 
 1. Comensal: Usuario que busca reunirse con amigos, familiares o grupos en un local accesible para todos.
 
@@ -651,7 +651,7 @@ En los siguientes gráficos se ilustra el proceso utilizado para analizar la col
 ![dmessage3.jpeg](../../assets/chapter-2/dmessage3.jpeg)
 #### 2.5.1.3. Bounded Context Canvases
 
-El Bounded Context Canvas se utilizó para definir y delimitar los distintos contextos del sistema LocalFood, permitiendo identificar de manera clara las responsabilidades de cada módulo y su relación dentro de la solución. Esta herramienta facilitó la comprensión del dominio, alineando al equipo en torno a una estructura coherente basada en los diferentes bounded contexts identificados, como gestión de usuarios, grupos, restaurantes, reservas, ubicación y feedback.
+El Bounded Context Canvas se utilizó para definir y delimitar los distintos contextos del sistema NearbyEats, permitiendo identificar de manera clara las responsabilidades de cada módulo y su relación dentro de la solución. Esta herramienta facilitó la comprensión del dominio, alineando al equipo en torno a una estructura coherente basada en los diferentes bounded contexts identificados, como gestión de usuarios, grupos, restaurantes, reservas, ubicación y feedback.
 
 A través de este enfoque, fue posible describir aspectos clave de cada contexto, como su propósito, clasificación, lenguaje ubicuo, decisiones de negocio e interacciones con otros contextos y sistemas externos. Esto permitió diseñar una arquitectura modular, bien organizada y alineada con las necesidades del negocio.
 
@@ -689,7 +689,7 @@ Aquí se presenta el diagrama de contenedores, detallando los componentes princi
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-El diagrama de despliegue muestra cómo el sistema LocalFood opera en producción. Los usuarios acceden mediante una aplicación web (SPA en Angular) desde el navegador y una aplicación móvil en Kotlin (Android), las cuales consumen la API Backend a través de servicios REST.
+El diagrama de despliegue muestra cómo el sistema NearbyEats opera en producción. Los usuarios acceden mediante una aplicación web (SPA en Angular) desde el navegador y una aplicación móvil en Kotlin (Android), las cuales consumen la API Backend a través de servicios REST.
 El backend, desarrollado en Spring Boot, se encuentra desplegado en Azure y organiza sus módulos mediante bounded contexts. Este se conecta a una base de datos MySQL para la persistencia de la información.
 Además, la aplicación se integra con servicios externos mediante HTTPS/JSON, como APIs de mapas y rutas para calcular distancias y tráfico, y servicios de catálogo de lugares para obtener información como horarios y valoraciones.
 
@@ -861,7 +861,7 @@ Este diagrama representa el modelo de base de datos asociado al bounded context 
 
 ### 2.6.2. Bounded Context: Groups
 
-El bounded context Groups es responsable de gestionar la lógica relacionada con la formación de grupos de usuarios, la administración de colegas, restaurantes asociados y cálculos de distancia dentro del sistema LocalFood.
+El bounded context Groups es responsable de gestionar la lógica relacionada con la formación de grupos de usuarios, la administración de colegas, restaurantes asociados y cálculos de distancia dentro del sistema NearbyEats.
 Este contexto permite la interacción colaborativa entre usuarios, facilitando la organización de grupos y la toma de decisiones basadas en ubicaciones y restaurantes.
 La arquitectura sigue los principios de Domain-Driven Design (DDD) y Clean Architecture, separando responsabilidades en Domain Layer, Application Layer, Interface Layer e Infrastructure Layer.
 
@@ -987,7 +987,7 @@ Este diagrama representa el modelo de base de datos del bounded context Groups, 
 ![group-3.jpg](../../assets/chapter-2/group-3.jpg)
 
 ### 2.6.3. Bounded Context: Restaurants
-El Bounded Context Restaurants es responsable de la gestión integral de los establecimientos dentro del ecosistema de LocalFood. Sus funciones principales abarcan desde el registro de locales por parte de los dueños, la validación de información (ubicación y horarios), hasta la actualización de disponibilidad en tiempo real y la gestión de promociones con vigencia temporal. Este contexto garantiza que solo los restaurantes verificados sean visibles en los resultados de búsqueda para los grupos de usuarios.
+El Bounded Context Restaurants es responsable de la gestión integral de los establecimientos dentro del ecosistema de NearbyEats. Sus funciones principales abarcan desde el registro de locales por parte de los dueños, la validación de información (ubicación y horarios), hasta la actualización de disponibilidad en tiempo real y la gestión de promociones con vigencia temporal. Este contexto garantiza que solo los restaurantes verificados sean visibles en los resultados de búsqueda para los grupos de usuarios.
 
 ---
 
@@ -1550,7 +1550,7 @@ Este diagrama representa las entidades del dominio del bounded context Discovery
 
 ## Conclusiones
 
-En este primer avance del proyecto LocalFood, se llegaron a las siguientes conclusiones:
+En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
 
 - Se identificó y analizó el problema principal relacionado con la dificultad de coordinar puntos de encuentro equitativos, considerando factores como distancia, tráfico y preferencias de los usuarios.
 
@@ -1568,7 +1568,7 @@ En este primer avance del proyecto LocalFood, se llegaron a las siguientes concl
 
 - Se establecieron las bases para una arquitectura escalable y mantenible, alineada con las necesidades del negocio y enfocada en mejorar la experiencia del usuario.
 
-Estas conclusiones reflejan el avance en la comprensión del dominio, la definición de la solución y el diseño inicial de la arquitectura del sistema LocalFood.
+Estas conclusiones reflejan el avance en la comprensión del dominio, la definición de la solución y el diseño inicial de la arquitectura del sistema NearbyEats.
 
 ## Bibliografía
 

@@ -9,7 +9,7 @@
 ### Nombre del profesor: David Gerardo Quevedo Velasco
 ## **Informe del Trabajo Final**
 ## Nombre del startup: Location
-## Nombre del producto: LocalFood
+## Nombre del producto: NearbyEats
 
 ### Relación de integrantes:
 
@@ -27,21 +27,21 @@
 
 # Registro de versiones del informe
 
-| Versión | Fecha      | Autor                                 | Descripción de modificación                                                                                                                                  |
-|---------|------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| 1.1     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion de la organizacion **LocalFood-Aplicacion-Movil**                                                                                                   |
-| 1.2     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del repositorio **final-report**                                                                                                                    |
-| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-1**                                                                                                                            |
-| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-2**                                                                                                                            |
-| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-3**                                                                                                                            |
-| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-4**                                                                                                                            |
-| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-5**                                                                                                                            |
-| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André            | Creacion del branch **chapter-6**                                                                                                                            
-| 1.9     | 20/04/2026 | Mamani Marca, Gabriel Cristian        | Elaboración de los puntos: Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Software Architecture Deployment Diagrams. |
-| 2.0     | 21/04/2026 | Guia Carrasco, Pedro André            | Elaboración de los puntos: Competidores, Needfinding, Solution Profile y Lean UX Problem Statements.                                                         |
-| 2.1     | 21/04/2026 | Alejos Jesus, Anyelo Bill             | Elaboración de los puntos: Bounded Context AlertStockManagement Context, incluyendo Domain Layer, Application Layer e Interface Layer.                       |
-| 2.2     | 21/04/2026 | Ventosilla Trujillo, Anderson Ricardo | Elaboración de los puntos: Bounded Context Software Architecture Component Level Diagrams y Bounded Context Software Architecture Code Level Diagrams        |
-| 2.3     | 22/04/2026 | Sanchez guevara, Ivan Fernando                     | Elaboración de los puntos: Bounded Context Software Architecture Code Level Diagrams, Bounded Context Software Architecture Component Level Diagrams, registro de entrevistas y segmentos objetivos.                                                                                                                                                             |
+| Versión | Fecha      | Autor                                                | Descripción de modificación                                                                                                                                                                          |
+|---------|------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| 1.1     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion de la organizacion **NearbyEats-Aplicacion-Movil**                                                                                                                                          |
+| 1.2     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del repositorio **final-report**                                                                                                                                                            |
+| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del branch **chapter-1**                                                                                                                                                                    |
+| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del branch **chapter-2**                                                                                                                                                                    |
+| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del branch **chapter-3**                                                                                                                                                                    |
+| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del branch **chapter-4**                                                                                                                                                                    |
+| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del branch **chapter-5**                                                                                                                                                                    |
+| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André                           | Creacion del branch **chapter-6**                                                                                                                                                                    |
+| 1.9     | 20/04/2026 | Mamani Marca, Gabriel Cristian                       | Elaboración de los puntos: Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Software Architecture Deployment Diagrams.                                         |
+| 2.0     | 21/04/2026 | Guia Carrasco, Pedro André                           | Elaboración de los puntos: Competidores, Needfinding, Solution Profile y Lean UX Problem Statements.                                                                                                 |
+| 2.1     | 21/04/2026 | Alejos Jesus, Anyelo Bill                            | Elaboración de los puntos: Bounded Context AlertStockManagement Context, incluyendo Domain Layer, Application Layer e Interface Layer.                                                               |
+| 2.2     | 21/04/2026 | Ventosilla Trujillo, Anderson Ricardo                | Elaboración de los puntos: Bounded Context Software Architecture Component Level Diagrams y Bounded Context Software Architecture Code Level Diagrams                                                |
+| 2.3     | 22/04/2026 | Sanchez guevara, Ivan Fernando                       | Elaboración de los puntos: Bounded Context Software Architecture Code Level Diagrams, Bounded Context Software Architecture Component Level Diagrams, registro de entrevistas y segmentos objetivos. |
 
 
 
@@ -51,8 +51,8 @@
 #### Repositorio del informe del proyecto
 El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
 
--  Enlace de la organización: https://github.com/LocalFood-Aplicacion-Movil
--  Enlace de repositorios: https://github.com/orgs/LocalFood-Aplicacion-Movil/repositories
+-  Enlace de la organización: https://github.com/NearbyEats-Aplicacion-Movil
+-  Enlace de repositorios: https://github.com/orgs/NearbyEats-Aplicacion-Movil/repositories
 
 A continuación, se muestra evidencia de los insights de colaboración del equipo durante la elaboración del informe:
 
