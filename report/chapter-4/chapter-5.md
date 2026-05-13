@@ -48,15 +48,42 @@ Link del tablero trello: https://trello.com/invite/b/6a03e4afef689f0a5e60b71d/AT
 
 En el primer Sprint se priorizó la implementación de los módulos principales del negocio en el backend. Asimismo, se desarrolló la landing page y la aplicación móvil.
 
-| Repository                                                                                                                           | Branch  | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------- | --------- | -------------- | ------------------- | ------------------- |
-| [https://github.com/LocalFood-Aplicacion-Movil/backend](https://github.com/LocalFood-Aplicacion-Movil/backend)                       | main    |           |                |                     |                     |
-| [https://github.com/LocalFood-Aplicacion-Movil/mobile-application](https://github.com/LocalFood-Aplicacion-Movil/mobile-application) | develop |           |                |                     |                     |
-| [https://github.com/LocalFood-Aplicacion-Movil/Landing-Page](https://github.com/LocalFood-Aplicacion-Movil/Landing-Page)             | main    |           |                |                     |                     |
+| Repository                                                                                                                           | Branch  | Commit Id                                | Commit Message                                | Committed on (Date) |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------- | ---------------------------------------- |-----------------------------------------------|---------------------|
+| [https://github.com/LocalFood-Aplicacion-Movil/backend](https://github.com/LocalFood-Aplicacion-Movil/backend)                       | main    | ff647a1d3d5522d326800eec007282be666a983a                                         | feat: initial commit                          | 13/05/2026          |
+| [https://github.com/LocalFood-Aplicacion-Movil/mobile-application](https://github.com/LocalFood-Aplicacion-Movil/mobile-application) | develop | 56d0a6b6973e915df2e865ca3ef92d5065698f3a | Initial project setup: NearbyEats Android app | 12/05/2026          |
+| [https://github.com/LocalFood-Aplicacion-Movil/Landing-Page](https://github.com/LocalFood-Aplicacion-Movil/Landing-Page)             | main    | af7a7915dcbfddd22b51113e265885f012852d5c | feat: add i18n                                | 12/05/2026          |
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
 ##### 4.2.1.5. Execution Evidence for Sprint Review
+
+En este primer sprint se desarrolló la landing page, donde se brinda información del negocio. Además, se desarrolló la primera versión del frontend móvil.
+
+Se completaron las siguientes tareas para la landing page:
+
+* Sección de Sobre Nosotros
+* Sección de Marcas Registradas
+* Sección de Países Hábiles
+* Implementación de internacionalización para español e inglés
+* Diseño responsive para dispositivos móviles
+
+A continuacion  se presentan evidencias de todo el desarrollo en este primer sprint:
+
+**Landing Page:**
+
+![landing4.jpeg](../../assets/c4/landing4.jpeg)
+![landing1.jpeg](../../assets/c4/landing1.jpeg)
+![landing5.jpeg](../../assets/c4/landing5.jpeg)
+![landing2.jpeg](../../assets/c4/landing2.jpeg)
+![landing3.jpeg](../../assets/c4/landing3.jpeg)
+
+**Aplicación móvil:**
+
+![movil1.jpeg](../../assets/c4/movil1.jpeg)
+![movil2.jpeg](../../assets/c4/movil2.jpeg)
+![movil3.jpeg](../../assets/c4/movil3.jpeg)
+![movil4.jpeg](../../assets/c4/movil4.jpeg)
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
