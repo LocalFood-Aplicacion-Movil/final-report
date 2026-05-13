@@ -110,7 +110,7 @@ Bc Restaurants: Consulta de restaurantes cercanos y sus detalles
 ![back6.jpeg](../../assets/c4/back6.jpeg)
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
-En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services de los módulos **IAM** y **Groups** del proyecto **Backend-v1**.
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests (BDD)** automatizados desarrollados durante el Sprint, para los Web Services de los módulos **IAM** y **Groups** del proyecto **NearbyEats**.
 
 El stack de testing utilizado fue **C#/.NET 9**, **xUnit**, **Moq**, **EF Core InMemory**, **Microsoft.AspNetCore.Mvc.Testing** y **SpecFlow (Gherkin)**.
 
