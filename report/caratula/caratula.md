@@ -212,9 +212,9 @@ A continuación, se muestra evidencia de los insights de colaboración del equip
     - [4.1.4. Software Deployment Configuration]()
 
 - [4.2. Landing Page & Mobile Application Implementation]()
-    - [4.2.1. Sprint n]()
-        - [4.2.1.1. Sprint Planning n]()
-        - [4.2.1.2. Sprint Backlog n]()
+    - [4.2.1. Sprint 1]()
+        - [4.2.1.1. Sprint Planning 1]()
+        - [4.2.1.2. Sprint Backlog 1]()
         - [4.2.1.3. Development Evidence for Sprint Review]()
         - [4.2.1.4. Testing Suite Evidence for Sprint Review]()
         - [4.2.1.5. Execution Evidence for Sprint Review]()
