@@ -220,8 +220,37 @@ El sistema de navegación en **LocalFood** está diseñado para ser **intuitivo 
 ---
 
 ### 3.1.3. Landing Page UI Design
+
+**Introducción:**  
+La landing page de LocalFood refleja los valores de equidad, frescura y eficiencia. La estructura guía al usuario de manera clara hacia los beneficios y el uso inmediato de la app.
+
+---
+
 #### 3.1.3.1. Landing Page Wireframe
+
+**Versión Desktop**
+
+Los wireframes muestran la jerarquía de secciones, menús y CTA sin detalles visuales, priorizando la organización de contenido y navegación.
+
+![Wirelading1.png](../../assets/chapter-3/Wirelading1.png)
+
+![Wirelading2.png](../../assets/chapter-3/Wirelading2.png)
+
+![Wirelading3.png](../../assets/chapter-3/Wirelading3.png)
+
+![Wirelading4.png](../../assets/chapter-3/Wirelading4.png)
+
 #### 3.1.3.2. Landing Page Mock-up
+
+**Versión Desktop**
+
+![Wirelading1.png](../../assets/chapter-3/Wirelading1.png)
+
+![Wirelading2.png](../../assets/chapter-3/Wirelading2.png)
+
+![Wirelading3.png](../../assets/chapter-3/Wirelading3.png)
+
+![Wirelading4.png](../../assets/chapter-3/Wirelading4.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
@@ -229,3 +258,9 @@ El sistema de navegación en **LocalFood** está diseñado para ser **intuitivo 
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 #### 3.1.4.5. Mobile Applications Prototyping
+
+En esta sección se presentan los prototipos de interfaz de usuario desarrollados para la versión web en navegadores de escritorio, tanto para turistas como para agencias. Estos prototipos simulan la navegación e interacción con las principales funcionalidades, en base a los flujos definidos previamente en los Wireflow Diagrams.
+
+Las decisiones de interacción se tomaron considerando principios de usabilidad, claridad visual, diseño inclusivo y una arquitectura de información coherente. Se priorizó una navegación intuitiva, adaptada al perfil y objetivos de cada usuario. El sistema de navegación, las jerarquías visuales y los tipos de interacción fueron diseñados para facilitar la experiencia del usuario, busqueda del punto de encuentro mas óptimo, entre otras actividades.
+
+Los prototipos permiten visualizar el comportamiento del sistema ante las principales tareas definidas, asegurando una experiencia consistente y funcional. Se incluye una captura de pantalla y un enlace al video en Microsoft Stream donde se muestra la simulación de interacción correspondiente.
