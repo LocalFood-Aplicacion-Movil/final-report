@@ -345,11 +345,6 @@ Mobile application
 
 ![mobile-collaboration.png](../../assets/chapter-4/mobile-collaboration.png)
 
-### 4.3. Validation Interviews
-#### 4.3.1. Diseño de Entrevistas
-#### 4.3.2. Registro de Entrevistas
-#### 4.3.3. Evaluaciones según heurísticas
-
 ## Conclusiones
 
 En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
