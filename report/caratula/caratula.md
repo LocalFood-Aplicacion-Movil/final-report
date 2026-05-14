@@ -7,7 +7,7 @@
 ### Nombre del curso: Aplicaciones para DIspositivos Móviles (1ACC0238)
 ### NRC: 3687
 ### Nombre del profesor: David Gerardo Quevedo Velasco
-## **Informe del Trabajo Final**
+## **Informe de TB1**
 ## Nombre del startup: Location
 ## Nombre del producto: NearbyEats
 
@@ -21,7 +21,7 @@
 | U202220659 | Pedro Andre Guia Carrasco    |
 | U202220659 | Anderson Ricardo Ventosilla Trujillo    |
 
-### **Abril, 2026**
+### **Mayo, 2026**
 
 ---
 
@@ -67,6 +67,11 @@ A continuación, se muestra evidencia de los insights de colaboración del equip
 
 ![git1.jpeg](../../assets/caratula/git1.jpeg)
 
+*TB1*:
+
+![gitcolaboration1.jpeg](../../assets/caratula/gitcolaboration1.jpeg)
+
+![gitcolaboration2.jpeg](../../assets/caratula/gitcolaboration2.jpeg)
 # Contenido
 
 ## Tabla de Contenidos
