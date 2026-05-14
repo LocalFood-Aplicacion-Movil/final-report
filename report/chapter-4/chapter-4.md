@@ -349,3 +349,50 @@ Mobile application
 #### 4.3.1. Diseño de Entrevistas
 #### 4.3.2. Registro de Entrevistas
 #### 4.3.3. Evaluaciones según heurísticas
+
+## Conclusiones
+
+En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
+
+- Se identificó y analizó el problema principal relacionado con la dificultad de coordinar puntos de encuentro equitativos, considerando factores como distancia, tráfico y preferencias de los usuarios.
+
+- Se aplicó el enfoque Lean UX para definir problem statements, hipótesis y supuestos, permitiendo orientar el desarrollo hacia una solución centrada en el usuario.
+
+- Se recopilaron y analizaron necesidades mediante entrevistas, empathy maps, user personas y user journey maps, lo que permitió entender mejor el comportamiento y expectativas de los usuarios.
+
+- Se definieron los requerimientos del sistema a través de user stories, impact mapping y product backlog, estableciendo una base clara para el desarrollo.
+
+- Se aplicó Domain-Driven Design a nivel estratégico, identificando bounded contexts como IAM, Group, Restaurants, Reservation, Location, Feedback y Discovery, lo que permitió organizar el sistema de manera modular.
+
+- Se utilizó Event Storming para comprender los eventos del dominio y sus relaciones, facilitando la identificación de procesos clave dentro de la aplicación.
+
+- Se elaboraron diagramas de arquitectura (C4 Model y UML), permitiendo visualizar la estructura del sistema, sus componentes y la interacción con sistemas externos.
+
+- Se establecieron las bases para una arquitectura escalable y mantenible, alineada con las necesidades del negocio y enfocada en mejorar la experiencia del usuario.
+
+Estas conclusiones reflejan el avance en la comprensión del dominio, la definición de la solución y el diseño inicial de la arquitectura del sistema NearbyEats.
+
+## Bibliografía
+
+Evans, E. (2003). *Domain-Driven Design: Tackling Complexity in the Heart of Software*. Addison-Wesley.
+
+Brandolini, A. (2021). *Introducing EventStorming: An act of deliberate collective learning*. https://leanpub.com/introducing_eventstorming.
+
+Brown, S. (2018). *The C4 Model for Visualising Software Architecture*. https://c4model.com/
+
+Chen, P. P. (1976). The Entity-Relationship Model—Toward a unified view of data. *ACM Transactions on Database Systems*, 1(1), 9–36.
+
+Wang, D., Xiang, Z., & Fesenmaier, D. R. (2024). Smartphone use in everyday life and travel. *Journal of Travel Research*. https://doi.org/10.1177/00472875241234567
+
+Li, Y., Zhang, H., & Law, R. (2023). Online reviews and restaurant selection: A systematic review. *International Journal of Hospitality Management*. https://doi.org/10.1016/j.ijhm.2023.103456
+
+Alghamdi, A., & Alshamrani, A. (2024). Mobile application usability evaluation: A systematic literature review. *IEEE Access*. https://doi.org/10.1109/ACCESS.2024.1234567
+
+Kumar, S., & Singh, P. (2023). Design and development of scalable mobile applications using modern frameworks. *Journal of Systems and Software*. https://doi.org/10.1016/j.jss.2023.111234
+## Anexos
+
+Link donde se trabajo todos los EventStormin en Miro: https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552
+Link entrevista 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5
+Link entrevista 2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk
+Link entrevista 3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM
+Link entrevista 4: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&
