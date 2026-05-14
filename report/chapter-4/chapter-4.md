@@ -391,12 +391,6 @@ Alghamdi, A., & Alshamrani, A. (2024). Mobile application usability evaluation: 
 Kumar, S., & Singh, P. (2023). Design and development of scalable mobile applications using modern frameworks. *Journal of Systems and Software*. https://doi.org/10.1016/j.jss.2023.111234
 ## Anexos
 
-Link donde se trabajo todos los EventStormin en Miro: https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552
-Link entrevista 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5
-Link entrevista 2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk
-Link entrevista 3: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM
-Link entrevista 4: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&
-
 | Anexo                     | Enlace                                                                                                                                                                                                                                                               |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EventStorming en Miro     | [https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552](https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552)                                                                                                                           |
