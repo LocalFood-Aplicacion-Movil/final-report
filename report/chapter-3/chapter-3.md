@@ -244,19 +244,461 @@ Los wireframes muestran la jerarquía de secciones, menús y CTA sin detalles vi
 
 **Versión Desktop**
 
-![Wirelading1.png](../../assets/chapter-3/Wirelading1.png)
+![Wirelading1.png](../../assets/chapter-3/Mocklading1.png)
 
-![Wirelading2.png](../../assets/chapter-3/Wirelading2.png)
+![Wirelading2.png](../../assets/chapter-3/Mocklading2.png)
 
-![Wirelading3.png](../../assets/chapter-3/Wirelading3.png)
+![Wirelading3.png](../../assets/chapter-3/Mocklading3.png)
 
-![Wirelading4.png](../../assets/chapter-3/Wirelading4.png)
+![Wirelading4.png](../../assets/chapter-3/Mocklading4.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes
+<br><br>
+
+os wireframes de Location han sido desarrollados aplicando principios clave de diseño centrado en el usuario, priorizando la claridad visual, el lenguaje no verbal mediante el uso de colores y la accesibilidad. Cada sección está estructurada con una navegación intuitiva y coherente entre el menú lateral, el encabezado fijo y los bloques de contenido, lo que refleja una arquitectura de información jerárquica y secuencial bien definida. Se han implementado elementos de diseño consistentes como tarjetas, iconos descriptivos, botones llamativos y funcionalidades bien distribuidas, facilitando una interacción fluida en dispositivos de distintos tamaños. Además, se ha incorporado un enfoque de diseño atractivo que apela a la intuición no verbal (tamaño de letras, imágenes explicativas, etc.), permitiendo que usuarios con diversos niveles de experiencia digital puedan navegar sin dificultades. Todo el diseño planteado busca lograr una experiencia coherente entre perfiles (comensales), enfocada en guiar a los usuarios hacia sus objetivos (elegir restaurante, agregar amigos, realizar cálculos) de forma eficiente y accesible.
+
+https://www.figma.com/design/yYfL713QlyMtwmfv4xSrgi/Untitled?node-id=0-1&p=f&t=fW8Jps3nrsVBF4dK-0
+
+**Iniciar Sesió Registrarse** :  
+
+Permite a nuevos usuarios crear una cuenta para la aplicacion, y a usuarios existentes ingresar con sus correos para acceder a su perfil.
+
+<p align="center">
+
+![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe1.png)
+</p>
+
+<p align="center">
+    Wireframe Sing In - Elaboración propia
+</p>
+
+
+<p align="center">
+
+ ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe2.png)
+</p>
+
+<p align="center">
+    Wireframe User Register - Elaboración propia
+</p>
+
++ **Pagina de inicio del usuario**:
+
+Muestra el perfil del usuario, su codigo QR, y restaurante, el frecuente y el ultio de seleccion anterior. El inicio de la rica coordinacion.
+
+<p align="center">
+
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe3.png)
+</p>
+
+<p align="center">
+    Wireframe User Homepage - Elaboración propia
+</p>
+
+<p align="center">
+
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe4.png)
+</p>
+
+<p align="center">
+    Wireframe User Menu - Elaboración propia
+</p>
+
++ **Mis Contactos**:
+
+Apartado que permite agregar, ver y seleccionar contactos para el calculo respecto a un grupo
+
+<p align="center">
+
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe5.png)
+</p>
+
+<p align="center">
+    Wireframe User Add Contact - Elaboración propia
+</p>
+
+<p align="center">
+
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe6.png)
+</p>
+
+<p align="center">
+    Wireframe User Contactpage - Elaboración propia
+</p>
+
+<p align="center">
+  
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe7.png)
+</p>
+
+<p align="center">
+    Wireframe User selection Contact - Elaboración propia
+</p>
+
+
++ **Restaurantes disponibles**:
+
+Muestras los restaurantes disponibles de la aplicacion al usuario y permite su seleccion.
+
+<p align="center">
+
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe8.png)
+</p>
+
+<p align="center">
+    Wireframe User Restaurantpage - Elaboración propia
+</p>
+
+<p align="center">
+
+![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe9.png)
+</p>
+
+<p align="center">
+    Wireframe User selection Restaurant - Elaboración propia
+</p>
+
++ **Realizar Calculo**:
+
+Formula el calculo respecto al restaurante mas cercano en proporcion a la hubicacion de las personas del grupo.
+
+<p align="center">
+
+  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe10.png)
+</p>
+
+<p align="center">
+
+  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe11.png)
+</p>
+
+<p align="center">
+    Wireframe User Calculationtpage - Elaboración propia
+</p>
+
+<p align="center">
+
+  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe10.png)
+</p>
+
+<p align="center">
+
+  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe12.png)
+</p>
+
+<p align="center">
+    Wireframe User Run Calculation - Elaboración propia
+</p>
+
+
+
+<br><br>
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+https://miro.com/app/board/uXjVHTv6mYw=/
+
+**Wireflow 1: Login / Registrarse**
+
+**User Goal:** Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma y ustilizar sus herramientas.
+
+**User Persona:** Comensales
+
+**Flujo:** El usuario accede a la landing page y hace clic en “iniciar sesion” desde arriba del logotipo. Si ya tiene cuenta, introduce su correo y contraseña afiliada a esa cuenta. Si es nuevo, completa el formulario correspondiente con el nombre de usuario, correo y contraseña. Tras completar el proceso, es redirigido automáticamente a su pagina de perfil.
+
+<p align="center">
+  
+  <![Wireflow1.png](../../assets/chapter-3/Wireflow/Wflow1.png)
+</p>
+
+<p align="center">
+    Wireflow Login y Register - Elaboración propia
+</p>
+
++ **Wireflow 2: Agregar a nueva persona**
+
+**User Goal:** Como usuario, quiero agregar a una nueva persona de la plataforma de forma efectiva.
+
+**User Persona:** Comensales
+
+**Flujo:** Desde su perfil ingresa a la seccion de "Contactos" para luego buscar a la persona por medio de su nombre, codigo o para rapides, escaneo de QR y finalmente manda la solicitud.
+
+<p align="center">
+  
+   <![Wireflow1.png](../../assets/chapter-3/Wireflow/Wflow2.png)
+</p>
+
+<p align="center">
+    Wireflow Agregar a nueva persona  - Elaboración propia
+</p>
+
++ **Wireflow 3: Cambiar Restaurante durante el calculo**
+
+**User Goal:** Como usuario, quiero cambiar de restaurante tanto antes como durante el calculo para no volver a crear la lista.
+
+**User Persona:** Comensales
+
+**Flujo:** Desde su perfil ingresa a la seccion de "Contactos" para seleccionar a las personas para un grupo, luego ir a la seccion de "Restaurantes" para elegir a cual ir, luego van a la seccion de "Calculo" para proceder con el calculo, luego si se desea cambiar de restaurante, presione el boton 2 que le permitira editar el restaurante, para luego volver a la seccion de "Calculo" y seguir realizando su el procedimiento. 
+
+<p align="center">
+  
+   <![Wireflow1.png](../../assets/chapter-3/Wireflow/Wflow3.png)
+</p>
+
+<p align="center">
+    Wireflow Cambiar Restaurante durante el calculo  - Elaboración propia
+</p>
+
+
++ **Wireflow 4: Aceptar o Denegar Calculos de otra personas**
+
+**User Goal:** Como usuario, quiero aceptar o denegar las calculos realizados de otras personas que me involucren.
+
+**User Persona:** Comensales
+
+**Flujo:** Desde su perfil se le notificara si una persona de contectos lo puso en su lista de calculo, si presiona en el boton de si, lo llevara en la seccion de "Calculo" donde vera los resultados hecho por la persona para ir a un restaurante, en caso que presione el boton de no, no se le llevara a la seccion de "Calculo" como tampoco se le aparecera los datos de dicho calculo.
+
+<p align="center">
+  
+   <![Wireflow1.png](../../assets/chapter-3/Wireflow/Wflow4.png)
+</p>
+
+<p align="center">
+    Wireflow Aceptar o Denegar Calculos de otra personas - Elaboración propia
+</p>
+
+
+
+
+<br><br>
+
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+A continuacion los siguientes Mock-ups fueron realizados en base a los wireframes anteriormente hechos. Representan fielmente la manera en la que nuestros usuarios podrán apreciar la aplicación web.
+
+https://www.figma.com/design/yYfL713QlyMtwmfv4xSrgi/Untitled?node-id=0-1&p=f&t=fW8Jps3nrsVBF4dK-0
+
+
+<br><br>
+
+
++ **Iniciar Sesión / Registrarse**:
+
+Permite a nuevos usuarios crear una cuenta para la aplicacion, y a usuarios existentes ingresar con sus correos para acceder a su perfil.
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup1.png)
+</p>
+
+<p align="center">
+     Web Applications Mock-ups Login - Elaboración propia
+</p>
+
+
+<p align="center">
+  
+  <![Mockup1.png](../../assets/chapter-3/Mockup/Mup2.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Register - Elaboración propia
+</p>
+
++ **Pagina de inicio del usuario**:
+
+Muestra el perfil del usuario, su codigo QR, y restaurante, el frecuente y el ultio de seleccion anterior. El inicio de la rica coordinacion.
+
+<p align="center">
+  
+  <![Mockup1.png](../../assets/chapter-3/Mockup/Mup3.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Homepage - Elaboración propia
+</p>
+
+<p align="center">
+  
+  <![Mockup1.png](../../assets/chapter-3/Mockup/Mup4.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Menu - Elaboración propia
+</p>
+
++ **Mis Contactos**:
+
+Apartado que permite agregar, ver y seleccionar contactos para el calculo respecto a un grupo
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup5.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Add Contact - Elaboración propia
+</p>
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup6.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Contactpage - Elaboración propia
+</p>
+
+<p align="center">
+
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup7.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User selection Contact - Elaboración propia
+</p>
+
+
++ **Restaurantes disponibles**:
+
+Muestras los restaurantes disponibles de la aplicacion al usuario y permite su seleccion.
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup8.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Restaurantpage - Elaboración propia
+</p>
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup9.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User selection Restaurant - Elaboración propia
+</p>
+
++ **Realizar Calculo**:
+
+Formula el calculo respecto al restaurante mas cercano en proporcion a la hubicacion de las personas del grupo.
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup10.png)
+</p>
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup11.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Calculationtpage - Elaboración propia
+</p>
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup12.png)
+</p>
+
+<p align="center">
+  
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup13.png)
+</p>
+
+<p align="center">
+    Web Applications Mock-ups User Run Calculation - Elaboración propia
+</p>
+
+<br><br>
+
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+Los siguientes User Flow Diagrams se elaboraron correspondientemente a los WireFlows previamente hechos y representan los pasos que seguirán nuestros usuarios a través de la aplicación.
+
+https://miro.com/app/board/uXjVHTv6mYw=/
+
+<br><br>
+
++ **User Flow Diagram 1: Login / Registrarse**
+
+**User Goal:** Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma y ustilizar sus herramientas.
+
+**User Persona:** Comensales
+
+**Flujo:** El usuario accede a la landing page y hace clic en “iniciar sesion” desde arriba del logotipo. Si ya tiene cuenta, introduce su correo y contraseña afiliada a esa cuenta. Si es nuevo, completa el formulario correspondiente con el nombre de usuario, correo y contraseña. Tras completar el proceso, es redirigido automáticamente a su pagina de perfil.
+
+<p align="center">
+  
+   <![MockFlow1.png](../../assets/chapter-3/Mockflow/Mflow1.png)
+</p>
+
+<p align="center">
+    Web Applications User Flow Login y Register - Elaboración propia
+</p>
+
++ **User Flow Diagram 2: Agregar a nueva persona**
+
+**User Goal:** Como usuario, quiero agregar a una nueva persona de la plataforma de forma efectiva.
+
+**User Persona:** Comensales
+
+**Flujo:** Desde su perfil ingresa a la seccion de "Contactos" para luego buscar a la persona por medio de su nombre, codigo o para rapides, escaneo de QR y finalmente manda la solicitud.
+
+<p align="center">
+  
+  <![MockFlow1.png](../../assets/chapter-3/Mockflow/Mflow2.png)
+</p>
+
+<p align="center">
+    Web Applications User Flow Agregar a nueva persona  - Elaboración propia
+</p>
+
++ **User Flow Diagram 3: Cambiar Restaurante durante el calculo**
+
+**User Goal:** Como usuario, quiero cambiar de restaurante tanto antes como durante el calculo para no volver a crear la lista.
+
+**User Persona:** Comensales
+
+**Flujo:** Desde su perfil ingresa a la seccion de "Contactos" para seleccionar a las personas para un grupo, luego ir a la seccion de "Restaurantes" para elegir a cual ir, luego van a la seccion de "Calculo" para proceder con el calculo, luego si se desea cambiar de restaurante, presione el boton 2 que le permitira editar el restaurante, para luego volver a la seccion de "Calculo" y seguir realizando su el procedimiento. 
+
+<p align="center">
+ 
+ <![MockFlow1.png](../../assets/chapter-3/Mockflow/Mflow3.png)
+</p>
+
+<p align="center">
+    Web Applications User Flow Cambiar Restaurante durante el calculo  - Elaboración propia
+</p>
+
+
++ **User Flow Diagram 4: Aceptar o Denegar Calculos de otra personas**
+
+**User Goal:** Como usuario, quiero aceptar o denegar las calculos realizados de otras personas que me involucren.
+
+**User Persona:** Comensales
+
+**Flujo:** Desde su perfil se le notificara si una persona de contectos lo puso en su lista de calculo, si presiona en el boton de si, lo llevara en la seccion de "Calculo" donde vera los resultados hecho por la persona para ir a un restaurante, en caso que presione el boton de no, no se le llevara a la seccion de "Calculo" como tampoco se le aparecera los datos de dicho calculo.
+
+<p align="center">
+  
+  <![MockFlow1.png](../../assets/chapter-3/Mockflow/Mflow4.png)
+</p>
+
+<p align="center">
+    Web Applications User Flow Aceptar o Denegar Calculos de otra personas - Elaboración propia
+</p>
+
+
+
+
+<br><br>
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 En esta sección se presentan los prototipos de interfaz de usuario desarrollados para la versión web en navegadores de escritorio, tanto para turistas como para agencias. Estos prototipos simulan la navegación e interacción con las principales funcionalidades, en base a los flujos definidos previamente en los Wireflow Diagrams.
