@@ -236,6 +236,10 @@ A continuación, se muestra evidencia de los insights de colaboración del equip
     - [4.3.2. Registro de Entrevistas]()
     - [4.3.3. Evaluaciones según heurísticas]()
 
+----
+
+<div style="page-break-before: always;"></div>
+
 # Student Outcome
 
 ABET - EAC - Student Outcome 7
