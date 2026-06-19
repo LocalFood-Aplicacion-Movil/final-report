@@ -108,7 +108,8 @@ Frente a esta problemática, proponemos una plataforma digital que permite a los
  
 
 ---
- Usa etiqueta HTML <div style="page-break-before: always;"></div>
+
+<div style="page-break-before: always;"></div>
 
 
 
