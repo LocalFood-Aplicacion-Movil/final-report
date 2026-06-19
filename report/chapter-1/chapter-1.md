@@ -70,8 +70,9 @@ En Lima, los residentes pierden un promedio de 68 horas al año atrapados en el 
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
-Nuestro servicio ofrece una plataforma digital que permite a los usuarios coordinar encuentros mediante un análisis de la ubicación de todos los participantes y los posibles puntos de encuentro, como restaurantes, cafés u otros lugares públicos. Al mismo tiempo, facilita a estos lugares la oportunidad de atraer grupos de manera organizada, optimizando la ocupación y la experiencia del cliente.
-Hemos identificado un factor crítico que afecta a los usuarios: la dificultad para decidir un punto de encuentro justo y conveniente para todos, lo que genera trayectos desproporcionados, pérdida de tiempo y esfuerzo adicional al planificar reuniones. Esta desconexión entre la ubicación de los participantes y la elección del lugar provoca frustración y desmotivación para reunirse, limitando la frecuencia y calidad de los encuentros sociales y profesionales.
+En la actualidad, la coordinación de encuentros sociales y profesionales se ve frecuentemente obstaculizada por la dificultad de decidir un punto de reunión justo y conveniente para todos los participantes. Hemos identificado que este factor crítico genera trayectos desproporcionados, pérdida de tiempo y esfuerzo adicional al planificar las reuniones. Esta desconexión entre la ubicación de las personas y la elección del lugar provoca frustración y desmotivación, limitando la frecuencia y calidad de los encuentros.
+
+Frente a esta problemática, proponemos una plataforma digital que permite a los usuarios coordinar encuentros mediante un análisis de geolocalización de todos los participantes y de los posibles puntos de reunión, como restaurantes, cafés u otros lugares públicos. Esta solución no solo beneficia a los usuarios, sino que al mismo tiempo facilita a estos establecimientos la oportunidad de atraer grupos de manera organizada, optimizando su ocupación y la experiencia del cliente.
 ¿Cómo optimizar la coordinación de encuentros entre múltiples usuarios, minimizando sus tiempos y distancias de desplazamiento mediante geolocalización inteligente, a la vez que se permite a los establecimientos gestionar la afluencia de grupos de manera eficiente y organizada?
 
 #### 1.2.2.2. Lean UX Assumptions.
@@ -91,6 +92,7 @@ Hemos identificado un factor crítico que afecta a los usuarios: la dificultad p
 
 
 **User Assumptions**
+
 - ¿Quiénes son nuestros usuarios? <br>
   Personas que desean reunirse con amigos, familiares o colegas de manera equitativa y práctica, y locales como restaurantes y cafés que buscan atraer grupos de manera organizada.
 - ¿Cómo se integra nuestro producto en su vida cotidiana? <br>
@@ -102,7 +104,13 @@ Hemos identificado un factor crítico que afecta a los usuarios: la dificultad p
 - ¿Qué funcionalidades son esenciales? <br>
   Recomendación automática del punto de encuentro, filtros de lugar, geolocalización en tiempo real, gestión de locales, reseñas verificadas y notificaciones.
 - ¿Cómo debe lucir y comportarse la plataforma? <br>
-  Debe ser intuitiva, visualmente clara, rápida, confiable y respondive, ofreciendo información precisa y herramientas fáciles de usar tanto para usuarios como para locales.
+  Debe ser intuitiva, visualmente clara, rápida, confiable y respondive, ofreciendo información precisa y herramientas fáciles de usar tanto para usuarios como para locales <br>
+
+
+---
+ Usa etiqueta HTML <div style="page-break-before: always;"></div>
+ 
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
