@@ -217,10 +217,19 @@ Enrique, propietario de una sanguchería en Jesús María, describe un entorno c
 
 Los User personas se realizaron en base a las distintas personas que entrevistamos según nuestros segmentos objetivos.
 
+<div style="page-break-before: always;"></div>
+
 **Comensal:**
-![Maria Alejandra Tasayco.png](../../assets/chapter-2/Maria%20Alejandra%20Tasayco.png)
+
+<img src="../../assets/chapter-2/Maria%20Alejandra%20Tasayco.png" alt="Maria Alejandra Tasayco" width="300"/>
+
+
+<div style="page-break-before: always;"></div>
+
 **Dueño de Local:**
-![Luis Fabricio Luzquiño Diaz.png](../../assets/chapter-2/Luis%20Fabricio%20Luzqui%C3%B1o%20Diaz.png)
+
+<img src="../../assets/chapter-2/Luis%20Fabricio%20Luzqui%C3%B1o%20Diaz.png" alt="Luis Fabricio Luzquiño Diaz" width="300"/>
+
 
 #### 2.3.2. User Task Matrix
 
@@ -509,7 +518,7 @@ El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya q
 |Story ID|       User        |       Priority      |    Epic    |
 |--------|-------------------|---------------------|------------|
 |  US21  |  silvia rojas     |          5          |    EP03    |
-|  Title |         Restricciones alimentarias en la zona de intersección  |
+|  Title |      Locales por restricciones alimentarias en la zona de intersección  |
 |                            Description                          |
 | Como usuario, quiero que el local elegido en el cruce de nuestras rutas ofrezca menú compatible con alergias o dietas del grupo (ej. vegano). |
 |                      Acceptance Criteria                        |
