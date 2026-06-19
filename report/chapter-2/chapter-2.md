@@ -518,7 +518,7 @@ El "Ubiquitous Language" será una herramienta esencial en nuestro trabajo, ya q
 |Story ID|       User        |       Priority      |    Epic    |
 |--------|-------------------|---------------------|------------|
 |  US21  |  silvia rojas     |          5          |    EP03    |
-|  Title |      Locales por restricciones alimentarias en la zona de intersección  |
+|  Title |     Realización las restricciones alimentarias en la zona de intersección  |
 |                            Description                          |
 | Como usuario, quiero que el local elegido en el cruce de nuestras rutas ofrezca menú compatible con alergias o dietas del grupo (ej. vegano). |
 |                      Acceptance Criteria                        |
