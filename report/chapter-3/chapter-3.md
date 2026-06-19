@@ -266,22 +266,13 @@ Permite a nuevos usuarios crear una cuenta para la aplicacion, y a usuarios exis
 
 <p align="center">
 
-![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe1.png)
+![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe1and2.png)
 </p>
 
 <p align="center">
-    Wireframe Sing In - Elaboración propia
+    Wireframe Sing In & User Register - Elaboración propia
 </p>
 
-
-<p align="center">
-
- ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe2.png)
-</p>
-
-<p align="center">
-    Wireframe User Register - Elaboración propia
-</p>
 
 + **Pagina de inicio del usuario**:
 
@@ -289,21 +280,13 @@ Muestra el perfil del usuario, su codigo QR, y restaurante, el frecuente y el ul
 
 <p align="center">
 
-  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe3.png)
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/WframeInicio.png)
 </p>
 
 <p align="center">
-    Wireframe User Homepage - Elaboración propia
+    Wireframe User Homepage & User Menu - Elaboración propia
 </p>
 
-<p align="center">
-
-  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe4.png)
-</p>
-
-<p align="center">
-    Wireframe User Menu - Elaboración propia
-</p>
 
 + **Mis Contactos**:
 
@@ -311,29 +294,11 @@ Apartado que permite agregar, ver y seleccionar contactos para el calculo respec
 
 <p align="center">
 
-  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe5.png)
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/WframeContact.png)
 </p>
 
 <p align="center">
-    Wireframe User Add Contact - Elaboración propia
-</p>
-
-<p align="center">
-
-  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe6.png)
-</p>
-
-<p align="center">
-    Wireframe User Contactpage - Elaboración propia
-</p>
-
-<p align="center">
-  
-  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe7.png)
-</p>
-
-<p align="center">
-    Wireframe User selection Contact - Elaboración propia
+    Wireframe User Add Contact, User Contactpage & User selection Contact,  - Elaboración propia
 </p>
 
 
@@ -343,52 +308,27 @@ Muestras los restaurantes disponibles de la aplicacion al usuario y permite su s
 
 <p align="center">
 
-  ![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe8.png)
+  ![Wireframe1.png](../../assets/chapter-3/Wireframe/WframeRestaurant.png)
 </p>
 
 <p align="center">
-    Wireframe User Restaurantpage - Elaboración propia
+    Wireframe User Restaurantpage, User selection Restaurant - Elaboración propia
 </p>
 
 <p align="center">
 
-![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe9.png)
-</p>
 
-<p align="center">
-    Wireframe User selection Restaurant - Elaboración propia
-</p>
-
-+ **Realizar Calculo**:
++ **Realizar Cálculo**:
 
 Formula el calculo respecto al restaurante mas cercano en proporcion a la hubicacion de las personas del grupo.
 
 <p align="center">
 
-  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe10.png)
+  <![Wireframe1.png](../../assets/chapter-3/Wireframe/WframeCalculo.png)
 </p>
 
 <p align="center">
-
-  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe11.png)
-</p>
-
-<p align="center">
-    Wireframe User Calculationtpage - Elaboración propia
-</p>
-
-<p align="center">
-
-  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe10.png)
-</p>
-
-<p align="center">
-
-  <![Wireframe1.png](../../assets/chapter-3/Wireframe/Wframe12.png)
-</p>
-
-<p align="center">
-    Wireframe User Run Calculation - Elaboración propia
+    Wireframe User Calculationtpage & User Run Calculation - Elaboración propia
 </p>
 
 
@@ -401,7 +341,7 @@ https://miro.com/app/board/uXjVHTv6mYw=/
 
 **Wireflow 1: Login / Registrarse**
 
-**User Goal:** Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma y ustilizar sus herramientas.
+**User Goal:** Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma y utilizar sus herramientas.
 
 **User Persona:** Comensales
 
@@ -489,22 +429,13 @@ Permite a nuevos usuarios crear una cuenta para la aplicacion, y a usuarios exis
 
 <p align="center">
   
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup1.png)
+   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup1and2.png)
 </p>
 
 <p align="center">
-     Web Applications Mock-ups Login - Elaboración propia
+     Web Applications Mock-ups Login & User Register - Elaboración propia
 </p>
 
-
-<p align="center">
-  
-  <![Mockup1.png](../../assets/chapter-3/Mockup/Mup2.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User Register - Elaboración propia
-</p>
 
 + **Pagina de inicio del usuario**:
 
@@ -512,21 +443,13 @@ Muestra el perfil del usuario, su codigo QR, y restaurante, el frecuente y el ul
 
 <p align="center">
   
-  <![Mockup1.png](../../assets/chapter-3/Mockup/Mup3.png)
+  <![Mockup1.png](../../assets/chapter-3/Mockup/MupInicio.png)
 </p>
 
 <p align="center">
-    Web Applications Mock-ups User Homepage - Elaboración propia
+    Web Applications Mock-ups User Homepage & User Menu - Elaboración propia
 </p>
 
-<p align="center">
-  
-  <![Mockup1.png](../../assets/chapter-3/Mockup/Mup4.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User Menu - Elaboración propia
-</p>
 
 + **Mis Contactos**:
 
@@ -534,30 +457,13 @@ Apartado que permite agregar, ver y seleccionar contactos para el calculo respec
 
 <p align="center">
   
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup5.png)
+   <![Mockup1.png](../../assets/chapter-3/Mockup/MupColegas.png)
 </p>
 
 <p align="center">
-    Web Applications Mock-ups User Add Contact - Elaboración propia
+    Web Applications Mock-ups User Add Contact, User Contactpage & User selection Contact - Elaboración propia
 </p>
 
-<p align="center">
-  
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup6.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User Contactpage - Elaboración propia
-</p>
-
-<p align="center">
-
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup7.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User selection Contact - Elaboración propia
-</p>
 
 
 + **Restaurantes disponibles**:
@@ -566,20 +472,11 @@ Muestras los restaurantes disponibles de la aplicacion al usuario y permite su s
 
 <p align="center">
   
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup8.png)
+   <![Mockup1.png](../../assets/chapter-3/Mockup/MupRestaurant.png)
 </p>
 
 <p align="center">
-    Web Applications Mock-ups User Restaurantpage - Elaboración propia
-</p>
-
-<p align="center">
-  
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup9.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User selection Restaurant - Elaboración propia
+    Web Applications Mock-ups User Restaurantpage & User selection Restaurant - Elaboración propia
 </p>
 
 + **Realizar Calculo**:
@@ -588,30 +485,11 @@ Formula el calculo respecto al restaurante mas cercano en proporcion a la hubica
 
 <p align="center">
   
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup10.png)
+   <![Mockup1.png](../../assets/chapter-3/Mockup/MupCalcular.png)
 </p>
 
 <p align="center">
-  
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup11.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User Calculationtpage - Elaboración propia
-</p>
-
-<p align="center">
-  
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup12.png)
-</p>
-
-<p align="center">
-  
-   <![Mockup1.png](../../assets/chapter-3/Mockup/Mup13.png)
-</p>
-
-<p align="center">
-    Web Applications Mock-ups User Run Calculation - Elaboración propia
+    Web Applications Mock-ups User Calculationtpage & User Run Calculation - Elaboración propia
 </p>
 
 <br><br>
