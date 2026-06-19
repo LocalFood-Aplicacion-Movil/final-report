@@ -105,11 +105,11 @@ Frente a esta problemática, proponemos una plataforma digital que permite a los
   Recomendación automática del punto de encuentro, filtros de lugar, geolocalización en tiempo real, gestión de locales, reseñas verificadas y notificaciones.
 - ¿Cómo debe lucir y comportarse la plataforma? <br>
   Debe ser intuitiva, visualmente clara, rápida, confiable y respondive, ofreciendo información precisa y herramientas fáciles de usar tanto para usuarios como para locales <br>
-
+ 
 
 ---
  Usa etiqueta HTML <div style="page-break-before: always;"></div>
- 
+
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
