@@ -389,7 +389,74 @@ En este sprint se completara el desarrollo del backend de NearbyEats utilizando 
 
 Link del trablero trello: https://trello.com/invite/b/6a3e95e6e27c1e56405ad8ec/ATTI967aec72cde98555d23ecffe932cf52b74809F86/av2
 
-## Conclusiones
+##### 6.2.2.3. Development Evidence for Sprint Review
+
+<table>
+   <tr>
+      <td>Repository</td>
+      <td>Branch</td>
+      <td>Component</td>
+      <td>Commit Id</td>
+      <td>Commit Message</td>
+      <td>Commited on (Date)</td>
+   </tr>
+   <tr>
+      <td>https://github.com/LocalFood-Aplicacion-Movil/backend</td>
+      <td>Main</td>
+      <td>Backend</td>
+      <td>7f3a9d2c</td>
+      <td>feat: complete backend development with Spring Boot services and API endpoints</td>
+      <td>Junio 20, 2026</td>
+   </tr>
+   <tr>
+      <td>https://github.com/LocalFood-Aplicacion-Movil/NearbyEats-Kotlin</td>
+      <td>Development</td>
+      <td>Mobile Frontend (Kotlin)</td>
+      <td>c81e45ab</td>
+      <td>feat: finish Android application screens and complete user flow</td>
+      <td>Junio 22, 2026</td>
+   </tr>
+   <tr>
+      <td>https://github.com/LocalFood-Aplicacion-Movil/NearbyEats-Flutter</td>
+      <td>Development</td>
+      <td>Mobile Frontend (Flutter)</td>
+      <td>4bd927fe</td>
+      <td>feat: implement initial Flutter app structure and navigation system</td>
+      <td>Junio 24, 2026</td>
+   </tr>
+</table>
+
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+##### 6.2.2.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, se han alcanzado hitos importantes en el desarrollo de la plataforma NearbyEats, logrando completar el backend utilizando Spring Boot, finalizar la aplicación móvil desarrollada en Kotlin e implementar una versión funcional inicial en Flutter. Se completaron las siguientes funcionalidades principales:
+
+* Sistema de autenticación (Login y Registro)
+* Gestión de restaurantes
+* Visualización de menú de productos
+* Sistema de pedidos en línea
+* Gestión de reservas
+* Perfil de usuario y configuración
+* Integración completa entre aplicación móvil y backend REST API
+* Desarrollo inicial de aplicación multiplataforma en Flutter
+
+
+
+
+##### 6.2.1.6. Services Documentation Evidence for Sprint Review
+En este sprint se concluyeron todos los endpoints relacionados con la lógica de negocio de NearbyEats. Asimismo, se realizó la documentación de cada servicio mediante Swagger y se llevó a cabo el despliegue de la API en Render. Además, para el desarrollo del backend se implementó una arquitectura basada en Domain-Driven Design (DDD), organizando cada módulo dentro de su respectivo Bounded Context para mantener una mejor separación de responsabilidades y escalabilidad del sistema.## 
+
+
+![back2.jpeg](../../assets/c4/back2.jpeg)
+![back3.jpeg](../../assets/c4/back3.jpeg)
+![back1.jpeg](../../assets/c4/back1.jpeg)
+![back5.jpeg](../../assets/c4/back5.jpeg)
+![back4.jpeg](../../assets/c4/back4.jpeg)
+![back6.jpeg](../../assets/c4/back6.jpeg)
+
+
+Conclusiones
 
 En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
 
