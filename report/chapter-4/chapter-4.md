@@ -455,8 +455,229 @@ En este sprint se concluyeron todos los endpoints relacionados con la lógica de
 ![back4.jpeg](../../assets/c4/back4.jpeg)
 ![back6.jpeg](../../assets/c4/back6.jpeg)
 
+#### 4.2.3. Sprint 3
 
-Conclusiones
+##### 4.2.3.1. Sprint Planning 3
+
+
+| Sprint #                        | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background      |
+| Date                            | 29/06/2026                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Time                            | 14:50 PM                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Location                        | Reunión virtual en discord.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Preparate by                    | Pedro Guía                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Anyelo Alejos, Gabriel Mamani, Ivan Sanchez y Anderson Ventosilla                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint n-1 Review Summary       | En el Sprint 3 se avanzó con la integración y mejora de funcionalidades principales del proyecto, permitiendo consolidar la estructura del backend, la aplicación móvil y los elementos visuales de la plataforma.                                                                                                                                                                                                           |
+| Sprint Planning Background      | Desarrollo de mejoras finales para la plataforma NearbyEats, enfocadas en la landing page, la primera versión funcional de la aplicación móvil en Flutter y la conexión del backend con la aplicación en Kotlin.                                                                                                                                                                                                             |
+| Sprint Goal & User Stories      |
+| Sprint 1 Goal                   | Nuestro enfoque es mejorar la landing page tomando como referencia diseños disponibles en la red, con el propósito de lograr una presentación más atractiva, moderna y organizada para los usuarios. Asimismo, se desarrolla la primera versión de la aplicación móvil en Flutter y se realiza la conexión del backend con la aplicación móvil en Kotlin, permitiendo validar la comunicación entre los servicios y la app.  |
+| Sprint Velocity                 | Se establece un Velocity de 25 Story Points para el primer Sprint.                                                                                                                                                                                                                                                                                                                                                           |
+| Sum of Story Points             | 25 Story Points                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+
+##### 4.2.3.2. Sprint Backlog 3
+
+| Sprint # | Sprint n | User Story |                                  | Work-Item / Task |                                                                         |                                                                                                                                                                                                                                                            |                        |                 |                                                    |
+|----------|----------|------------|----------------------------------|------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------| -------------------------------------------------- |
+|          |          | **Id**     | **Title**                        | **Id**           | **Title**                                                               | **Description**                                                                                                                                                                                                                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| 3        | Sprint 3 | SPK03      | Mejora de landing page           | TSK-26           | Mejorar y adaptar el diseño del landing page en diferentes dispositivos | Se actualizaron los estilos, secciones y distribución visual de la landing page tomando como referencia diseños disponibles en la red. Se ajustó el diseño responsive para que se visualice correctamente en computadoras, tablets y dispositivos móviles. | 5                      | Fernando        | Done                                               |
+| 3        | Sprint 3 | SPK04      | Primera versión móvil en Flutter | TSK-27           | Crear y diseñar la estructura del proyecto en Flutter                   | Se configuró el proyecto base en Flutter, incluyendo carpetas principales, dependencias y navegación inicial de la aplicación.                                                                                                                             | 5                      | Anderson        | Done                                               |
+| 3        | Sprint 3 | SPK05      | Conexión backend con app Kotlin  | TSK-28           | Configurar y validar conexión entre backend y aplicación Kotlin         | Se integró la aplicación móvil en Kotlin con los servicios del backend mediante endpoints previamente definidos. Se realizaron pruebas para verificar el envío y recepción de datos entre la aplicación móvil y el backend.                                | 6                      | Gabriel         | Done                                               |
+
+![sprint-3.png](../../assets/chapter-4/sprint-3.png)
+
+
+##### 4.2.3.3. Development Evidence for Sprint Review
+
+| Repository                                                           | Branch | Commit ID                                 | Commit Message                                                  | Committed on (Date) |
+|----------------------------------------------------------------------|--------|-------------------------------------------|-----------------------------------------------------------------|---------------------|
+| https://github.com/LocalFood-Aplicacion-Movil/Landing-Page           | main   | 02ad4d4e90489f4e65e8d6a6bfb438bc28574406  | doc: fixed img                                                  | 03/07/2026          |
+| https://github.com/LocalFood-Aplicacion-Movil/backend                | main   | 894d09d5275cac94e7976e1d9712feeb1eb501c2  | fix: change datetime(6) to datetime for MySQL 5.x compatibility | 29/06/2026          |
+| https://github.com/LocalFood-Aplicacion-Movil/neearbyeats---Kotlin2  | main   | 0387e6f03fe6e984e684fa1047fdc199e701f2dd  | feat                                                            | 06/07/2026          |
+
+##### 4.2.3.4. Testing Suite Evidence for Sprint Review
+##### 4.2.3.5. Execution Evidence for Sprint Review
+
+En este último sprint se desarrollo la version final del landing page, donde se mejora el diseño y los estilos. Además, se desarrollo la version de la aplicación en Flutter con los terminos y condiciones.
+
+A continuación se presenta evidencias de todo lo desarrollado en el sprint.
+
+# Landing Page
+
+![landing1.png](../../assets/chapter-4/landing1.png)
+
+![landing2.png](../../assets/chapter-4/landing2.png)
+
+![landing3.png](../../assets/chapter-4/landing3.png)
+
+![landing4.png](../../assets/chapter-4/landing4.png)
+
+# Backend
+
+![backend1.png](../../assets/chapter-4/backend1.png)
+
+![backend1.png](../../assets/chapter-4/backend1.png)
+
+![backend2.png](../../assets/chapter-4/backend2.png)
+
+![backend3.png](../../assets/chapter-4/backend3.png)
+
+![backend4.png](../../assets/chapter-4/backend4.png)
+
+![backend5.png](../../assets/chapter-4/backend5.png)
+
+![backend6.png](../../assets/chapter-4/backend6.png)
+
+![backend7.png](../../assets/chapter-4/backend7.png)
+
+# Flutter
+
+
+
+##### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+| EndPoint                                                   | Funciones    |
+|------------------------------------------------------------|--------------|
+| https://localfood-aplicacion-movil.github.io/Landing-Page/ | Landing Page |
+| https://backend-ku93.onrender.com/swagger/index.html       | Backend      |
+|                                                            | Flutter      |
+
+##### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+# Landing Page
+
+![deploy-landing.png](../../assets/chapter-4/deploy-landing.png)
+
+# Backend
+
+# Flutter
+
+##### 4.2.3.8. Team Collaboration Insights during Sprint
+
+### 4.3. Validation Interviews
+
+#### 4.3.1. Diseño de Entrevistas
+Segmentos encontrados:
+- Comensales
+- Dueños de Locales/Gerentes
+
+Previo a la ejecución de las entrevistas, resulta fundamental llevar a cabo un análisis exploratorio para comprender a profundidad a nuestro público objetivo. Por ello, hemos estructurado preguntas adaptadas a cada segmento, buscando guiar las conversaciones de forma eficiente y acorde a sus propios contextos.
+
+En esta etapa temprana de validación, nuestro objetivo es evaluar la experiencia de los usuarios al interactuar con la Landing Page de NearbyEats. En ese sentido, hemos formulado interrogantes cualitativas destinadas a comprobar si nuestro mensaje es claro, si la propuesta de valor resulta atractiva y si la página logra despertar el interés esperado.
+
+El siguiente cuestionario se encuentra dividido en función de los dos segmentos principales de la startup, lo que facilitará la recolección de retroalimentación genuina acerca de nuestra comunicación inicial.
+
+Preguntas para Comensales  
+
+1- ¿La estructuración de la landing page te facilita encontrar la información necesaria?
+2- ¿Crees que en ciertos segmentos de la landing page hace falta más información?
+3- ¿Crees que el diseño del apartado de inicio de la aplicación es correcto o habría que mejorar cosas?
+4- ¿Deberíamos añadir una opción de usar listas ya formadas para hacer más óptimo el apartado?
+5- ¿Crees que deberíamos agregar más indicaciones visuales en el apartado de restaurantes?
+6- ¿Sientes que faltan opciones de extras en el apartado de Calcular? 
+
+Preguntas para Locales/Gerentes
+
+1- ¿La estructuración de la landing page comunica claramente los beneficios de afiliar su negocio a la plataforma?
+2- ¿Considera que en ciertos segmentos de la landing page hace falta más información comercial o técnica sobre el servicio?
+3- ¿Cree que el diseño del panel de inicio (dashboard) de la aplicación es intuitivo para gestionar su local, o habría que mejorar aspectos visuales?
+4- ¿Le resultaría útil una opción de plantillas o listas predefinidas para optimizar la gestión de su perfil, menú o recursos en la plataforma?
+5- ¿Cree que deberíamos agregar más indicaciones visuales en el apartado de restaurantes para ayudar a destacar su marca frente a los clientes?
+6- ¿Siente que faltan opciones o variables adicionales en el apartado de Calcular para estimar mejor el impacto en sus ventas o costos?
+
+
+
+#### 4.3.2. Registro de Entrevistas
+
+##### Entrevistas a Estudiantes
+  <table align="center">
+   <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Lorenzo Espinoza</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:02 - 14:20</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW 
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Lorenzo Espinoza considera que nuestra landing page como aplicativo es prometedora, aunque nos dio retroalimentación respecto a la hora de presentar ciertas características. A su vez, nos elogia por lo directa y simple que llega a ser nuestra aplicación, proponiendo ideas para nuestros proyectos, así como ayudarnos a asegurar cuáles son nuestros grandes aciertos.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+
+![imagen de video.png](/assets/chapter-4/entrevistados/entrePrimero.png) <br>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+   <tr>
+    <th colspan="2" style="text-align:center">Entrevista 2</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Andrea Roncal</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Independencia</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:02 - 11:52</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+ https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Andrea Roncal considera que nuestra landing page es muy efectiva a la hora de informar al usuario sobre las ideas importantes, además de que aprueba el apartado artístico de la aplicación. Comentó que sus únicos detalles a mejorar serían agregar más referencias visuales e implementar opciones de calidad de vida respecto a algunas funciones; fuera de eso, su experiencia fue grata.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+
+![imagen de video.png](/assets/chapter-4/entrevistados/entreSegundo.png) <br>
+    </td>
+  </tr>
+</table>
+### 4.3.3. Evaluaciones según heurísticas
+
+## Conclusiones
 
 En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
 
