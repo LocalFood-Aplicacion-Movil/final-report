@@ -546,10 +546,14 @@ A continuación se presenta evidencias de todo lo desarrollado en el sprint.
 ##### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 # Landing Page
+El despliegue de la ultima version del Landing Page fue en GitHub Pages.
 
 ![deploy-landing.png](../../assets/chapter-4/deploy-landing.png)
 
 # Backend
+Para esta ocasión, se utilizo Render como programa en despliegue al Backend. 
+
+![deploy-back.jpeg](../../assets/chapter-4/deploy-back.jpeg)
 
 # Flutter
 
@@ -675,6 +679,7 @@ Preguntas para Locales/Gerentes
     </td>
   </tr>
 </table>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
 ## Conclusiones
