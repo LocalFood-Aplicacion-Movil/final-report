@@ -7,7 +7,7 @@
 ### Nombre del curso: Aplicaciones para DIspositivos Móviles (1ACC0238)
 ### NRC: 3687
 ### Nombre del profesor: David Gerardo Quevedo Velasco
-## **Informe de TB1**
+## **Informe de TB2**
 ## Nombre del startup: Location
 ## Nombre del producto: NearbyEats
 
@@ -27,25 +27,32 @@
 
 # Registro de versiones del informe
 
-| Versión | Fecha      | Autor                                                                   | Descripción de modificación                                                                                                                                                                                                               |
-|---------|------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| 1.1     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion de la organizacion **NearbyEats-Aplicacion-Movil**                                                                                                                                                                               |
-| 1.2     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del repositorio **final-report**                                                                                                                                                                                                 |
-| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del branch **chapter-1**                                                                                                                                                                                                         |
-| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del branch **chapter-2**                                                                                                                                                                                                         |
-| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del branch **chapter-3**                                                                                                                                                                                                         |
-| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del branch **chapter-4**                                                                                                                                                                                                         |
-| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del branch **chapter-5**                                                                                                                                                                                                         |
-| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André                                              | Creacion del branch **chapter-6**                                                                                                                                                                                                         |
-| 1.9     | 20/04/2026 | Mamani Marca, Gabriel Cristian                                          | Elaboración de los puntos: Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Software Architecture Deployment Diagrams.                                                                              |
-| 2.0     | 21/04/2026 | Guia Carrasco, Pedro André                                              | Elaboración de los puntos: Competidores, Needfinding, Solution Profile y Lean UX Problem Statements.                                                                                                                                      |
-| 2.1     | 21/04/2026 | Alejos Jesus, Anyelo Bill                                               | Elaboración de los puntos: Bounded Context AlertStockManagement Context, incluyendo Domain Layer, Application Layer e Interface Layer.                                                                                                    |
-| 2.2     | 21/04/2026 | Ventosilla Trujillo, Anderson Ricardo                                   | Elaboración de los puntos: Bounded Context Software Architecture Component Level Diagrams y Bounded Context Software Architecture Code Level Diagrams                                                                                     |
-| 2.3     | 22/04/2026 | Sanchez guevara, Ivan Fernando                                          | Elaboración de los puntos: Bounded Context Software Architecture Code Level Diagrams, Bounded Context Software Architecture Component Level Diagrams, registro de entrevistas y segmentos objetivos.                                      |
-| 2.4     | 08/05/2026 | Guia Carrasco, Pedro André                                              | Elaboración de los puntos: Product Design, Style Guidelines, Information Architecture y Landing Page UI Design.                                                                                                                           |
-| 2.5     | 08/05/2026 | Sanchez guevara, Ivan Fernando                                          | Elaboración de los puntos: Mobile Applications UX/UI Design, Mobile Applications Wireframes, Mobile Applications Wireflow Diagrams, Mobile Applications Mock-ups, Mobile Applications User Flow Diagrams, Mobile Applications Prototyping |
-| 2.5     | 11/05/2026 | Alejos Jesus, Anyelo Bill                                               | Elaboración de los puntos: Software Configuration Management, Software Development Enviroment Configuration, Source Code Management, Source COde Style Guide & Conventions y Software Deployment Configuration.                           |
-| 2.5     | 11/05/2026 | Ventosilla Trujillo, Anderson Ricardo y Mamani Marca, Gabriel Cristian  | Elaboracion de los puntos: Landing Page & Mobile Application Implementation, Sprint 1 y desarrollo del primer avance de la aplicación móvil.                                                                                              |
+| Versión | Fecha      | Autor                                                                  | Descripción de modificación                                                                                                                                                                                                               |
+|---------|------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| 1.1     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion de la organizacion **NearbyEats-Aplicacion-Movil**                                                                                                                                                                               |
+| 1.2     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del repositorio **final-report**                                                                                                                                                                                                 |
+| 1.3     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del branch **chapter-1**                                                                                                                                                                                                         |
+| 1.4     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del branch **chapter-2**                                                                                                                                                                                                         |
+| 1.5     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del branch **chapter-3**                                                                                                                                                                                                         |
+| 1.6     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del branch **chapter-4**                                                                                                                                                                                                         |
+| 1.7     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del branch **chapter-5**                                                                                                                                                                                                         |
+| 1.8     | 09/04/2026 | Guia Carrasco, Pedro André                                             | Creacion del branch **chapter-6**                                                                                                                                                                                                         |
+| 1.9     | 20/04/2026 | Mamani Marca, Gabriel Cristian                                         | Elaboración de los puntos: Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Software Architecture Deployment Diagrams.                                                                              |
+| 2.0     | 21/04/2026 | Guia Carrasco, Pedro André                                             | Elaboración de los puntos: Competidores, Needfinding, Solution Profile y Lean UX Problem Statements.                                                                                                                                      |
+| 2.1     | 21/04/2026 | Alejos Jesus, Anyelo Bill                                              | Elaboración de los puntos: Bounded Context AlertStockManagement Context, incluyendo Domain Layer, Application Layer e Interface Layer.                                                                                                    |
+| 2.2     | 21/04/2026 | Ventosilla Trujillo, Anderson Ricardo                                  | Elaboración de los puntos: Bounded Context Software Architecture Component Level Diagrams y Bounded Context Software Architecture Code Level Diagrams                                                                                     |
+| 2.3     | 22/04/2026 | Sanchez guevara, Ivan Fernando                                         | Elaboración de los puntos: Bounded Context Software Architecture Code Level Diagrams, Bounded Context Software Architecture Component Level Diagrams, registro de entrevistas y segmentos objetivos.                                      |
+| 2.4     | 08/05/2026 | Guia Carrasco, Pedro André                                             | Elaboración de los puntos: Product Design, Style Guidelines, Information Architecture y Landing Page UI Design.                                                                                                                           |
+| 2.5     | 08/05/2026 | Sanchez guevara, Ivan Fernando                                         | Elaboración de los puntos: Mobile Applications UX/UI Design, Mobile Applications Wireframes, Mobile Applications Wireflow Diagrams, Mobile Applications Mock-ups, Mobile Applications User Flow Diagrams, Mobile Applications Prototyping |
+| 2.5     | 11/05/2026 | Alejos Jesus, Anyelo Bill                                              | Elaboración de los puntos: Software Configuration Management, Software Development Enviroment Configuration, Source Code Management, Source COde Style Guide & Conventions y Software Deployment Configuration.                           |
+| 2.5     | 11/05/2026 | Ventosilla Trujillo, Anderson Ricardo y Mamani Marca, Gabriel Cristian | Elaboracion de los puntos: Landing Page & Mobile Application Implementation, Sprint 1 y desarrollo del primer avance de la aplicación móvil.                                                                                              |
+| 2.6     | 29/06/2026 | Pedro Guia                                                             | Elaboracion del sprint 3.                                                                                                                                                                                                                 |
+| 2.7     | 30/06/2026 | Sanchez Guevara, Ivan Fernando                                         | Mejora del landing page de NearbyEats.                                                                                                                                                                                                    |
+| 2.8     | 04/07/2026 | Mamani Marca, Gabriel Cristian                                         | Conexion de backend con la aplicacion NearbyEats en Kotlin                                                                                                                                                                                |
+| 2.8     | 05/07/2026 | Ventosilla Trujillo, Anderson Ricardo                                  | Version fianl de NearbyEats en Flutter                                                                                                                                                                                                    |
+| 2.8     | 06/07/2026 | Sanchez Guevara, Ivan Fernando                                         | Realizo entrevistas al segemto objetio Comensales.                                                                                                                                                                                        |
+| 2.8     | 06/07/2026 | Alejos Jesus, Anyelo Bill                                              | Realizo entrevistas al segemto objetio Restaurantes.                                                                                                                                                                                      |
+| 2.8     | 06/07/2026 | Pedro Guia                                                             | Realizo entrevistas al segemto objetio Restaurantes.                                                                                                                                                                                      |
 
 
 
@@ -230,6 +237,24 @@ A continuación, se muestra evidencia de los insights de colaboración del equip
         - [4.2.1.6. Services Documentation Evidence for Sprint Review]()
         - [4.2.1.7. Software Deployment Evidence for Sprint Review]()
         - [4.2.1.8. Team Collaboration Insights during Sprint]()
+    - [4.2.2. Sprint 2]()
+        - [4.2.2.1. Sprint Planning 2]()
+        - [4.2.2.2. Sprint Backlog 2]()
+        - [4.2.2.3. Development Evidence for Sprint Review]()
+        - [4.2.2.4. Testing Suite Evidence for Sprint Review]()
+        - [4.2.2.5. Execution Evidence for Sprint Review]()
+        - [4.2.2.6. Services Documentation Evidence for Sprint Review]()
+        - [4.2.2.7. Software Deployment Evidence for Sprint Review]()
+        - [4.2.2.8. Team Collaboration Insights during Sprint]()
+    - [4.2.3. Sprint 3]()
+        - [4.2.3.1. Sprint Planning 3]()
+        - [4.2.3.2. Sprint Backlog 3]()
+        - [4.2.3.3. Development Evidence for Sprint Review]()
+        - [4.2.3.4. Testing Suite Evidence for Sprint Review]()
+        - [4.2.3.5. Execution Evidence for Sprint Review]()
+        - [4.2.3.6. Services Documentation Evidence for Sprint Review]()
+        - [4.2.3.7. Software Deployment Evidence for Sprint Review]()
+        - [4.2.3.8. Team Collaboration Insights during Sprint]()
 
 - [4.3. Validation Interviews]()
     - [4.3.1. Diseño de Entrevistas]()
