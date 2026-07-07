@@ -536,7 +536,6 @@ A continuación se presenta evidencias de todo lo desarrollado en el sprint.
 |------------------------------------------------------------|--------------|
 | https://localfood-aplicacion-movil.github.io/Landing-Page/ | Landing Page |
 | https://backend-ku93.onrender.com/swagger/index.html       | Backend      |
-|                                                            | Flutter      |
 
 ##### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -719,6 +718,48 @@ Preguntas para Locales/Gerentes
   </tr>
 </table>
 
+<table align="center">
+   <tr>
+    <th colspan="2" style="text-align:center">Entrevista 3</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Stephany (Gerente de Restaurante)</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:00 - 03:49</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+https://youtu.be/uIv5t-hfkqY
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      En la entrevista realizada a Stephanie, representante de un restaurante, se identificó que la landing page comunica claramente los beneficios de afiliar un negocio a la plataforma. Sin embargo, se considera importante agregar más información comercial, como costos, comisiones y beneficios específicos. Además, el dashboard resulta intuitivo, aunque podría mejorar visualmente. También se destacó la utilidad de incluir plantillas, más indicaciones visuales y variables adicionales para estimar mejor el impacto en ventas y costos.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+
+![entreCuarto.png](../../assets/chapter-4/entrevistados/entreCuarto.png)
+ <br>
+</td>
+  </tr>
+</table>
 ### 4.3.3. Evaluaciones según heurísticas
 
 ## Conclusiones
