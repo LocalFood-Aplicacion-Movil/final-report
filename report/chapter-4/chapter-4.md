@@ -567,6 +567,18 @@ En esta ocasión, se realizo la configuracion o despliegue en Realese en Android
 
 ##### 4.2.3.8. Team Collaboration Insights during Sprint
 
+# Landing Page
+
+![collab1.png](../../assets/chapter-4/collab1.png)
+
+# Backend
+
+![collab2.png](../../assets/chapter-4/collab2.png)
+
+# App Flutter
+
+![collab3.png](../../assets/chapter-4/collab3.png)
+
 ### 4.3. Validation Interviews
 
 #### 4.3.1. Diseño de Entrevistas
@@ -774,6 +786,7 @@ https://youtu.be/uIv5t-hfkqY
 </td>
   </tr>
 </table>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
 ## Conclusiones
