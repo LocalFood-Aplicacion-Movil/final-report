@@ -789,6 +789,143 @@ https://youtu.be/uIv5t-hfkqY
 
 ### 4.3.3. Evaluaciones según heurísticas
 
+### SITE o APP A EVALUAR:
+NearbyEats
+
+### TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Visualización de la landing page.
+2. Comprensión de los beneficios de la plataforma.
+3. Registro e inicio de sesión en la aplicación.
+4. Uso del dashboard para restaurantes.
+5. Visualización del apartado de restaurantes.
+6. Uso de la sección “Calcular”.
+7. Revisión de información comercial para locales afiliados.
+8. Gestión básica del perfil o recursos del restaurante.
+
+### TAREAS NO INCLUIDAS EN ESTA VERSIÓN:
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Pago dentro de la aplicación.
+2. Gestión completa de reservas.
+3. Administración avanzada de promociones.
+4. Reportes financieros automáticos.
+5. Integración con sistemas externos de restaurantes.
+6. Publicación oficial en tiendas de aplicaciones.
+
+## Escala de severidad
+
+| Nivel | Descripción                                                                                                                                     |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser superado fácilmente por el usuario y ocurre con poca frecuencia. No requiere ser corregido con urgencia.        |
+| 2     | Problema menor: puede ocurrir con frecuencia, pero no impide el uso normal de la aplicación. Se recomienda corregirlo en una próxima iteración. |
+| 3     | Problema mayor: causa dificultad en el uso de la aplicación y afecta la experiencia del usuario. Debe corregirse con prioridad.                 |
+| 4     | Problema muy grave: impide que el usuario complete una tarea principal. Debe corregirse antes del lanzamiento.                                  |
+
+## Tabla resumen
+
+| #  | Problema                                                                                                                         | Escala de severidad | Heurística / Principio violado(a)                                          |
+|----|----------------------------------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------------------------|
+| 1  | La landing page no muestra suficiente información comercial para restaurantes, como costos, comisiones o beneficios específicos. | 3                   | Usabilidad: Correspondencia entre el sistema y las necesidades del usuario |
+| 2  | Algunas características de la aplicación no se presentan con suficiente claridad en la landing page.                             | 2                   | Usabilidad: Visibilidad del estado del sistema                             |
+| 3  | Faltan más referencias visuales que ayuden al usuario a comprender mejor ciertas funciones.                                      | 2                   | Diseño visual: Reconocimiento antes que recuerdo                           |
+| 4  | El dashboard para restaurantes es intuitivo, pero necesita mejoras visuales para facilitar la gestión del local.                 | 2                   | Usabilidad: Estética y diseño minimalista                                  |
+| 5  | No existen plantillas o listas predefinidas para agilizar la gestión del perfil, menú o promociones.                             | 3                   | Usabilidad: Flexibilidad y eficiencia de uso                               |
+| 6  | El apartado de restaurantes no cuenta con suficientes indicaciones visuales para destacar la marca del local.                    | 2                   | Arquitectura de información: Claridad y jerarquía visual                   |
+| 7  | La sección “Calcular” no incluye suficientes variables para estimar ventas, costos o impacto económico.                          | 3                   | Usabilidad: Ayuda y utilidad para la toma de decisiones                    |
+
+## Descripción de problemas
+
+### PROBLEMA #1: Falta de información comercial para restaurantes
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Correspondencia entre el sistema y las necesidades del usuario
+
+**Problema:**  
+Durante las entrevistas con representantes de restaurantes, se identificó que la landing page comunica la propuesta general de NearbyEats, pero no presenta suficiente información comercial para los locales. No se detallan aspectos importantes como costos, comisiones, membresías o beneficios concretos para los restaurantes afiliados.
+
+**Recomendación:**  
+Agregar una sección específica para restaurantes donde se expliquen los beneficios de afiliarse, el modelo de negocio, posibles planes de servicio y ventajas comerciales de utilizar la plataforma.
+
+---
+
+### PROBLEMA #2: Algunas características no se explican con suficiente claridad
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema
+
+**Problema:**  
+Algunos entrevistados indicaron que ciertas características de la aplicación podrían presentarse de manera más clara. Aunque la landing page es directa y simple, algunas funciones necesitan una explicación adicional para que el usuario comprenda mejor su utilidad.
+
+**Recomendación:**  
+Incluir textos breves, íconos o bloques explicativos que describan las principales funciones de la aplicación de manera clara y visual.
+
+---
+
+### PROBLEMA #3: Falta de referencias visuales
+
+**Severidad:** 2  
+**Heurística violada:** Diseño visual - Reconocimiento antes que recuerdo
+
+**Problema:**  
+Se identificó que la aplicación podría mejorar incluyendo más referencias visuales. Esto ayudaría a que los usuarios comprendan mejor las funciones sin depender únicamente del texto.
+
+**Recomendación:**  
+Agregar imágenes, capturas, íconos, ejemplos visuales o tarjetas informativas que representen mejor las funcionalidades principales de NearbyEats.
+
+---
+
+### PROBLEMA #4: Dashboard con oportunidades de mejora visual
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Estética y diseño minimalista
+
+**Problema:**  
+El dashboard para restaurantes fue considerado intuitivo; sin embargo, los entrevistados señalaron que podría mejorar visualmente para facilitar la gestión del local y hacer más clara la organización de sus funciones.
+
+**Recomendación:**  
+Mejorar la distribución visual del dashboard mediante botones más claros, mejor jerarquía de información, accesos rápidos y una interfaz más ordenada.
+
+---
+
+### PROBLEMA #5: Falta de plantillas o listas predefinidas
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
+
+**Problema:**  
+Los representantes de restaurantes indicaron que sería útil contar con plantillas o listas predefinidas para gestionar el perfil del local, menú, promociones o recursos dentro de la plataforma. Actualmente, estas opciones no se presentan de forma clara.
+
+**Recomendación:**  
+Implementar plantillas para promociones, menús, descripciones del local y configuraciones frecuentes, permitiendo que los restaurantes administren su información de forma más rápida.
+
+---
+
+### PROBLEMA #6: Pocas indicaciones visuales para destacar restaurantes
+
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de información - Claridad y jerarquía visual
+
+**Problema:**  
+Se observó que el apartado de restaurantes podría incluir más elementos visuales que ayuden a destacar la marca del negocio frente a los clientes. Esto limita la diferenciación entre locales dentro de la plataforma.
+
+**Recomendación:**  
+Agregar etiquetas visuales, distintivos, imágenes destacadas o categorías como “Ideal para grupos”, “Promoción activa” o “Mejor opción cercana”.
+
+---
+
+### PROBLEMA #7: La sección “Calcular” no incluye suficientes variables
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Ayuda y utilidad para la toma de decisiones
+
+**Problema:**  
+Los entrevistados señalaron que la función “Calcular” podría ser más útil si incluyera variables adicionales relacionadas con ventas, costos, ticket promedio, cantidad de grupos referidos o impacto económico del servicio.
+
+**Recomendación:**  
+Ampliar la sección “Calcular” incorporando métricas comerciales que permitan a los restaurantes estimar mejor el impacto de NearbyEats en sus ventas y rentabilidad.
+
 ## Conclusiones
 
 En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
