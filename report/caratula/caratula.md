@@ -79,6 +79,12 @@ A continuación, se muestra evidencia de los insights de colaboración del equip
 ![gitcolaboration1.jpeg](../../assets/caratula/gitcolaboration1.jpeg)
 
 ![gitcolaboration2.jpeg](../../assets/caratula/gitcolaboration2.jpeg)
+
+*TB2*:
+
+![ins1.png](../../assets/caratula/ins1.png)
+
+
 # Contenido
 
 ## Tabla de Contenidos
