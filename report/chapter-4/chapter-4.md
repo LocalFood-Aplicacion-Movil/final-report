@@ -131,16 +131,11 @@ Esta configuración asegura que cada nuevo commit fusionado a la rama de desplie
 Tras la correcta ejecución de los procesos internos de GitHub, el entorno es validado asegurando la carga de assets (imágenes, hojas de estilo) y el correcto funcionamiento de los botones de "Call to Action".
 
 - **Enlace de despliegue oficial:** https://NearbyEats-aplicaciones-web.github.io/Project-report/
-#### 4.1.2. Source Code Management
-
-- Trello: Herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente marcos en red de trabajos ágiles. El segmento para visualizar y actualizar el estado real de las tareas e historias de usuario pertenecientes al sprint a desarrollado.
-
-  Ruta de referencia: https://trello.com/es
 
 ### 4.2. Landing Page & Mobile Application Implementation
 
 #### 4.2.1. Sprint 1
-En este punto se documenta el proceso realizado durante la primera fase del proyecto, en la cual se analizaron los diseños del aplicativo móvil y los requisitos funcionales previamente analizados para desarrollar la primera versión de la aplicación móvil de NearbyEats.##### 4.2.1.1. Sprint Planning 1
+En este punto se documenta el proceso realizado durante la primera fase del proyecto, en la cual se analizaron los diseños del aplicativo móvil y los requisitos funcionales previamente analizados para desarrollar la primera versión de la aplicación móvil de NearbyEats.
 
 ##### 4.2.1.1. Sprint Planning 1
 
@@ -680,6 +675,50 @@ Preguntas para Locales/Gerentes
   </tr>
 </table>
 
+##### Entrevistas a Dueños de Locales
+
+<table align="center">
+   <tr>
+    <th colspan="2" style="text-align:center">Entrevista 3</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Carlos (Gerente de Restaurante)</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:00 - 07:26</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+ https://youtu.be/bnG09SMq-k0
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Carlos, gerente de un restaurante, evalúa "NearbyEats" desde una perspectiva de negocio (B2B). En su feedback, destaca que la landing page es atractiva para usuarios pero necesita una sección clara sobre los beneficios para los restaurantes, incluyendo el modelo de negocio (comisiones, membresías). Para la aplicación, sugiere una vista de administrador con alertas para grupos grandes, plantillas para promociones y etiquetas visuales para destacar (ej. "Ideal para 5+ personas"). Finalmente, propone que la función "Calcular" podría proporcionar métricas mensuales a los restaurantes sobre el ticket promedio y propinas de los grupos referidos por la app, para medir la rentabilidad.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+
+![imagen de video.png](/assets/chapter-4/entrevistados/entreTercero.png) <br>
+    </td>
+  </tr>
+</table>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
 ## Conclusiones
@@ -687,146 +726,15 @@ Preguntas para Locales/Gerentes
 En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
 
 - Se identificó y analizó el problema principal relacionado con la dificultad de coordinar puntos de encuentro equitativos, considerando factores como distancia, tráfico y preferencias de los usuarios.
-
 - Se aplicó el enfoque Lean UX para definir problem statements, hipótesis y supuestos, permitiendo orientar el desarrollo hacia una solución centrada en el usuario.
-
 - Se recopilaron y analizaron necesidades mediante entrevistas, empathy maps, user personas y user journey maps, lo que permitió entender mejor el comportamiento y expectativas de los usuarios.
-
 - Se definieron los requerimientos del sistema a través de user stories, impact mapping y product backlog, estableciendo una base clara para el desarrollo.
-
 - Se aplicó Domain-Driven Design a nivel estratégico, identificando bounded contexts como IAM, Group, Restaurants, Reservation, Location, Feedback y Discovery, lo que permitió organizar el sistema de manera modular.
-
 - Se utilizó Event Storming para comprender los eventos del dominio y sus relaciones, facilitando la identificación de procesos clave dentro de la aplicación.
-
 - Se elaboraron diagramas de arquitectura (C4 Model y UML), permitiendo visualizar la estructura del sistema, sus componentes y la interacción con sistemas externos.
-
 - Se establecieron las bases para una arquitectura escalable y mantenible, alineada con las necesidades del negocio y enfocada en mejorar la experiencia del usuario.
 
 Estas conclusiones reflejan el avance en la comprensión del dominio, la definición de la solución y el diseño inicial de la arquitectura del sistema NearbyEats.
-### 4.3. Validation Interviews
-
-#### 4.3.1. Diseño de Entrevistas
-Segmentos encontrados:
-- Comensales
-- Dueños de Locales/Gerentes
-
-Previo a la ejecución de las entrevistas, resulta fundamental llevar a cabo un análisis exploratorio para comprender a profundidad a nuestro público objetivo. Por ello, hemos estructurado preguntas adaptadas a cada segmento, buscando guiar las conversaciones de forma eficiente y acorde a sus propios contextos.
-
-En esta etapa temprana de validación, nuestro objetivo es evaluar la experiencia de los usuarios al interactuar con la Landing Page de NearbyEats. En ese sentido, hemos formulado interrogantes cualitativas destinadas a comprobar si nuestro mensaje es claro, si la propuesta de valor resulta atractiva y si la página logra despertar el interés esperado.
-
-El siguiente cuestionario se encuentra dividido en función de los dos segmentos principales de la startup, lo que facilitará la recolección de retroalimentación genuina acerca de nuestra comunicación inicial.
-
-Preguntas para Comensales  
-
-1- ¿La estructuración de la landing page te facilita encontrar la información necesaria?
-2- ¿Crees que en ciertos segmentos de la landing page hace falta más información?
-3- ¿Crees que el diseño del apartado de inicio de la aplicación es correcto o habría que mejorar cosas?
-4- ¿Deberíamos añadir una opción de usar listas ya formadas para hacer más óptimo el apartado?
-5- ¿Crees que deberíamos agregar más indicaciones visuales en el apartado de restaurantes?
-6- ¿Sientes que faltan opciones de extras en el apartado de Calcular? 
-
-Preguntas para Locales/Gerentes
-
-1- ¿La estructuración de la landing page comunica claramente los beneficios de afiliar su negocio a la plataforma?
-2- ¿Considera que en ciertos segmentos de la landing page hace falta más información comercial o técnica sobre el servicio?
-3- ¿Cree que el diseño del panel de inicio (dashboard) de la aplicación es intuitivo para gestionar su local, o habría que mejorar aspectos visuales?
-4- ¿Le resultaría útil una opción de plantillas o listas predefinidas para optimizar la gestión de su perfil, menú o recursos en la plataforma?
-5- ¿Cree que deberíamos agregar más indicaciones visuales en el apartado de restaurantes para ayudar a destacar su marca frente a los clientes?
-6- ¿Siente que faltan opciones o variables adicionales en el apartado de Calcular para estimar mejor el impacto en sus ventas o costos?
-
-
-
-#### 4.3.2. Registro de Entrevistas
-
-##### Entrevistas a Estudiantes
-  <table align="center">
-   <tr>
-    <th colspan="2" style="text-align:center">Entrevista 1</th>
-  </tr>
-  <tr>
-    <td><strong>Entrevistado</strong></td>
-    <td>Lorenzo Espinoza</td>
-  </tr>
-  <tr>
-    <td><strong>Edad</strong></td>
-    <td>20</td>
-  </tr>
-  <tr>
-    <td><strong>Distrito</strong></td>
-    <td>San Isidro</td>
-  </tr>
-  <tr>
-    <td><strong>Timing</strong></td>
-    <td>00:02 - 14:20</td>
-  </tr>
-  <tr>
-    <td><strong>URL</strong></td>
-    <td>
-
-  https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW 
-
-    
-  </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align:justify">
-    Resumen: <br>
-      Lorenzo Espinoza considera que nuestra landing page como aplicativo es prometedora, aunque nos dio retroalimentación respecto a la hora de presentar ciertas características. A su vez, nos elogia por lo directa y simple que llega a ser nuestra aplicación, proponiendo ideas para nuestros proyectos, así como ayudarnos a asegurar cuáles son nuestros grandes aciertos.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2"><br>
-
-![imagen de video.png](/assets/chapter-4/entrevistados/entrePrimero.png) <br>
-    </td>
-  </tr>
-</table>
-
-<table align="center">
-   <tr>
-    <th colspan="2" style="text-align:center">Entrevista 2</th>
-  </tr>
-  <tr>
-    <td><strong>Entrevistado</strong></td>
-    <td>Andrea Roncal</td>
-  </tr>
-  <tr>
-    <td><strong>Edad</strong></td>
-    <td>26</td>
-  </tr>
-  <tr>
-    <td><strong>Distrito</strong></td>
-    <td>Independencia</td>
-  </tr>
-  <tr>
-    <td><strong>Timing</strong></td>
-    <td>00:02 - 11:52</td>
-  </tr>
-  <tr>
-    <td><strong>URL</strong></td>
-    <td>
-
- https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA
-    
-  </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align:justify">
-    Resumen: <br>
-      Andrea Roncal considera que nuestra landing page es muy efectiva a la hora de informar al usuario sobre las ideas importantes, además de que aprueba el apartado artístico de la aplicación. Comentó que sus únicos detalles a mejorar serían agregar más referencias visuales e implementar opciones de calidad de vida respecto a algunas funciones; fuera de eso, su experiencia fue grata.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2"><br>
-
-![imagen de video.png](/assets/chapter-4/entrevistados/entreSegundo.png) <br>
-    </td>
-  </tr>
-</table>
-
-#### 4.3.3. Evaluaciones según heurísticas
-
-
 
 ## Bibliografía
 
