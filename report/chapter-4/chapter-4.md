@@ -485,11 +485,12 @@ En este sprint se concluyeron todos los endpoints relacionados con la lógica de
 
 ##### 4.2.3.3. Development Evidence for Sprint Review
 
-| Repository                                                           | Branch | Commit ID                                 | Commit Message                                                  | Committed on (Date) |
-|----------------------------------------------------------------------|--------|-------------------------------------------|-----------------------------------------------------------------|---------------------|
-| https://github.com/LocalFood-Aplicacion-Movil/Landing-Page           | main   | 02ad4d4e90489f4e65e8d6a6bfb438bc28574406  | doc: fixed img                                                  | 03/07/2026          |
-| https://github.com/LocalFood-Aplicacion-Movil/backend                | main   | 894d09d5275cac94e7976e1d9712feeb1eb501c2  | fix: change datetime(6) to datetime for MySQL 5.x compatibility | 29/06/2026          |
-| https://github.com/LocalFood-Aplicacion-Movil/neearbyeats---Kotlin2  | main   | 0387e6f03fe6e984e684fa1047fdc199e701f2dd  | feat                                                            | 06/07/2026          |
+| Repository                                                          | Branch | Commit ID                                 | Commit Message                                                  | Committed on (Date) |
+|---------------------------------------------------------------------|--------|-------------------------------------------|-----------------------------------------------------------------|---------------------|
+| https://github.com/LocalFood-Aplicacion-Movil/Landing-Page          | main   | 02ad4d4e90489f4e65e8d6a6bfb438bc28574406  | doc: fixed img                                                  | 03/07/2026          |
+| https://github.com/LocalFood-Aplicacion-Movil/backend               | main   | 894d09d5275cac94e7976e1d9712feeb1eb501c2  | fix: change datetime(6) to datetime for MySQL 5.x compatibility | 29/06/2026          |
+| https://github.com/LocalFood-Aplicacion-Movil/neearbyeats---Kotlin2 | main   | 0387e6f03fe6e984e684fa1047fdc199e701f2dd  | feat                                                            | 06/07/2026          |
+| https://github.com/LocalFood-Aplicacion-Movil/NearbyEats-Flutter    | main   | 22463cb823208339ba0e0dbf0d54d4c6a18fc23f  | feat: add groups, colleagues and viability calculation screens  | 06/07/2026          |
 
 ##### 4.2.3.4. Testing Suite Evidence for Sprint Review
 ##### 4.2.3.5. Execution Evidence for Sprint Review
@@ -526,16 +527,25 @@ A continuación se presenta evidencias de todo lo desarrollado en el sprint.
 
 ![backend7.png](../../assets/chapter-4/backend7.png)
 
-# Flutter
+# Aplicación NearbyEats en Flutter
 
+![flutter1.jpeg](../../assets/chapter-4/flutter1.jpeg)
 
+![flutter2.jpeg](../../assets/chapter-4/flutter2.jpeg)
+
+![flutter3.jpeg](../../assets/chapter-4/flutter3.jpeg)
+
+![flutter4.jpeg](../../assets/chapter-4/flutter4.jpeg)
+
+![flutter5.jpeg](../../assets/chapter-4/flutter5.jpeg)
 
 ##### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
-| EndPoint                                                   | Funciones    |
-|------------------------------------------------------------|--------------|
-| https://localfood-aplicacion-movil.github.io/Landing-Page/ | Landing Page |
-| https://backend-ku93.onrender.com/swagger/index.html       | Backend      |
+| EndPoint                                                   | Funciones         |
+|------------------------------------------------------------|-------------------|
+| https://localfood-aplicacion-movil.github.io/Landing-Page/ | Landing Page      |
+| https://backend-ku93.onrender.com/swagger/index.html       | Backend           |
+| **NearbyEats.apk**                                         | App Movil Flutter |
 
 ##### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -550,6 +560,10 @@ Para esta ocasión, se utilizo Render como programa en despliegue al Backend.
 ![deploy-back.jpeg](../../assets/chapter-4/deploy-back.jpeg)
 
 # Flutter
+
+En esta ocasión, se realizo la configuracion o despliegue en Realese en Android Studio. Donde nos llevo a tener un ejecutable .apk para el dispositivo movil de cada usuario.
+
+![apk.jpeg](../../assets/chapter-4/apk.jpeg)
 
 ##### 4.2.3.8. Team Collaboration Insights during Sprint
 
@@ -794,15 +808,20 @@ Li, Y., Zhang, H., & Law, R. (2023). Online reviews and restaurant selection: A 
 Alghamdi, A., & Alshamrani, A. (2024). Mobile application usability evaluation: A systematic literature review. *IEEE Access*. https://doi.org/10.1109/ACCESS.2024.1234567
 
 Kumar, S., & Singh, P. (2023). Design and development of scalable mobile applications using modern frameworks. *Journal of Systems and Software*. https://doi.org/10.1016/j.jss.2023.111234
+
 ## Anexos
 
-| Anexo                     | Enlace                                                                                                                                                                                                                                                               |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EventStorming en Miro     | [https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552](https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552)                                                                                                                           |
-| Entrevista 1              | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5)   |
-| Entrevista 2              | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk)   |
-| Entrevista 3              | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM)   |
-| Entrevista 4              | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&) |
-| Landing page desplegado   | https://localfood-aplicacion-movil.github.io/Landing-Page/                                                                                                                                                                                                           |
-| Backend  desplegado       | https://backend-trnc.onrender.com/swagger/index.html                                                                                                                                                                                                                 |
-| Figma                     | https://www.figma.com/design/cTe3TlIaToTanLw6ViJwiF/Sin-t%C3%ADtulo?node-id=0-1&t=OWWx1fms4JI97FPS-1                                                                                                                                                                 |
+| Anexo                   | Enlace                                                                                                                                                                                                                                                               |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EventStorming en Miro   | [https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552](https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552)                                                                                                                           |
+| Entrevista 1            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5)   |
+| Entrevista 2            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk)   |
+| Entrevista 3            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM)   |
+| Entrevista 4            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&) |
+| Entrevista 5            | [https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW](https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW)                                                                                                                                                                 |
+| Entrevista 6            | [https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA](https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA)                                                                                                                                                                 |
+| Entrevista 7            | [https://youtu.be/bnG09SMq-k0](https://youtu.be/bnG09SMq-k0)                                                                                                                                                                                                         |
+| Entrevista 8            | [https://youtu.be/uIv5t-hfkqY](https://youtu.be/uIv5t-hfkqY)                                                                                                                                                                                                         |
+| Landing page desplegado | https://localfood-aplicacion-movil.github.io/Landing-Page/                                                                                                                                                                                                           |
+| Backend  desplegado     | https://backend-trnc.onrender.com/swagger/index.html                                                                                                                                                                                                                 |
+| Figma                   | https://www.figma.com/design/cTe3TlIaToTanLw6ViJwiF/Sin-t%C3%ADtulo?node-id=0-1&t=OWWx1fms4JI97FPS-1                                                                                                                                                                 |
