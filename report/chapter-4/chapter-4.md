@@ -928,6 +928,7 @@ Ampliar la sección “Calcular” incorporando métricas comerciales que permit
 
 ## Conclusiones
 
+- *AV1*
 En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conclusiones:
 
 - Se identificó y analizó el problema principal relacionado con la dificultad de coordinar puntos de encuentro equitativos, considerando factores como distancia, tráfico y preferencias de los usuarios.
@@ -940,6 +941,18 @@ En este primer avance del proyecto NearbyEats, se llegaron a las siguientes conc
 - Se establecieron las bases para una arquitectura escalable y mantenible, alineada con las necesidades del negocio y enfocada en mejorar la experiencia del usuario.
 
 Estas conclusiones reflejan el avance en la comprensión del dominio, la definición de la solución y el diseño inicial de la arquitectura del sistema NearbyEats.
+
+- *TP1*
+
+En el Trabajo Parcial se logró definir la base del proyecto NearbyEats, identificando la problemática, los segmentos objetivo y la propuesta de valor de la startup Location. Además, se desarrollaron los primeros entregables relacionados con el análisis del usuario, diseño del producto, arquitectura de información y lineamientos visuales. Estos avances permitieron establecer una dirección clara para el desarrollo de la solución y validar la importancia de crear una aplicación orientada a facilitar encuentros en una ciudad con alto tráfico como Lima.
+
+- *AV2*
+
+En este segundo 2 se fortaleció el desarrollo del producto mediante la implementación de la landing page, la aplicación móvil y la configuración inicial del entorno de software. Asimismo, se trabajaron aspectos técnicos como la gestión del código fuente, estándares de desarrollo, configuración de despliegue y avances funcionales del producto. Este avance permitió consolidar una versión más estructurada de NearbyEats, integrando criterios de diseño, usabilidad y desarrollo técnico.
+
+- *TF1*
+
+En el Trabajo Final se completaron los principales avances del proyecto, incluyendo la mejora de la landing page, la versión final de la aplicación móvil en Flutter, la conexión del backend con NearbyEats en Kotlin y las entrevistas de validación con comensales y restaurantes. Los resultados obtenidos evidencian que la propuesta es útil, clara y con potencial de mejora. Además, la retroalimentación recibida permitió identificar oportunidades para reforzar la información comercial, mejorar el dashboard y optimizar funciones orientadas a restaurantes. En conclusión, NearbyEats representa una solución tecnológica viable para facilitar la planificación de encuentros y mejorar la experiencia de usuarios y locales afiliados.
 
 ## Bibliografía
 
@@ -961,17 +974,21 @@ Kumar, S., & Singh, P. (2023). Design and development of scalable mobile applica
 
 ## Anexos
 
-| Anexo                   | Enlace                                                                                                                                                                                                                                                               |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EventStorming en Miro   | [https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552](https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552)                                                                                                                           |
-| Entrevista 1            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EeIVi6Md2ulKquZNDKN7dmsB_HYS9hgtXhf8RXEsrMiZYQ?e=JRSFH5)   |
-| Entrevista 2            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218181_upc_edu_pe/EfrNhsxxD-tFtfL0wKcNYpwB_AwxCRHV8Xefx0XbP_M3Mw?e=lbcaQk)   |
-| Entrevista 3            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221632_upc_edu_pe/ESdjM7va9wVPmepF75nPWGsBuKglaXXEAzqkDo_1dBeWag?e=kt9kOM)   |
-| Entrevista 4            | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221d382_upc_edu_pe/EfQ6SfYkkoZKhzGfk1EinWgBglLpvJtFyufBnsWZtPhx1w?e=1zYSmD&) |
-| Entrevista 5            | [https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW](https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW)                                                                                                                                                                 |
-| Entrevista 6            | [https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA](https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA)                                                                                                                                                                 |
-| Entrevista 7            | [https://youtu.be/bnG09SMq-k0](https://youtu.be/bnG09SMq-k0)                                                                                                                                                                                                         |
-| Entrevista 8            | [https://youtu.be/uIv5t-hfkqY](https://youtu.be/uIv5t-hfkqY)                                                                                                                                                                                                         |
-| Landing page desplegado | https://localfood-aplicacion-movil.github.io/Landing-Page/                                                                                                                                                                                                           |
-| Backend  desplegado     | https://backend-trnc.onrender.com/swagger/index.html                                                                                                                                                                                                                 |
-| Figma                   | https://www.figma.com/design/cTe3TlIaToTanLw6ViJwiF/Sin-t%C3%ADtulo?node-id=0-1&t=OWWx1fms4JI97FPS-1                                                                                                                                                                 |
+| Anexo                   | Enlace                                                                                                                                     |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| EventStorming en Miro   | [https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552](https://miro.com/app/board/uXjVGjYcRIk=/?share_link_id=873298421552) |
+| Entrevista 1            | https://l1nq.com/30vtmry                                                                                                                   |
+| Entrevista 2            | https://l1nq.com/0gmbzf8                                                                                                                   |
+| Entrevista 3            | https://l1nq.com/5l8gykk                                                                                                                   |
+| Entrevista 4            | https://sl1nk.com/b4kzma3                                                                                                                  |
+| Entrevista 5            | [https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW](https://youtu.be/6l8WHGEruBM?si=UQaUekmz-FX7YeGW)                                       |
+| Entrevista 6            | [https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA](https://youtu.be/ceyt3RQScOk?si=z_kCTP2K6G3BcvDA)                                       |
+| Entrevista 7            | [https://youtu.be/bnG09SMq-k0](https://youtu.be/bnG09SMq-k0)                                                                               |
+| Entrevista 8            | [https://youtu.be/uIv5t-hfkqY](https://youtu.be/uIv5t-hfkqY)                                                                               |
+| Landing page desplegado | https://localfood-aplicacion-movil.github.io/Landing-Page/                                                                                 |
+| Backend  desplegado     | https://backend-trnc.onrender.com/swagger/index.html                                                                                       |
+| Figma                   | https://www.figma.com/design/cTe3TlIaToTanLw6ViJwiF/Sin-t%C3%ADtulo?node-id=0-1&t=OWWx1fms4JI97FPS-1                                       |
+| Video About the Team    | https://l1nq.com/pu7n84r                                                                                                                   |                                                                                                                 |
+| Video About the Product |                                                                                                                                            |                                                                                                                 |
+| Validation              | https://l1nq.com/kx6zt0g                                                                                                                   |                                                                                                                 |
+| Video de TB2            |                                                                                                                                            |                                                                                                                 |
